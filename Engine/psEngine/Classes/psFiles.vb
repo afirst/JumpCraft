@@ -338,7 +338,9 @@ ContinueLoop:
         Dim UpdatedFile As Boolean
         Try
             Try
-                theStream.Close()
+                If theStream IsNot Nothing Then
+                    theStream.Close()
+                End If
                 FileClose(1)
             Catch
             End Try
