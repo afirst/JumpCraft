@@ -1,0 +1,5 @@
+Coin.wav
+Heart.wav
+Lose Health.wav
+
+Copied from the Media directory of Microsoft Windows XP®.

@@ -1,0 +1,149 @@
+
+.sys_txt * {
+	margin: 0;
+	padding: 0;
+}			
+.sys_txt{
+	font: normal small Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+a{color:#EA672E;}
+
+.sys_txt a img{
+
+	border : none;
+
+}
+
+.sys_txt a{
+
+	color: #EA672E;
+
+}
+
+.sys_txt a:hover{
+
+	text-decoration : none;
+	color			: #11A6D4;
+
+}
+
+
+.sys_txt h1, 
+.sys_txt h2, 
+.sys_txt h3, 
+.sys_txt h4,
+.sys_txt h5,
+.sys_txt h6,
+.sys_txt p{ 
+	
+	margin:5pt;
+	padding:0pt;	
+	
+}
+
+.sys_txt h1{
+	
+	font-size      	: 250%;
+	color			: #11A6D4;
+	border-bottom	: none;
+	padding			: 0pt;
+	margin			: 5pt;
+}
+
+.sys_txt h2{
+	
+	font-size		: 210%;
+	border-bottom	: none;
+	padding			: 0pt;
+	color			: #11A6D4; 
+	margin			: 5pt;
+	
+
+}
+
+.sys_txt h3{
+	
+	font-size		: 180%;
+	color			: #11A6D4; 
+	border-bottom	: none;
+	padding			: 0pt;
+	margin			: 5pt;
+}
+
+.sys_txt h4{
+	
+	font-size      	: 150%;
+	color			: #11A6D4; 
+	padding			: 0pt;
+	margin			: 5pt;
+}
+
+.sys_txt h5{
+	
+	font-size	: 130%;
+	color		: #11A6D4; 
+	padding			: 0pt;
+	margin			: 5pt;
+}
+
+.sys_txt h6{
+	
+	font-size	: 100%;
+	color		: #11A6D4; 
+	padding			: 0pt;
+	margin			: 5pt;
+}
+
+.sys_txt p, 
+.sys_txt blockquote, 
+.sys_txt ul,
+.sys_txt ol {
+	margin-bottom: 1.5em;
+	line-height: 1.8em;
+}
+
+ 
+.sys_txt p{
+		
+	
+	
+}
+
+.sys_txt blockquote {
+	
+	font-style		: italic;
+	border-style	: none;
+	margin-left		: 2em;
+	
+}
+
+.sys_txt ul,
+.sys_txt ol{
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:small;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	margin-left: 5em;
+}	
+			
+.sys_txt ul{
+
+	
+	list-style: square;
+
+}
+
+.sys_txt ol{
+	list-style: lower-roman;
+}
+
+.sys_txt ul li{
+
+	
+}
+

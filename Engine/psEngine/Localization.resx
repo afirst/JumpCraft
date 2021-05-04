@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="defaultCompany" xml:space="preserve">
+    <value>MyCompany, Inc.</value>
+  </data>
+  <data name="defaultCredits" xml:space="preserve">
+    <value>Created by MyName\n\nPowered by JumpCraft</value>
+  </data>
+  <data name="defaultGameName" xml:space="preserve">
+    <value>MyGame</value>
+  </data>
+  <data name="defaultGameWithVersion" xml:space="preserve">
+    <value>MyGame Version 1.0</value>
+  </data>
+  <data name="defaultHelpText" xml:space="preserve">
+    <value>Type your help text here.</value>
+  </data>
+  <data name="defaultLevelName" xml:space="preserve">
+    <value>Level {0}</value>
+  </data>
+  <data name="defaultSupportEmail" xml:space="preserve">
+    <value>support@mywebsite.com</value>
+  </data>
+  <data name="defaultTimerName" xml:space="preserve">
+    <value>Timer {0}</value>
+  </data>
+  <data name="defaultValue" xml:space="preserve">
+    <value>(default)</value>
+  </data>
+  <data name="defaultWebsite" xml:space="preserve">
+    <value>http://www.mywebsite.com</value>
+  </data>
+  <data name="noValue" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="error_SaveFile" xml:space="preserve">
+    <value>An error has occured while trying to save the file.</value>
+  </data>
+  <data name="error_NewerFile" xml:space="preserve">
+    <value>File created with a newer version of JumpCraft.</value>
+  </data>
+  <data name="error_InvalidFile" xml:space="preserve">
+    <value>This is not a valid JumpCraft {0}  Game file.\n\nCannot load file.</value>
+  </data>
+  <data name="error_InvalidFileErrorMessage" xml:space="preserve">
+    <value>\n\nError message: {0}</value>
+  </data>
+  <data name="error_InitFailed" xml:space="preserve">
+    <value>Initialization failed.</value>
+  </data>
+  <data name="globalsCodeComment" xml:space="preserve">
+    <value>'This code imports the current game object\n'so it can be used through scripting.\n'The Game object is set by the game player.</value>
+  </data>
+  <data name="counters_Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="counters_Lives" xml:space="preserve">
+    <value>Lives</value>
+  </data>
+  <data name="counters_Health" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="error_LoadSounds" xml:space="preserve">
+    <value>Unable to load the sound, "{0}".\nError message: {1}</value>
+  </data>
+  <data name="error_LoadSoundsTitle" xml:space="preserve">
+    <value>Sound Error</value>
+  </data>
+  <data name="error_MIDIError" xml:space="preserve">
+    <value>There was a problem with the current MIDI file.</value>
+  </data>
+  <data name="error_MIDIDevice" xml:space="preserve">
+    <value>Failed to open the MIDI device.</value>
+  </data>
+  <data name="error_CounterDoesntExist" xml:space="preserve">
+    <value>Counter doesn't exist!</value>
+  </data>
+  <data name="windows_PauseText" xml:space="preserve">
+    <value>Game Paused.\nClick "Resume" to continue.</value>
+  </data>
+  <data name="windows_PauseLabel" xml:space="preserve">
+    <value>PauseLabel</value>
+  </data>
+  <data name="windows_ResumeButton" xml:space="preserve">
+    <value>ResumeButton</value>
+  </data>
+  <data name="windows_ResumeText" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="defaultControlName" xml:space="preserve">
+    <value>Control{0}</value>
+  </data>
+  <data name="effect_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="effect_Fade" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="effect_FadeIn" xml:space="preserve">
+    <value>Fade in only</value>
+  </data>
+  <data name="effect_FadeOut" xml:space="preserve">
+    <value>Fade out only</value>
+  </data>
+  <data name="defaultButtonText" xml:space="preserve">
+    <value>Button{0}</value>
+  </data>
+  <data name="defaultLabelText" xml:space="preserve">
+    <value>Label{0}</value>
+  </data>
+  <data name="windows_GameAreaPlaceholder" xml:space="preserve">
+    <value>Game Area</value>
+  </data>
+  <data name="windows_HighScoresPlaceholder" xml:space="preserve">
+    <value>High Scores Area</value>
+  </data>
+  <data name="windows_ImageCounterPlaceholder" xml:space="preserve">
+    <value>(Image Counter)</value>
+  </data>
+  <data name="windows_MoviePlaceholder" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="windows_Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="windows_MainLabel" xml:space="preserve">
+    <value>MainLabel</value>
+  </data>
+  <data name="windows_PlayButton" xml:space="preserve">
+    <value>PlayButton</value>
+  </data>
+  <data name="windows_PlayButtonText" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="windows_HelpButton" xml:space="preserve">
+    <value>HelpButton</value>
+  </data>
+  <data name="windows_HelpButtonText" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="windows_AboutButton" xml:space="preserve">
+    <value>AboutButton</value>
+  </data>
+  <data name="windows_AboutButtonText" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="windows_AboutDialogTitle" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="windows_AboutDialogMessage" xml:space="preserve">
+    <value>{0} Version {1}\n\n{2}\n\nCopyright {3}, {4}</value>
+  </data>
+  <data name="windows_ExitButton" xml:space="preserve">
+    <value>ExitButton</value>
+  </data>
+  <data name="windows_ExitButtonText" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="windows_GameWindow" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="windows_GameArea" xml:space="preserve">
+    <value>GameArea</value>
+  </data>
+  <data name="windows_PauseButton" xml:space="preserve">
+    <value>PauseButton</value>
+  </data>
+  <data name="windows_PauseButtonText" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="windows_QuitButton" xml:space="preserve">
+    <value>QuitButton</value>
+  </data>
+  <data name="windows_QuitButtonText" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="windows_ScoreCounter" xml:space="preserve">
+    <value>ScoreCounter</value>
+  </data>
+  <data name="windows_LivesCounter" xml:space="preserve">
+    <value>LivesCounter</value>
+  </data>
+  <data name="windows_HealthCounter" xml:space="preserve">
+    <value>HealthCounter</value>
+  </data>
+  <data name="windows_HelpWindow" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="windows_HelpLabel" xml:space="preserve">
+    <value>HelpLabel</value>
+  </data>
+  <data name="windows_HelpLabelText" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="windows_HelpText" xml:space="preserve">
+    <value>HelpText</value>
+  </data>
+  <data name="windows_HelpOKButton" xml:space="preserve">
+    <value>HelpOKButton</value>
+  </data>
+  <data name="windows_HelpOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="windows_AboutWindow" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="windows_AboutLabel" xml:space="preserve">
+    <value>AboutLabel</value>
+  </data>
+  <data name="windows_AboutLabelText" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="windows_AboutText" xml:space="preserve">
+    <value>AboutText</value>
+  </data>
+  <data name="windows_WebsiteButton" xml:space="preserve">
+    <value>WebsiteButton</value>
+  </data>
+  <data name="windows_WebsiteButtonText" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="windows_SupportButton" xml:space="preserve">
+    <value>SupportButton</value>
+  </data>
+  <data name="windows_SupportButtonText" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="windows_AboutOKButton" xml:space="preserve">
+    <value>AboutOKButton</value>
+  </data>
+  <data name="windows_AboutOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="windows_PauseWindow" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="windows_WinWindow" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="windows_WinLabel" xml:space="preserve">
+    <value>WinLabel</value>
+  </data>
+  <data name="windows_WinLabelText" xml:space="preserve">
+    <value>Congratulations, You Win!</value>
+  </data>
+  <data name="windows_WinOKButton" xml:space="preserve">
+    <value>WinOKButton</value>
+  </data>
+  <data name="windows_WinOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="windows_LoseWindow" xml:space="preserve">
+    <value>Lose</value>
+  </data>
+  <data name="windows_LoseLabel" xml:space="preserve">
+    <value>LoseLabel</value>
+  </data>
+  <data name="windows_LoseLabelText" xml:space="preserve">
+    <value>Sorry, You Lose!</value>
+  </data>
+  <data name="windows_LoseOKButton" xml:space="preserve">
+    <value>LoseOKButton</value>
+  </data>
+  <data name="windows_LoseOKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="windows_LevelCompletedWindow" xml:space="preserve">
+    <value>Level Completed</value>
+  </data>
+  <data name="windows_LevelCompletedLabel" xml:space="preserve">
+    <value>LevelCompleteLabel</value>
+  </data>
+  <data name="windows_LevelCompletedLabelText" xml:space="preserve">
+    <value>Level Complete!\nPrepare for {0}</value>
+  </data>
+  <data name="defaultWindowName" xml:space="preserve">
+    <value>Window{0}</value>
+  </data>
+  <data name="error_DirectX" xml:space="preserve">
+    <value>Device could not be created. Be sure your video card is compatible with DirectX 9.</value>
+  </data>
+  <data name="error_" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="error_FullscreenDialog" xml:space="preserve">
+    <value>Your video card does not support fullscreen dialog boxes. This program may not run as intended.</value>
+  </data>
+  <data name="error_DirectXInit" xml:space="preserve">
+    <value>Cannot initialize DirectX 9.</value>
+  </data>
+  <data name="error_PropertyNotAccessible" xml:space="preserve">
+    <value>This property is not accessible through scripting.</value>
+  </data>
+  <data name="error_MethodNotAccessible" xml:space="preserve">
+    <value>This method is not accessible through scripting.</value>
+  </data>
+  <data name="error_SaveGame" xml:space="preserve">
+    <value>An error occured when trying to save the file, "{0}".</value>
+  </data>
+  <data name="error_LoadGame" xml:space="preserve">
+    <value>An error occured when trying to open the file, "{0}".</value>
+  </data>
+  <data name="loadingTilesetStatus" xml:space="preserve">
+    <value>Loading tileset...</value>
+  </data>
+  <data name="loadTileConflict" xml:space="preserve">
+    <value>The tile, "{0}" has a name that conflicts with an existing tile.Import anyway?\n\nNote: The tile will be imported as "{1}".</value>
+  </data>
+  <data name="importTileset" xml:space="preserve">
+    <value>Import Tileset</value>
+  </data>
+  <data name="error_LoadTileset" xml:space="preserve">
+    <value>Cannot load tileset.\n\nError message: {0}</value>
+  </data>
+  <data name="error_LoadTilesetTitle" xml:space="preserve">
+    <value>Load Tileset</value>
+  </data>
+  <data name="error_SaveDefaultTileset" xml:space="preserve">
+    <value>Unable to save to the file, "{0}deftileset.pst".\n\nError message: {1}</value>
+  </data>
+  <data name="error_SaveTilesetError" xml:space="preserve">
+    <value>Save Tileset</value>
+  </data>
+  <data name="importTileset_Instructions" xml:space="preserve">
+    <value>Select tiles to import (use Shift and Ctrl to select multiple tiles):</value>
+  </data>
+  <data name="importTileset_ImportCounterActionsCheckbox" xml:space="preserve">
+    <value>Import and replace counter actions</value>
+  </data>
+  <data name="okButton" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="cancelButton" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="importTileset_ImportTimerActionsCheckbox" xml:space="preserve">
+    <value>Import and replace timer actions</value>
+  </data>
+  <data name="importTileset_ImportGroupActionsCheckbox" xml:space="preserve">
+    <value>Import and replace group actions</value>
+  </data>
+  <data name="importTileset_ImportGeneralActionsCheckbox" xml:space="preserve">
+    <value>Import and replace general actions</value>
+  </data>
+  <data name="importTileset_ImportOtherActionsCheckbox" xml:space="preserve">
+    <value>Import and replace other actions</value>
+  </data>
+  <data name="importTileset_AdvancedFrame" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="importTileset_ReplaceTilesCheckbox" xml:space="preserve">
+    <value>Replace tiles with same name</value>
+  </data>
+  <data name="importTileset_Title" xml:space="preserve">
+    <value>Import Tileset</value>
+  </data>
+  <data name="updateFileMessage" xml:space="preserve">
+    <value>This file was created in a previous version of JumpCraft. Update file?\n\nWARNING: Files saved in newer versions of JumpCraft cannot be opened in older versions.</value>
+  </data>
+  <data name="updateFileFailedMessage" xml:space="preserve">
+    <value>File cannot be opened.</value>
+  </data>
+  <data name="upgradeWarning" xml:space="preserve">
+    <value>Upgrade warning:\n{0}</value>
+  </data>
+  <data name="windows_HighScoresWindow" xml:space="preserve">
+    <value>High Scores</value>
+  </data>
+  <data name="windows_LevelXCompletedWindow" xml:space="preserve">
+    <value>{0} Completed</value>
+  </data>
+  <data name="fileNotFound_Label" xml:space="preserve">
+    <value>An error occured while trying to find a file to open.</value>
+  </data>
+  <data name="fileNotFound_Title" xml:space="preserve">
+    <value>File Not Found</value>
+  </data>
+  <data name="fileNotFound_WhatToDoFrame" xml:space="preserve">
+    <value>What would you like to do?</value>
+  </data>
+  <data name="fileNotFound_RetryOption" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="fileNotFound_IgnoreOption" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="fileNotFound_SpecifyNewFileOption" xml:space="preserve">
+    <value>Specify a new file</value>
+  </data>
+  <data name="fileNotFound_FutureErrorsFrame" xml:space="preserve">
+    <value>For future errors wihle the current game is loading,</value>
+  </data>
+  <data name="fileNotFound_ShowThisDialogOption" xml:space="preserve">
+    <value>Show this dialog</value>
+  </data>
+  <data name="fileNotFound_With" xml:space="preserve">
+    <value>with</value>
+  </data>
+  <data name="fileNotFound_ReplaceOption" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="allFileFilter" xml:space="preserve">
+    <value>All Files (*.*)|*.*|Image Files (*.bmp, *.gif, *.jpg, *.png)|*.bmp;*.gif;*.jpg;*.png|Text Files (*.txt, *.doc, *.rtf)|*.txt;*.doc;*.rtf|HTML Files (*.htm, *.html)|*.htm;*.html|Sound Files (*.wav)|*.wav|Music Files (*.mid, *.mp3)|*.mid;*.mp3|Help Files (*.hlp; *.chm)|*.hlp;*.chm</value>
+  </data>
+  <data name="selectAFileDialogTitle" xml:space="preserve">
+    <value>Select a File</value>
+  </data>
+  <data name="fileNotFound_CancelLoadingOption" xml:space="preserve">
+    <value>Cancel loading</value>
+  </data>
+  <data name="fileNotFound_Message" xml:space="preserve">
+    <value>The file, "{0}", could not be found.</value>
+  </data>
+  <data name="anonymous" xml:space="preserve">
+    <value>Anonymous</value>
+    <comment>default name for high scores</comment>
+  </data>
+  <data name="highScores_Rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="highScores_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="highScores_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="highScores_Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="error_IgnoreButton" xml:space="preserve">
+    <value>&amp;Ignore</value>
+  </data>
+  <data name="error_QuitButton" xml:space="preserve">
+    <value>&amp;Quit</value>
+  </data>
+  <data name="error_IgnoreAllButton" xml:space="preserve">
+    <value>Ignore &amp;All</value>
+  </data>
+  <data name="gameTesterTitle" xml:space="preserve">
+    <value>JumpCraft Game Tester</value>
+  </data>
+  <data name="error_Message" xml:space="preserve">
+    <value>An error has occured while</value>
+  </data>
+  <data name="highScores_Congrats" xml:space="preserve">
+    <value>Congratulations, you got a high score!</value>
+  </data>
+  <data name="highScores_EnterName" xml:space="preserve">
+    <value>Please enter your name.</value>
+  </data>
+  <data name="highScores_Title" xml:space="preserve">
+    <value>High Score!</value>
+  </data>
+  <data name="gameMenu" xml:space="preserve">
+    <value>&amp;Game</value>
+  </data>
+  <data name="gameNewGameMenu" xml:space="preserve">
+    <value>&amp;New Game</value>
+  </data>
+  <data name="gamePauseMenu" xml:space="preserve">
+    <value>&amp;Pause</value>
+  </data>
+  <data name="gameEndGameMenu" xml:space="preserve">
+    <value>&amp;End Game</value>
+  </data>
+  <data name="gameHighScoresMenu" xml:space="preserve">
+    <value>&amp;High Scores</value>
+  </data>
+  <data name="gameQuitMenu" xml:space="preserve">
+    <value>&amp;Quit</value>
+  </data>
+  <data name="helpMenu" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="helpShowHelpMenu" xml:space="preserve">
+    <value>Show &amp;Help</value>
+  </data>
+  <data name="helpWebsiteMenu" xml:space="preserve">
+    <value>&amp;Website</value>
+  </data>
+  <data name="helpSupportMenu" xml:space="preserve">
+    <value>&amp;Support</value>
+  </data>
+  <data name="helpAboutMenu" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="gameResumeMenu" xml:space="preserve">
+    <value>&amp;Resume</value>
+  </data>
+  <data name="actionProc_Error" xml:space="preserve">
+    <value>The script in trigger, {0}, could not be executed because it contains an error.</value>
+  </data>
+  <data name="actionProc_ErrorMessage" xml:space="preserve">
+    <value>Error message:</value>
+  </data>
+  <data name="actionProc_Description" xml:space="preserve">
+    <value>processing a script</value>
+  </data>
+  <data name="actionProc_ErrorType" xml:space="preserve">
+    <value>Script Error</value>
+  </data>
+  <data name="actionProc_" xml:space="preserve">
+    <value>Script Error</value>
+  </data>
+  <data name="actionProc_LoadScriptDesc" xml:space="preserve">
+    <value>Loading the script</value>
+  </data>
+  <data name="actionProc_GameObjectDoesntExistError" xml:space="preserve">
+    <value>"Game" object doesn't exist or is incorrectly defined.\nPlease make sure this line exists in your global code:</value>
+  </data>
+  <data name="actionProc_CouldNotInitVarsError" xml:space="preserve">
+    <value>Could not initialize some control variables. These controls will not be accessible in your script.</value>
+  </data>
+  <data name="tilesetError" xml:space="preserve">
+    <value>Tileset Error</value>
+  </data>
+  <data name="tilesetErrorOccurredWhileLoadingGame" xml:space="preserve">
+    <value>loading the game</value>
+  </data>
+  <data name="tilesetErrorNoTiles" xml:space="preserve">
+    <value>No tiles exist in the tileset. Make sure there is at least one tile in the tileset, and one tile exists whose behavior is marked as "Character".</value>
+  </data>
+  <data name="tilesetErrorOccuredWhileFindingCharacterTile" xml:space="preserve">
+    <value>finding the char. tile</value>
+  </data>
+  <data name="tilesetErrorNoCharacter" xml:space="preserve">
+    <value>No character tile exists. Make sure a tile in the tileset has a behavior marked, "Character".\n\nIf this error is ignored, the character tile will be set to the first tile of the tileset).</value>
+  </data>
+  <data name="levelError" xml:space="preserve">
+    <value>Level Error</value>
+  </data>
+  <data name="levelErrorOccurredWhileLoadingLevel" xml:space="preserve">
+    <value>loading a level</value>
+  </data>
+  <data name="levelErrorNoCharacter" xml:space="preserve">
+    <value>No character tile exists in the Background, Foreground, or Front layers of level, "{0}".\n\nIf this error is ignored, the character tile will be set to (1, 1) of the Foreground layer.</value>
+  </data>
+  <data name="fpsUnit" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="lookingForFileMessage" xml:space="preserve">
+    <value>JumpCraft is looking for the file, "{0}". This process might take awhile. Would you like to continue?</value>
+  </data>
+  <data name="fatalError" xml:space="preserve">
+    <value>A fatal error has occured. {0} will shut down.</value>
+  </data>
+  <data name="errLog" xml:space="preserve">
+    <value>An error occured while {0}  {1}</value>
+  </data>
+  <data name="invalidData2File" xml:space="preserve">
+    <value>Invalid data file, "data2.dat".</value>
+  </data>
+</root>

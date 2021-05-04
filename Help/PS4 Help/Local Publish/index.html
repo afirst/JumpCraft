@@ -1,0 +1,405 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META NAME="Generator" CONTENT="NetObjects Fusion MX for Windows">
+<TITLE>Home</TITLE>
+<style>
+.menulines{
+cursor:hand
+}
+
+.menulines a{
+color:black;
+text-decoration:none
+cursor:hand
+}
+</style>
+
+<script language="JavaScript1.2">
+
+/*
+Highlight menu effect script: By Dynamicdrive.com
+For full source, Terms of service, and 100s DTHML scripts
+Visit http://www.dynamicdrive.com
+*/
+
+function borderize(what,color){
+if (color=="white") {
+what.style.backgroundImage="url(none)"
+} else {
+what.style.backgroundImage="url(./assets/images/highlite.gif)"
+}
+}
+
+function borderize_on(e){
+if (document.all)
+source3=event.srcElement
+else if (document.getElementById)
+source3=e.target
+if (source3.className=="menulines"){
+borderize(source3,"black")
+}
+else{
+while(source3.tagName!="TABLE"){
+source3=document.getElementById? source3.parentNode : source3.parentElement
+if (source3.className=="menulines")
+borderize(source3,"black")
+}
+}
+}
+
+function borderize_off(e){
+if (document.all)
+source4=event.srcElement
+else if (document.getElementById)
+source4=e.target
+if (source4.className=="menulines")
+borderize(source4,"white")
+else{
+while(source4.tagName!="TABLE"){
+source4=document.getElementById? source4.parentNode : source4.parentElement
+if (source4.className=="menulines")
+borderize(source4,"white")
+}
+}
+}
+
+//====================================================================================
+
+/* POPUP WINDOW'S NAME */
+var PopUpName = "PopUp"
+
+var counter = 0
+
+/* DISPLAYS THE CURRENT POLL RESULTS. USAGE: 'results(1234,0,500,250)' */
+function results(PollID,SubPoll,Width,Height){
+	var Left = (screen.width / 2) - (Width / 2)
+	var Top = (screen.height / 2) - (Height / 2)
+	window.open('http://www.free-web-polls.com/cgi-bin/poll.pl?pollid='+PollID+'&subp='+SubPoll+'&action=view',PopUpName,'width='+Width+',height='+Height+',toolbar=no,scrollbars=no,menubar=no,resizable=no,left='+Left+',top='+Top)
+}
+
+/* SENDS VOTE DATA AND DISPLAYS POLL RESULTS. USAGE: 'voting(document.form.which,1234,0,500,250)' */
+function voting(FormData,PollID,SubPoll,Width,Height){
+	var Left = (screen.width / 2) - (Width / 2)
+	var Top = (screen.height / 2) - (Height / 2)
+
+	while(counter < FormData.length){
+		if(FormData[counter].checked == true){
+			counter++
+			var voted = "http://www.free-web-polls.com/cgi-bin/poll.pl?pollid="+PollID+"&subp="+SubPoll+"&action=vote&which="+counter
+			window.open(voted,PopUpName,"width="+Width+",height="+Height+",toolbar=no,scrollbars=no,menubar=no,resizable=no,left="+Left+",top="+Top)
+		}
+		else{
+			counter++
+		}
+	}
+	counter = 0
+}
+</script>
+</HEAD>
+<BODY NOF="(MB=(DefaultMasterBorder, 85, 21, 150, 140), L=(HomeLayout, 450, 1015))" BGCOLOR="#A8CACA" TEXT="#000000" LINK="#0033CC" VLINK="#990099" ALINK="#FF0000" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+    <CENTER>
+    <!--
+<table>
+<tr>
+<td>
+<img src="./assets/images/logo.gif" width="740" height="75">
+</td>
+</tr>
+<tr>
+<td>
+-->
+    <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=740 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=600 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD HEIGHT=5></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD HEIGHT=75 ALIGN=CENTER VALIGN=MIDDLE WIDTH=600><A HREF="./index.html"><IMG ID="Picture1" HEIGHT=75 WIDTH=600 SRC="./assets/images/logo1.jpg" BORDER=0></A></TD>
+                    </TR>
+                </TABLE>
+                <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=600 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD>
+                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=11 HEIGHT=5><IMG SRC="./assets/images/autogen/clearpixel.gif" WIDTH=11 HEIGHT=1 BORDER=0></TD>
+                                    <TD></TD>
+                                </TR>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD></TD>
+                                    <TD WIDTH=129>
+                                        <TABLE ID="Table1" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+                                            <TR>
+                                                <TD COLSPAN=3 BACKGROUND="./assets/images/tab.gif" HEIGHT=32>
+                                                    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH=129 NOF=TI>
+                                                        <TR>
+                                                            <TD>
+                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#FFFFFF" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Site Map</FONT></P>
+                                                            </TD>
+                                                        </TR>
+                                                    </TABLE>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD WIDTH=6 BACKGROUND="./assets/images/line_l.gif" HEIGHT=142>
+                                                    <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                                </TD>
+                                                <TD VALIGN=MIDDLE ALIGN=RIGHT WIDTH=113 BACKGROUND="./assets/images/back1.gif">
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT>
+                                                        <TABLE WIDTH="100%" BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                            <TR>
+                                                                <TD>
+                                                                    <TABLE ID="Table6" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" onMouseover="borderize_on(event)" onMouseout="borderize_off(event)">
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Home</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">News</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Features</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Tour</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Screenshots</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Downloads</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Purchase</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Forums</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                        <TR class="menulines">
+                                                                            <TD WIDTH="100%" HEIGHT=24>
+                                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">About</FONT></A></P>
+                                                                            </TD>
+                                                                        </TR>
+                                                                    </TABLE>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                        <FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><BR></FONT></TD>
+                                                <TD WIDTH=10 BACKGROUND="./assets/images/line_r.gif">
+                                                    <P ALIGN=RIGHT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD COLSPAN=3 BACKGROUND="./assets/images/line_b.gif" HEIGHT=20>
+                                                    <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                                </TD>
+                                            </TR>
+                                        </TABLE>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                        <TD>
+                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=10 HEIGHT=5><IMG SRC="./assets/images/autogen/clearpixel.gif" WIDTH=10 HEIGHT=1 BORDER=0></TD>
+                                    <TD></TD>
+                                </TR>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD></TD>
+                                    <TD WIDTH=440>
+                                        <TABLE ID="Table5" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+                                            <TR>
+                                                <TD COLSPAN=3 BACKGROUND="./assets/images/bigtab.gif" HEIGHT=32>
+                                                    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH=440 NOF=TI>
+                                                        <TR>
+                                                            <TD>
+                                                                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#FFFFFF" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Welcome to the JumpCraft Website!</B></FONT><B></B></P>
+                                                            </TD>
+                                                        </TR>
+                                                    </TABLE>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD WIDTH=6 BACKGROUND="./assets/images/line_l.gif" HEIGHT=382>
+                                                    <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                                </TD>
+                                                <TD VALIGN=TOP ALIGN=RIGHT WIDTH=424 BACKGROUND="./assets/images/bigback1.gif">
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>&nbsp;<BR></B></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>What is JumpCraft?<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B><I>JumpCraft</I></B> is the new leading tool to create <B><I>high-quality 2D platform games.</I></B><I> </I>The editors are very powerful and easy to use, equipped with a user-friendly interface, and do not require any coding, although that is among one of its many features.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>What kinds of features does it have?<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The demo version and the commercial versions are equipped with a <B><I>fully-functioning</I></B> map editor, tileset editor, window editor, action editor, and more.<BR>The commercial version features <B><I>game compilation and setup wizards</I></B>, so you can distribute your game in a single compressed executable.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Why should I use JumpCraft?<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">First and foremost, because <B><I>it is fun!</I></B> Just think if you were to show your friends that you created an exciting platform game!&nbsp; Not only that, but even developing it is fun! Instead of working on debugging tens of thousands of lines of code, you can spend your time creating and perfecting levels and graphics, and playing them.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">In addition, if you purchase JumpCraft, you can even <B><I>make money</I></B> off of it. It’s a win-win situation!</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">For those who are already thinking about creating platform games, including programmers, we highly recommend you to consider JumpCraft, because of its <B><I>ease of use</I></B>, game templates, and its extensive (<B><I>playable</I></B>!) <B><I>samples</I></B>. Using JumpCraft can <B><I>cut down your development time</I></B> by more than 10 times.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Finally, the <B><I>high quality games</I></B> that it is capable of generating <B><I>are comparable to popular platform games</I> </B>that have already been released, if not better!  The overall quality of JumpCraft-powered games is much better than most attempts made by programmers.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>For more information<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Take our <B>tour</B> of what developing a game with JumpCraft is like.  Also, check out our <B>screenshots</B>, and our <B>list of features</B>.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Can’t wait to start?<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click here and <B>download</B> it.  Have fun!</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Still not sure?<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Email</B> us any questions you might have, and help build and talk with our community in our <B>forums</B>.</FONT></P>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><I>--------------------------------<BR>Best regards,<BR>The JumpCraft Development Team<BR>--------------------------------<BR>&nbsp;</I></FONT><I></I></P>
+                                                </TD>
+                                                <TD WIDTH=10 BACKGROUND="./assets/images/line_r.gif">
+                                                    <P ALIGN=RIGHT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD COLSPAN=3 BACKGROUND="./assets/images/biglineb.gif" HEIGHT=20>
+                                                    <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                                </TD>
+                                            </TR>
+                                        </TABLE>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=450 NOF=LY>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=10 HEIGHT=16><IMG SRC="./assets/images/autogen/clearpixel.gif" WIDTH=10 HEIGHT=1 BORDER=0></TD>
+                                    <TD WIDTH=440><IMG SRC="./assets/images/autogen/clearpixel.gif" WIDTH=440 HEIGHT=1 BORDER=0></TD>
+                                </TR>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD></TD>
+                                    <TD WIDTH=440>
+                                        <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Copyright &#169; 2004, First Productions, Inc.</FONT></P>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+            <TD>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=140 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD HEIGHT=5></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD HEIGHT=75 ALIGN=CENTER VALIGN=MIDDLE WIDTH=140><A HREF="http://jumpcraft.com"><IMG ID="Picture2" HEIGHT=75 WIDTH=140 SRC="./assets/images/logo2.jpg" BORDER=0></A></TD>
+                    </TR>
+                </TABLE>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD WIDTH=5 HEIGHT=5><IMG SRC="./assets/images/autogen/clearpixel.gif" WIDTH=5 HEIGHT=1 BORDER=0></TD>
+                        <TD></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD></TD>
+                        <TD WIDTH=129>
+                            <TABLE ID="Table2" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+                                <TR>
+                                    <TD COLSPAN=3 BACKGROUND="./assets/images/tab.gif" HEIGHT=32>
+                                        <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH=129 NOF=TI>
+                                            <TR>
+                                                <TD>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#FFFFFF" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Latest Screens</FONT></P>
+                                                </TD>
+                                            </TR>
+                                        </TABLE>
+                                    </TD>
+                                </TR>
+                                <TR>
+                                    <TD WIDTH=6 BACKGROUND="./assets/images/line_l.gif" HEIGHT=90>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                    </TD>
+                                    <TD ALIGN=RIGHT WIDTH=113 BACKGROUND="./assets/images/back1.gif">
+                                        <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><A HREF="./thumb1.jpg"><IMG ID="Picture3" HEIGHT=82 WIDTH=113 SRC="./assets/images/thumb1.jpg" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></A><BR><A HREF="./thumb2.jpg"><IMG ID="Picture4" HEIGHT=81 WIDTH=113 SRC="./assets/images/thumb2.jpg" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></A></FONT></TD>
+                                    <TD WIDTH=10 BACKGROUND="./assets/images/line_r.gif">
+                                        <P ALIGN=RIGHT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                    </TD>
+                                </TR>
+                                <TR>
+                                    <TD COLSPAN=3 BACKGROUND="./assets/images/line_b.gif" HEIGHT=20>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                    </TR>
+                </TABLE>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD WIDTH=5 HEIGHT=10><IMG SRC="./assets/images/autogen/clearpixel.gif" WIDTH=5 HEIGHT=1 BORDER=0></TD>
+                        <TD></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD></TD>
+                        <TD WIDTH=129>
+                            <TABLE ID="Table4" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+                                <TR>
+                                    <TD COLSPAN=3 BACKGROUND="./assets/images/tab.gif" HEIGHT=32>
+                                        <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH=129 NOF=TI>
+                                            <TR>
+                                                <TD>
+                                                    <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#FFFFFF" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Poll</FONT></P>
+                                                </TD>
+                                            </TR>
+                                        </TABLE>
+                                    </TD>
+                                </TR>
+                                <TR>
+                                    <TD WIDTH=6 BACKGROUND="./assets/images/line_l.gif" HEIGHT=99>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                    </TD>
+                                    <TD ALIGN=RIGHT WIDTH=113 BACKGROUND="./assets/images/back1.gif">
+                                        <FORM NAME="form" ACTION="" METHOD=POST>
+                                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">How much are you willing to pay for the JumpCraft commercial version?</FONT></P>
+                                            <P ALIGN=LEFT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><INPUT ID="Forms Radio Button1" TYPE=RADIO NAME="which" VALUE="1">Will not buy<BR><INPUT ID="Forms Radio Button3" TYPE=RADIO NAME="which" VALUE="2">Under $40<BR><INPUT ID="FormsRadioButton4" TYPE=RADIO NAME="which" VALUE="3">$40-69<BR><INPUT ID="FormsRadioButton5" TYPE=RADIO NAME="which" VALUE="4">$70-99<BR><INPUT ID="FormsRadioButton6" TYPE=RADIO NAME="which" VALUE="5">$100-149<BR><INPUT ID="FormsRadioButton7" TYPE=RADIO NAME="which" VALUE="6">$150 or more</FONT>
+                                            <P ALIGN=LEFT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT>
+                                                <TABLE WIDTH="100%" BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=TE>
+                                                    <TR>
+                                                        <TD ALIGN="CENTER">
+                                                            <TABLE WIDTH=20 BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=TE>
+                                                                <TR>
+                                                                    <TD>
+                                                                        <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><input type="button" onclick="voting(document.form.which,4237,0,500,375)" value="  Vote!  "class="button"  />
+<!--
+<input type="button" onclick="results(4237,0,500,350)" value="Results"class="button"  />
+-->&nbsp;</FONT></P>
+                                                                    </TD>
+                                                                </TR>
+                                                            </TABLE>
+                                                        </TD>
+                                                    </TR>
+                                                </TABLE>
+                                        </FORM>
+                                    </TD>
+                                    <TD WIDTH=10 BACKGROUND="./assets/images/line_r.gif">
+                                        <P ALIGN=RIGHT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                    </TD>
+                                </TR>
+                                <TR>
+                                    <TD COLSPAN=3 BACKGROUND="./assets/images/line_b.gif" HEIGHT=20>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                            <!--
+</td>
+</tr>
+</table>
+	--></TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    </CENTER>
+</BODY>
+</HTML>
+ 

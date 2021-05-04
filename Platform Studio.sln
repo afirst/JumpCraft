@@ -1,0 +1,114 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "psEngine", "Engine\psEngine\psEngine.vbproj", "{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "psTest", "psTest\psTest.vbproj", "{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C} = {1EBF6941-E9DF-47ED-9766-27F2C6BF108C}
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0} = {3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "psGame", "psGame\psGame.vbproj", "{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0} = {3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Platform Studio Professional Edition", "Platform Studio Pro\Platform Studio Professional Edition.vbproj", "{004A678C-9BB6-477B-B62E-019CAF8C036D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C} = {1EBF6941-E9DF-47ED-9766-27F2C6BF108C}
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0} = {3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "psasmload", "psasmload\psasmload.vbproj", "{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Platform Studio Standard Edition", "PlatformStudioEditorDemo\Platform Studio Standard Edition.vbproj", "{B5774C29-3783-4009-9B81-89406F0520B9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "psEditor", "psEditor\psEditor.vbproj", "{4554D287-4986-4ADD-AE99-539CE92C21CF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Platform Studio Demo", "Platform Studio Demo\Platform Studio Demo.vbproj", "{802F946F-C392-469E-9004-B7704F0CFD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.SharpZLib", "SharpZipLib\src\ICSharpCode.SharpZLib.csproj", "{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Debug|x86.ActiveCfg = Debug|x86
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Debug|x86.Build.0 = Debug|x86
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Release|x86.ActiveCfg = Release|x86
+		{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}.Release|x86.Build.0 = Release|x86
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Debug|x86.ActiveCfg = Debug|x86
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Debug|x86.Build.0 = Debug|x86
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Release|x86.ActiveCfg = Release|x86
+		{28CF3407-F93E-46FE-A5F6-81F1B75E9E2C}.Release|x86.Build.0 = Release|x86
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Debug|x86.ActiveCfg = Debug|x86
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Debug|x86.Build.0 = Debug|x86
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Release|x86.ActiveCfg = Release|x86
+		{EB84C8C7-BDD9-4867-9C5F-17A995AB81B2}.Release|x86.Build.0 = Release|x86
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Debug|x86.ActiveCfg = Debug|x86
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Debug|x86.Build.0 = Debug|x86
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Release|x86.ActiveCfg = Release|x86
+		{004A678C-9BB6-477B-B62E-019CAF8C036D}.Release|x86.Build.0 = Release|x86
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Debug|x86.ActiveCfg = Debug|x86
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Debug|x86.Build.0 = Debug|x86
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Release|x86.ActiveCfg = Release|x86
+		{3C00CC5B-0031-40C2-9ABE-6C0832ED71E0}.Release|x86.Build.0 = Release|x86
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Debug|x86.ActiveCfg = Debug|x86
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Debug|x86.Build.0 = Debug|x86
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Release|x86.ActiveCfg = Release|x86
+		{B5774C29-3783-4009-9B81-89406F0520B9}.Release|x86.Build.0 = Release|x86
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Debug|x86.ActiveCfg = Debug|x86
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Debug|x86.Build.0 = Debug|x86
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Release|x86.ActiveCfg = Release|x86
+		{4554D287-4986-4ADD-AE99-539CE92C21CF}.Release|x86.Build.0 = Release|x86
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Debug|x86.ActiveCfg = Debug|x86
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Debug|x86.Build.0 = Debug|x86
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Release|x86.ActiveCfg = Release|x86
+		{802F946F-C392-469E-9004-B7704F0CFD8D}.Release|x86.Build.0 = Release|x86
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

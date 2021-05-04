@@ -1,0 +1,132 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{6D65DB31-9507-45C0-840F-BA686FDC2624}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "psCompiler"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "psCompiler"
+                StartupObject = "psCompiler.Main"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "psEngine"
+                    Project = "{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "SharpZipLib"
+                    AssemblyName = "SharpZipLib"
+                    HintPath = "..\bin\SharpZipLib.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmWait.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmWait.resx"
+                    DependentUpon = "frmWait.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Main.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Main.resx"
+                    DependentUpon = "Main.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

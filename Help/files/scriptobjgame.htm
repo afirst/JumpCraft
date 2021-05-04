@@ -1,0 +1,364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Scripting Object: Game</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Scripting Object: Game<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="scripting.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="center">The Game object&#8217;s members can be accessed by simply 
+          typing <font face="Courier New, Courier, mono">Game.</font> in the scripting 
+          editor. When you type <font face="Courier New, Courier, mono">Game.</font>, 
+          the Scripting Editor pops up an AutoComplete list which shows all accessible 
+          PlatformStudio.psGame members. Here is an example:</p>
+        <p align="center"><img src="assets/images/img1.gif" width="228" height="195"></p>
+        <p align="center">The Game object provides access to both high-level and 
+          lower-level aspects of the game. It lets you access the DirectX 9 drawing 
+          system, properties for a control or a window, as well as high-level 
+          functions for a group of tiles, and much more.</p>
+        <p align="center">Here are some documented methods and properties of the 
+          Game object:</p>
+        <p align="center"><strong><font color="#003300">Game.AutoUpdateCamera</font></strong><br>
+          Specify whether you want the camera to automatically update each frame. 
+          If this is turned off, you must move the camera manually using Game.Camera. 
+          This is useful for creating non-platform games such as scrolling shoot-'em-up 
+          games. </p>
+        <p align="center"><font color="#003300"><strong>Game.Camera</strong></font><br>
+          This gets the current viewport, which is set automatically by Platform 
+          Studio if Game.AutoUpdateCamera is set to True. If Game.AutoUpdateCamera 
+          is set to False, you can use this property to change the camera location.</p>
+        <p align="center"><strong><font color="#003300">Game.CharacterX</font></strong><br>
+          Gets the X coordinate of the character in pixels.</p>
+        <p align="center"><strong><font color="#003300">Game.CharacterY</font></strong><br>
+          Gets the Y coordinate of the character in pixels.</p>
+        <p align="center"><strong><font color="#003300">Game.CharacterW</font></strong><br>
+          Gets the width of the character in pixels.<br>
+          Note: The character width and height are not including any extra transparent 
+          pixels around the character, so it may differ from the character tile 
+          size.</p>
+        <p align="center"><strong><font color="#003300">Game.CharacterH</font></strong><br>
+          Gets the height of the character in pixels.</p>
+        <p align="center"><strong><font color="#003300">Game.CharAffectedByGravity</font></strong><br>
+          Returns True if the character is affected by gravity, or False if the 
+          character is not affected by gravity.</p>
+        <p align="center"><strong><font color="#003300">Game.CharFacingRight</font></strong><br>
+          Returns True if the character is facing right, or False if the character 
+          is facing left.</p>
+        <p align="center"><strong><font color="#003300">Game.CharFalling</font></strong><br>
+          Returns True if the character is falling, or False if the character 
+          is not falling.</p>
+        <p align="center"><strong><font color="#003300">Game.CharJumping</font></strong><br>
+          Returns True if the character is jumping, or False if the character 
+          is not jumping.</p>
+        <p align="center"><strong><font color="#003300">Game.ClearHighscores</font></strong><br>
+          Clears all high scores in the high scores list.</p>
+        <p align="center"><strong><font color="#003300">Game.Compatibility</font></strong><br>
+          Returns an object that contains methods that were removed or changed 
+          in newer versions of JumpCraft. This should only be used when 
+          converting games created with older versions of JumpCraft to newer 
+          versions.</p>
+        <p align="center"><strong><font color="#003300">Game.Confirm</font></strong><br>
+          Prompts the user with a question. Returns True if the user clicks Yes 
+          and False if the user clicks No. This is preferred over the use of MsgBox 
+          or MessageBox.Show because it allows the game player to temporarily 
+          pause the game while the dialog is being shown.</p>
+        <p align="center"><strong><font color="#003300">Game.ConvPixelsToTilesX</font></strong><br>
+          Converts a pixel X coordinate to a tile X coordinate.</p>
+        <p align="center"><strong><font color="#003300">Game.ConvPixelsToTilesY</font></strong><br>
+          Converts a pixel Ycoordinate to a tile Ycoordinate.</p>
+        <p align="center"><strong><font color="#003300">Game.ConvTilesToPixelsX</font></strong><br>
+          Converts a tile X coordinate to a pixel X coordinate.</p>
+        <p align="center"><strong><font color="#003300">Game.ConvTilesToPixelsY</font></strong><br>
+          Converts a tile Y coordinate to a pixel Y coordinate.</p>
+        <p align="center"><strong><font color="#003300">Game.DisintegrateCurrentTile</font></strong><br>
+          Disintegrates the current tile (only usable in a Tile or Group action) 
+          after a specified period of time. The disintegrate action works with 
+          the Disappear animation.</p>
+        <p align="center"><strong><font color="#003300">Game.DrawAnimationAtCurrentTile</font></strong><br>
+          Draws an animation at the current tile's location. This is useful if 
+          you want a custom explosion for a particular tile.</p>
+        <p align="center"><strong><font color="#003300">Game.DrawHealthBarForCurrentTile</font></strong><br>
+          Draws a health bar next to the current tile. In conjunction with the 
+          Mouse Hover trigger, this is useful to let the player roll over his 
+          or her mouse over a tile to view its health.</p>
+        <p align="center"><strong><font color="#003300">Game.Drawing</font></strong><br>
+          Provides access to the Drawing class. The Drawing class contains methods 
+          for loading images and fonts, and drawing points, lines, rectangles, 
+          sprites, and text using DirectX 9.</p>
+        <p align="center"><strong><font color="#003300">Game.DropCurrentTile</font></strong><br>
+          Similar to Game.DisintegrateCurrentTile, except the tile drops before 
+          it disintegrates.</p>
+        <p align="center"><strong><font color="#003300">Game.EnsureCharacterIsVisible</font></strong><br>
+          Ensures that the character tile is completely in view. In auto-scrolling 
+          games, this is useful to prevent the player from moving his character 
+          too far forward (or backward) to leave the action.</p>
+        <p align="center"><strong><font color="#003300">Game.ExecuteTrigger</font></strong><br>
+          Executes another trigger. To access the list of triggers, type &quot;.&quot; 
+          after &quot;Game.ExecuteTrigger&quot;. For more information on triggers, 
+          see <a href="triggercodes.htm">this page</a>.</p>
+        <p align="center"><strong><font color="#003300">Game.ExecuteTriggerString</font></strong><br>
+          Executes another trigger, such as a tile hit trigger, specified as an 
+          action code. For more information on action codes, see <a href="triggercodes.htm">this 
+          page</a>.</p>
+        <p align="center"><strong><font color="#003300">Game.ExitProgram</font></strong><br>
+          Exits the application containing the game. Has a similar result as clicking 
+          the X button at the top-right corner of the game window.</p>
+        <p align="center"><strong><font color="#003300">Game.FPS</font></strong><br>
+          Returns the current frames per second as a decimal value.</p>
+        <p align="center"><strong><font color="#003300">Game.GetControl</font></strong><br>
+          Provides access to a specified control's properties.</p>
+        <p align="center"><strong><font color="#003300">Game.GetCounter</font></strong><br>
+          Gets the value of the specified counter.</p>
+        <p align="center"><strong><font color="#003300">Game.GetHealth</font></strong><br>
+          Gets the health of the character.</p>
+        <p align="center"><strong><font color="#003300">Game.GetLevel</font></strong><br>
+          Gets the current level number.</p>
+        <p align="center"><strong><font color="#003300">Game.GetLevelName</font></strong><br>
+          Gets the current level name.</p>
+        <p align="center"><strong><font color="#003300">Game.GetLives</font></strong><br>
+          Gets the number of lives the player has left.</p>
+        <p align="center"><strong><font color="#003300">Game.GetScore</font></strong><br>
+          Gets the player's score.</p>
+        <p align="center"><strong><font color="#003300">Game.GetTileIndex</font></strong><br>
+          Retrieves the index of a specified tile on the foreground layer of the 
+          current level.</p>
+        <p align="center"><strong><font color="#003300">Game.GetTileName</font></strong><br>
+          Retrieves the name of a specified tile on the foreground layer of the 
+          current level.</p>
+        <p align="center"><strong><font color="#003300">Game.GetWindow</font></strong><br>
+          Provides access to a specified window's properties.</p>
+        <p align="center"><strong><font color="#003300">Game.GravityExists</font></strong><br>
+          Returns True if gravity exists, or False if gravity doesn't exist. (Same 
+          as Game.CharAffectedByGravity).</p>
+        <p align="center"><strong><font color="#003300">Game.Hurt</font></strong><br>
+          Provides invincibility to the character for a specified period of time, 
+          and shows a visual effect during the period of invincibility. This method 
+          is usually called after the health counter decreases.</p>
+        <p align="center"><strong><font color="#003300">Game.Jump</font></strong><br>
+          Makes the character jump.</p>
+        <p align="center"><strong><font color="#003300">Game.KillCurrentTile</font></strong><br>
+          Destroys the current tile. This calls the Tile Destroyed and Group Destroyed 
+          triggers.</p>
+        <p align="center"><strong><font color="#003300">Game.KillTile</font></strong><br>
+          Destroys a specified group. This calls the Tile Destroyed and Group 
+          Destroyed triggers.</p>
+        <p align="center"><strong><font color="#003300">Game.Lose</font></strong><br>
+          Ends the game as a loss, and shows the Lose window.</p>
+        <p align="center"><strong><font color="#003300">Game.Math</font></strong><br>
+          Provides access to a small math library that contains collision functions 
+          and other miscellaneous functions.</p>
+        <p align="center"><strong><font color="#003300">Game.ModifyCounter</font></strong><br>
+          Modifies a specified counter by a specified value.</p>
+        <p align="center"><strong><font color="#003300">Game.ModifyHealth</font></strong><br>
+          Modifies the player's health by a specified value (positive numbers 
+          increase health, and negative numbers decrease health). If the player 
+          is currently invincible, this method will have no effect if the value 
+          is less than zero.</p>
+        <p align="center"><strong><font color="#003300">Game.ModifyLevel</font></strong><br>
+          Modifies the current level by a specified value. This method is usually 
+          used with the value 1 when the player reaches the end of a level.</p>
+        <p align="center"><strong><font color="#003300">Game.ModifyLives</font></strong><br>
+          Modifies the player's lives by a specified value.</p>
+        <p align="center"><strong><font color="#003300">Game.ModifyScore</font></strong><br>
+          Modify the player's score.</p>
+        <p align="center"><strong><font color="#003300">Game.MouseLButton</font></strong><br>
+          Return True if the left mouse button is pressed, or False if the left 
+          mouse button is not pressed.</p>
+        <p align="center"><strong><font color="#003300">Game.MouseMButton</font></strong><br>
+          Return True if the middle mouse button is pressed, or False if the middle 
+          mouse button is not pressed.</p>
+        <p align="center"><strong><font color="#003300">Game.MouseRButton</font></strong><br>
+          Return True if the right mouse button is pressed, or False if the right 
+          mouse button is not pressed.</p>
+        <p align="center"><strong><font color="#003300">Game.MouseX</font></strong><br>
+          Returns the X coordinate of the cursor in relation to the game window. 
+          The upper-left corner of the game window is (0, 0), and the bottom-right 
+          corner is (window width - 1, window height - 1).</p>
+        <p align="center"><strong><font color="#003300">Game.MouseY</font></strong><br>
+          Returns the Y coordinate of the cursor in relation to the game window.</p>
+        <p align="center"><strong><font color="#003300">Game.MoveCameraToDefaultPosition</font></strong><br>
+          When AutoUpdateCamera is set to False, this moves the camera to the 
+          position it would be at had AutoUpdateCamera been turned on. This is 
+          useful at the beginning of the level or when the player loses a life, 
+          as it resets the character position.</p>
+        <p align="center"><strong><font color="#003300">Game.MoveCharacter</font></strong><br>
+          Moves the character in the specified direction. Use the strings &quot;Left&quot;, 
+          &quot;Right&quot;, &quot;Up&quot;, &quot;Down&quot;, or &quot;Current 
+          Direction&quot; as the direction parameter.</p>
+        <p align="center"><strong><font color="#003300">Game.MoveTile</font></strong><br>
+          Moves a tile or a group of tiles in the specified direction. Use the 
+          strings &quot;Left&quot;, &quot;Right&quot;, &quot;Up&quot;, or &quot;Down&quot; 
+          as the direction parameter. Note: If the tile is currently on a path, 
+          the path will be deleted and the tile will start moving from its default 
+          position.</p>
+        <p align="center"><strong><font color="#003300">Game.MoveToCheckpoint</font></strong><br>
+          Moves the character to the checkpoint that was last set. If no checkpoint 
+          was set, the character will move to its starting location for the current 
+          level. If necessary, the game will pause for the camera to scroll to 
+          its new position.</p>
+        <p align="center"><strong><font color="#003300">Game.OpenFile</font></strong><br>
+          Opens a specified file with its default associated application.</p>
+        <p align="center"><strong><font color="#003300">Game.OpenURL</font></strong><br>
+          Opens a URL in the user's default web browser. If a &quot;mailto:&quot; 
+          URL is given, opens the default email application with the specified 
+          address in the To field.</p>
+        <p align="center"><strong><font color="#003300">Game.PauseGame</font></strong><br>
+          Pauses the game, and shows the Pause window.</p>
+        <p align="center"><strong><font color="#003300">Game.PlayMovie</font></strong><br>
+          Plays a movie at a certain point during the game. This movie has the 
+          same behavior as a movie control in the Window Editor.</p>
+        <p align="center"><strong><font color="#003300">Game.PlayMusic</font></strong><br>
+          Plays a specified music file. At the end of the song, JumpCraft 
+          will loop back to the beginning.</p>
+        <p align="center"><strong><font color="#003300">Game.PlaySound</font></strong><br>
+          Plays a specified sound file. Use 0 (mute) to 100 (loudest) as values 
+          for Volume, -100 (left speaker) to 100 (right speaker) as values for 
+          Pan, and 11 (low pitch) to 44 (high pitch) as values for frequency. 
+          The default values are 100, 0, and 22 respectively.</p>
+        <p align="center"><strong><font color="#003300">Game.Properties</font></strong><br>
+          Retrieves the general properties for the game, such as its name, its 
+          version, its credits, etc.</p>
+        <p align="center"><strong><font color="#003300">Game.QuitGame</font></strong><br>
+          Quits the game and shows the window that was shown before starting the 
+          game (usually the menu window). If the player got a high score, it will 
+          first prompt for a name (if necessary), and then show the high scores 
+          window, before returning to the menu.</p>
+        <p align="center"><strong><font color="#003300">Game.Scroll</font></strong><br>
+          Scrolls the camera in a specified direction and speed. Use this only 
+          if AutoUpdateCamera is turned off.</p>
+        <p align="center"><strong><font color="#003300">Game.SetCheckpoint</font></strong><br>
+          Sets a checkpoint either at the current location of the character ( 
+          SetCheckpoint() ), or a specified (X, Y) tile coordinate ( SetCheckpoint(X, 
+          Y) ).</p>
+        <p align="center"><strong><font color="#003300">Game.SetClimbingState</font></strong><br>
+          Sets whether the character can be climbing or not.</p>
+        <p align="center"><strong><font color="#003300">Game.SetCounter</font></strong><br>
+          Sets a specified counter to a specified value. If a Counter action is 
+          triggered, the curCounter.Increased, curCounter.Decreased, and curCounter.ChangedBy 
+          values will be set to False, False, and 0, respectively.</p>
+        <p align="center"><strong><font color="#003300">Game.SetGravity</font></strong><br>
+          Sets whether gravity should exist or not, and the gravity intensity 
+          (ScaleSpeed).</p>
+        <p align="center"><strong><font color="#003300">Game.SetHealth</font></strong><br>
+          Sets the health of the character. to a specified value</p>
+        <p align="center"><strong><font color="#003300">Game.SetLevel</font></strong><br>
+          Sets the current level number.</p>
+        <p align="center"><strong><font color="#003300">Game.SetLives</font></strong><br>
+          Sets the amount of lives the player has left.</p>
+        <p align="center"><strong><font color="#003300">Game.SetPosition</font></strong><br>
+          Sets the position of the character in tiles. If necessary, the game 
+          will pause for the camera to scroll to its new position.</p>
+        <p align="center"><strong><font color="#003300">Game.SetScore</font></strong><br>
+          Sets the player's score.</p>
+        <p align="center"><strong><font color="#003300">Game.SetTileAnimation</font></strong><br>
+          Sets the current animation for a specified tile or group of tiles. To 
+          specify the current group (in this method or in any method that calls 
+          for a group), use &quot;(Current Group)&quot;. You can either specify 
+          a number (0 to 5), or a string, (&quot;Normal&quot;, &quot;Disappear&quot;, 
+          &quot;Custom 1&quot;, &quot;Custom 2&quot;, &quot;Custom 3&quot;, or 
+          &quot;Custom 4&quot;).</p>
+        <p align="center"><strong><font color="#003300">Game.SetTileAtLocation</font></strong><br>
+          Sets the tile index, frame index, and/or animation index at a specific 
+          x-y location (in tiles). Another version of this method exists that 
+          accepts a layer as a numerical value (Parallax-0, Background-1, Foreground-2, 
+          Front-3). </p>
+        <p align="center"><strong><font color="#003300">Game.SetTileFrame</font></strong><br>
+          Sets the frame for a specified tile or group of tiles.</p>
+        <p align="center"><strong><font color="#003300">Game.SetTileIndex</font></strong><br>
+          Sets the tile index for a specified tile or group of tiles. The tile 
+          name is the name of a tile in the tileset. You can also specify the 
+          tile's frame, animation index, or any combination of them. For example, 
+          you can specify both a tile's frame and animation index by typing <font face="Courier New, Courier, mono">Game.SetTileIndex(&quot;(Current 
+          Group)&quot;, , 7, &quot;Custom 1&quot;)</font></p>
+        <p align="center"><strong><font color="#003300">Game.Shoot</font></strong><br>
+          Shoots a tile from a specified tile name. Use &quot;Left&quot;, &quot;Right&quot;, 
+          &quot;Up&quot;, &quot;Down&quot;, &quot;Up Left&quot;, &quot;Up Right&quot;, 
+          &quot;Down Left&quot;, &quot;Down Right&quot;, Towards Character&quot;, 
+          or a number specifying an angle in degrees as values for Direction.</p>
+        <p align="center"><font color="#003300"><strong>Game.ShootAnythingFromGroup</strong></font><br>
+          This action is almost the same as Game.Shoot except that it also can 
+          damage tiles with hitpoints. Hence its name, &quot;shoot anything&quot;.</p>
+        <p align="center"><strong><font color="#003300">Game.ShootFromCharacter</font></strong><br>
+          Shoots a tile from the character. For the direction value, you can specify 
+          the 8 directions listed in Game.Shoot, as well as &quot;Towards Cursor&quot; 
+          and &quot;Current Direction&quot;. Towards Cursor makes the character 
+          aim towards the mouse pointer, and Current Direction makes the character 
+          shoot in its current direction (left or right). You can also specify 
+          an angle in degrees, with 0 being right, 90 being up, 180 being left, 
+          and 270 being down. Also, the offset coordiantes are relative to the 
+          center of the character. This is useful for allowing the character to 
+          fire two bullets at the same time. Finally, the &quot;Fire Rate&quot; 
+          parameter is the amount of seconds between shots. If this method is 
+          called before the next shot is allowed, this method will return False 
+          and do nothing; otherwise, it will return True.</p>
+        <p align="center"><strong><font color="#003300">Game.ShootFromGroup</font></strong><br>
+          Shoots a tile from a specified tile group.</p>
+        <p align="center"><strong><font color="#003300">Game.ShootFromPoint</font></strong><br>
+          Shoots a tile from a specified point. You must specify the bullet's 
+          starting left edge and top edge in pixels.</p>
+        <p align="center"><strong><font color="#003300">Game.ShowMessageBox</font></strong><br>
+          Shows a message dialog with a specified title, message, and icon. The 
+          icon can contain a value of &quot;Error&quot;, &quot;Information&quot;, 
+          &quot;Question&quot;, or &quot;Exclamation&quot;. This is preferred 
+          over the use of MsgBox or MessageBox.Show because it allows the game 
+          player to temporarily pause the game while the dialog is being shown.</p>
+        <p align="center"><strong><font color="#003300">Game.ShowWindow</font></strong><br>
+          Shows a specified window.</p>
+        <p align="center"><strong><font color="#003300">Game.StartTimer</font></strong><br>
+          Resets and starts a specified timer.</p>
+        <p align="center"><strong><font color="#003300">Game.StopAllSounds</font></strong><br>
+          Stops all sounds that are currently playing.</p>
+        <p align="center"><strong><font color="#003300">Game.StopJumping</font></strong><br>
+          Stops the character from continuing to jump. However, the character 
+          must jump for the minimum specified time before it can stop.</p>
+        <p align="center"><strong><font color="#003300">Game.StopTimer</font></strong><br>
+          Stops a specified timer.</p>
+        <p align="center"><strong><font color="#003300">Game.TimeElapsed</font></strong><br>
+          Returns the time elapsed between the last two frames in seconds.</p>
+        <p align="center"><strong><font color="#003300">Game.Win</font></strong><br>
+          Ends the game as a win, and shows the Win window.</p>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

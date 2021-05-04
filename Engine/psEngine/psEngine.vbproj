@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>psEngine</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>PlatformStudio</RootNamespace>
+    <StartupObject>PlatformStudio.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DocumentationFile>psEngine.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DocumentationFile>psEngine.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>psEngine.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>psEngine.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.DirectX">
+      <Name>Microsoft.DirectX</Name>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v9.00.0900\Microsoft.DirectX.dll</HintPath>
+      <AssemblyFolderKey>hklm\managed directx 9.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.AudioVideoPlayback">
+      <Name>Microsoft.DirectX.AudioVideoPlayback</Name>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v9.00.0900\Microsoft.DirectX.AudioVideoPlayback.dll</HintPath>
+      <AssemblyFolderKey>hklm\managed directx 9.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3D">
+      <Name>Microsoft.DirectX.Direct3D</Name>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v9.00.0900\Microsoft.DirectX.Direct3D.dll</HintPath>
+      <AssemblyFolderKey>hklm\managed directx 9.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3DX">
+      <Name>Microsoft.DirectX.Direct3DX</Name>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v9.00.0900\Microsoft.DirectX.Direct3DX.dll</HintPath>
+      <AssemblyFolderKey>hklm\managed directx 9.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound">
+      <Name>Microsoft.DirectX.DirectSound</Name>
+      <HintPath>..\..\..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v9.00.0900\Microsoft.DirectX.DirectSound.dll</HintPath>
+      <AssemblyFolderKey>hklm\managed directx 9.0</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualC" />
+    <Reference Include="psctlx">
+      <Name>psctlx</Name>
+      <HintPath>..\..\bin\psctlx.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\clsGame.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psActions.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psAudio.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psCompress.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psControls.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psDLL.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psDrawing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psFiles.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psFilesImportTileset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\psFileUpdater.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\psPath.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\psfrmFileNotFound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\Client.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\frmError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\frmHighScore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\modActionProcessor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\modCharacter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\modLoader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\modRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\modUtil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Game\StopWatch.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Localization.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Options.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\psMod1.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Script Editor\CodeEditor2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Classes\psFilesImportTileset.resx">
+      <DependentUpon>psFilesImportTileset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\psfrmFileNotFound.resx">
+      <DependentUpon>psfrmFileNotFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\frmError.resx">
+      <DependentUpon>frmError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\frmHighScore.resx">
+      <DependentUpon>frmHighScore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Script Editor\CodeEditor2.resx">
+      <DependentUpon>CodeEditor2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SharpZipLib\src\ICSharpCode.SharpZLib.csproj">
+      <Project>{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}</Project>
+      <Name>ICSharpCode.SharpZLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

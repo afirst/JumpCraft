@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Tileset Editor</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Tileset Editor<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="windows.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="center">Click an area of the Tileset Editor to learn more about 
+          it.<br>
+          <img src="assets/images/img34.gif" width="496" height="432" border="0" usemap="#Map"> 
+          <map name="Map">
+            <area shape="rect" coords="266,141,481,157" href="#axns">
+            <area shape="rect" coords="266,189,481,205" href="#bounds">
+            <area shape="rect" coords="267,205,482,221" href="#hp">
+            <area shape="rect" coords="13,80,196,354" href="#tilelist">
+            <area shape="rect" coords="14,363,98,385" href="#add">
+            <area shape="rect" coords="111,363,193,385" href="#remove">
+            <area shape="rect" coords="14,399,125,420" href="#overallw">
+            <area shape="rect" coords="137,400,238,420" href="#overallh">
+            <area shape="rect" coords="266,157,481,173" href="#animations">
+            <area shape="rect" coords="266,172,481,189" href="#behavior">
+            <area shape="rect" coords="267,220,481,238" href="#colorkey">
+            <area shape="rect" coords="266,269,481,285" href="#sech">
+            <area shape="rect" coords="266,285,481,301" href="#secw">
+            <area shape="rect" coords="266,253,481,269" href="#height">
+            <area shape="rect" coords="266,300,481,316" href="#width">
+            <area shape="rect" coords="266,125,482,141" href="#name">
+            <area shape="rect" coords="203,79,236,113" href="#up">
+            <area shape="rect" coords="205,119,236,152" href="#down">
+            <area shape="rect" coords="3,30,496,56" href="#tb">
+          </map>
+        </p>
+        <p align="left"><a name="tb" id="tb"></a><strong><font color="#003300" size="3">Toolbar</font></strong> 
+          <ul>
+            <li>Add: Adds a tile to the tileset.</li>
+            <li>Remove: Removes the selected tile from the tileset.</li>
+            <li>Clear: Removes all tiles from the tileset.</li>
+            <li>Edit: Edits the selected tile in the specified image editing program. 
+              You can change this in the <a href="options.htm">Options dialog</a>.</li>
+            <li>Up Arrow: Move the selected tile up in the list of tiles.</li>
+            <li>Down Arrow: Move the selected tile down in the list of tiles.</li>
+            <li>Open: Deletes the current tileset and opens a saved one in its 
+              place. </li>
+            <li>Import: Adds tiles from a saved tileset into the current tileset.</li>
+            <li>Export: Saves the tileset as a *.pst file, so it can later be 
+              opened in another game or imported from. The tileset is automatically 
+              saved in the current game file, so this button is not necessary 
+              unless you need to access this tileset in another game.</li>
+          </ul>
+        </p>
+        <p align="left"><a name="tilelist" id="tilelist"></a><font color="#003300" size="3"><strong>Tile 
+          List</strong></font><br>
+          Contains the list of tiles. Click a tile to edit its properties. You 
+          can select multiple tiles by using the Ctrl key (toggle selection) and 
+          Shift key (select range) while clicking on a tile. You can easily move 
+          a tile through the list of tiles by clicking it and dragging it to where 
+          you want it to be located.</p>
+        <p align="left"><a name="add" id="add"></a><font color="#003300" size="3"><strong>Add 
+          Button</strong></font><br>
+          Click this to add one or more images to the tileset.</p>
+        <p align="left"><a name="remove" id="remove"></a><strong><font color="#003300" size="3">Remove 
+          Button</font></strong><br>
+          Click this to remove the selected tile from the tileset, and delete 
+          all of its actions.</p>
+        <p align="left"><a name="up" id="up"></a><strong><font color="#003300" size="3">Up 
+          Button</font></strong><br>
+          Click this to move the selected tile up in the list of tiles.</p>
+        <p align="left"><a name="down" id="down"></a><font color="#003300" size="3"><strong>Down 
+          Button</strong></font><br>
+          Click this to move the selected tile down in the list of tiles.</p>
+        <p align="left"><a name="name" id="name"></a><strong><font color="#003300" size="3">Tile 
+          Name</font></strong><br>
+          The name of the selected tile.</p>
+        <p align="left"><a name="axns" id="axns"></a><font color="#003300" size="3"><strong>Actions</strong></font><br>
+          Opens the Action Editor with the selected tile's triggers.</p>
+        <p align="left"><a name="hp" id="hp"></a><strong><font color="#003300" size="3">Hitpoints</font></strong><br>
+          The amount of damage a tile can take (the amount of bullets that can 
+          be fired at a tile) before it is destroyed. If the tile is invincible, 
+          specify N/A.</p>
+        <p align="left"><a name="bounds" id="bounds"></a><strong><font color="#003300" size="3">Boundaries</font></strong><br>
+          Opens the <a href="tilebounds.htm">Tile Boundaries Editor</a>, which 
+          allows the customization of a tile's boundaries. </p>
+        <p align="left"><a name="width" id="width"></a><strong><font color="#003300" size="3">Tile 
+          Width</font></strong><br>
+          The width, in pixels, of the selected tile.</p>
+        <p align="left"><a name="height" id="height"></a><strong><font color="#003300" size="3">Tile 
+          Height</font></strong><br>
+          The height, in pixels, of the selected tile.</p>
+        <p align="left"><a name="secw" id="secw"></a><strong><font color="#003300" size="3">Section 
+          W</font></strong><br>
+          The section width, in pixels, of the selected tile. This number must 
+          be a factor of the tile width. If the section width is smaller than 
+          the tile width, than the tile can be divided into subtiles. For example, 
+          if the tile width was 64 and the section width was 32, then there would 
+          be two subtiles (assuming that both the tile height and section height 
+          were the same). Subtiles can either be used as different tiles when 
+          drawing in the level editor, or they can be used in a tile animation.</p>
+        <p align="left"><a name="sech" id="sech"></a><font color="#003300" size="3"><strong>Section 
+          H</strong></font><br>
+          The section height, in pixels of the selected tile. This acts just like 
+          the <a href="#secw">section width</a> but it is vertical, instead of 
+          horizontal.</p>
+        <p align="left"><a name="colorkey" id="colorkey"></a><font color="#003300" size="3"><strong>Transparent 
+          Color </strong></font><br>
+          The color to make transparent in the tile's image. In PNG and GIF images 
+          with transparency, the transparent color will still be counted as transparent 
+          in addition to the specified transparent color.</p>
+        <p align="left"><a name="behavior" id="behavior"></a><strong><font color="#003300" size="3">Behavior</font></strong><br>
+          The general behavior of the tile can be edited with the dropdown box. 
+          These are the different behaviors:</p>
+        <ul>
+          <li>Solid (Default): The character can not go through this tile when 
+            placed in the Foreground layer.</li>
+          <li>Background: The character can not interact with this tile, no matter 
+            what layer it is on.</li>
+          <li>Collectable: This tile can be collected by the character when placed 
+            on either the Background, Foreground, or Front layers of the level.</li>
+          <li>Ledge: The character can walk through this tile unless it is on 
+            top of it.</li>
+          <li>Character: This is the tile that will be used to draw the character.</li>
+          <li>No Gravity: This tile is a combination of Solid and Ledge. It is 
+            partially solid in the fact that all hit actions will be processed 
+            when the character either hits or is on top of the tile. It is partially 
+            a ledge because the player can walk through it from the the right, 
+            left, or bottom, but can not from the top. Unlike a ledge, if the 
+            player is overlapping the tile in any way, the player will not fall. 
+            This tile is often used as a ladder or water, which creates an action 
+            that turns off the gravity when the character overlaps it, hence the 
+            name, No Gravity.</li>
+        </ul>
+        <p>If you click the (...) button, you can further customize the selected 
+          tile's behavior with the <a href="customizebehavior.htm">Customize Behavior 
+          dialog</a>.</p>
+        <p><a name="animations" id="animations"></a><strong><font color="#003300" size="3">Animations</font></strong><br>
+          Edits the animations of the selected tile using the <a href="animationeditor.htm">Animation 
+          Editor</a>.</p>
+        <p><a name="overallw" id="overallw"></a><strong><font color="#003300" size="3">Grid 
+          Width</font></strong><br>
+          This is the overall tile width, which most tiles' widths should be a 
+          multiple of. The grid's spacing will change depending on this number, 
+          any units that contain the word &quot;tiles&quot; will change depending 
+          on this number, and any new tiles that are added will automatically 
+          be given a section width based on this number, if possible.</p>
+        <p><a name="overallh" id="overallh"></a><strong><font color="#003300" size="3">Grid 
+          Height</font></strong><br>
+          This is the overall tile height, which most tiles' heights should be 
+          a multiple of. The grid's spacing will change depending on this number, 
+          any units that contain the word &quot;tiles&quot; will change depending 
+          on this number, and any new tiles that are added will automatically 
+          be given a section height based on this number, if possible.</p> </p>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

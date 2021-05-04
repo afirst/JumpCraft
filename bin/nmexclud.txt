@@ -1,0 +1,2 @@
+[TT Exclude Images From Patching]
+System=1

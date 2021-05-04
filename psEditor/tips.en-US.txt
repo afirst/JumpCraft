@@ -1,0 +1,36 @@
+﻿You can use a premade color scheme in your game's interface by clicking Tools > Window Scheme Wizard in the Window Editor.
+You can move a path by holding down Shift and dragging the mouse in the Path Editor.
+You can access our forums by clicking Help > Forums.
+You can import and export tilesets by clicking the Import and Export buttons in the Tileset Editor.
+You can tell JumpCraft to generate disappear animations for you by choosing an Effect in the Animation Editor.
+You can draw with more than one tile at the same time by clicking and dragging in the Subtile Selector.
+You can save space by clicking the pin icon on the titlebar of a panel.
+You can create window transitions by clicking Edit > Window Transition in the Window Editor.
+JumpCraft can handle many different music and video file types.  To see if JumpCraft supports a file type that is not listed, select the All Files filter and load your file.
+You can view the coordinates of a tile by moving your mouse over it and looking at the status bar.
+You can run your game in fullscreen mode by clicking File > Game Properties and clicking the Window tab.
+You can create new counters and timers by clicking the Counters and Timers buttons on the toolbar in the Action Editor.
+You can create curved paths in the Path Editor by clicking where you want the new point and dragging to adjust the curve.
+You can create a High Scores window by clicking the New Window button in the Window Selector in the Window Editor, and then selecting High Scores from the list of window names.  Then add a High Scores control to your new window.
+JumpCraft automatically analyzes your game to find every external file you use, and packs and compresses them into your data file when you compile your game.
+You can turn on and off the grid by clicking View > Grid.
+You can submit your compiled games to JumpCraft's website.  For more information click Help > On the Web.
+You can easily create objects such as coins, spikes, hearts, springs, or their equivalents by selecting a tile in the Tileset Editor and clicking the (...) button next to Behavior.
+You can load 32-bit PNG's with alpha channel into JumpCraft to get special visual effects.  For any image, you can specify a Color Key, or transparent color, to make a certain color transparent in an image.
+Combining several images in one file allows you to create an animation with it, or let you draw with each frame as subtiles.  Take a look at the platform sample games for examples on how to do this.
+You can freely use the included files in JumpCraft in your games, as long as you give credit if needed (look for a credits.txt file in the directory you are using files from).
+You can quickly undo an action by pressing Ctrl+Z.  To redo, press Ctrl+Y.
+The shortcuts for cut, copy paste, and delete are Ctrl+X, Ctrl+C, Ctrl+V, and Del respectively.
+To select a tile in the Level Editor, click the Select button on the toolbar.  Hold down Shift or drag a box to select multiple tiles.  To remove a tile from a selection, hold down Shift and click the tile you want to deselect.  To deselect all tiles from your selection, click outside of the selection or press Ctrl+D or click Edit > Deselect.
+If you want to quickly test a certain part of your game, or if your game is too hard to get to the level you want to test in a reasonable amount of time, you can make it easier by clicking Run > Debugging Options, and choosing Start at Level, Make Invincible, or Skip Windows.
+To see how fast your game is running, you can click Run > Debugging Options > Show FPS to view the framerate during your game.
+You can play an animation backwards by selecting the last frame as the Start Frame, and the first frame as the Stop Frame.
+You can create intro movies by creating a new window, moving it to the top of the list, and inserting a movie control with the movie you want to be displayed.
+Selecting the "Begin Level" tree node in the Action Editor allows you to create actions when any level begins.  Selecting one of its child nodes allows you to create actions when a specific level begins.
+Is JumpCraft gradually slowing down as you use it?  To solve this problem, go to Tools > Options and lower the Undo buffer size.
+You can select multiple tiles in the Tileset Editor by using the Shift and Ctrl keys when selecting a tile.
+When drawing on a level, you can let JumpCraft choose a subtile at random by selecting the "Dice" icon next to the selected tile.  To do this, you must select multiple subtiles by dragging the ones you want to select.
+You can easily move a tile through the list of tiles by dragging it in the Tileset Editor.
+You can easily move an action in the Action Editor by selecting it and dragging it.
+To quickly add a new action, click the down arrow next to the New Action button in the Action Editor toolbar.
+You can speed up your game by specifying explicit tile boundaries.  In the Tileset Editor, select the tile you want and click the (...) button under 'Tile Boundaries'.

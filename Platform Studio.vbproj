@@ -1,0 +1,492 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{E835D1BE-1C7D-45C0-BD4F-BF8F5F152D4B}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "icon.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "pspro"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "PlatformStudioEditor"
+                StartupObject = "PlatformStudioEditor.frmGame"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "VBA"
+                    Guid = "{000204EF-0000-0000-C000-000000000046}"
+                    VersionMajor = "6"
+                    VersionMinor = "0"
+                    Lcid = "9"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "VBRUN"
+                    Guid = "{EA544A21-C82D-11D1-A3E4-00A0C90AEA82}"
+                    VersionMajor = "6"
+                    VersionMinor = "0"
+                    Lcid = "9"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "StdFormat"
+                    Guid = "{6B263850-900B-11D0-9484-00A0C91110ED}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "MSDATASRC"
+                    Guid = "{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "ComCtl3"
+                    Guid = "{38911DA0-E448-11D0-84A3-00DD01104159}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxComCtl3"
+                    Guid = "{38911DA0-E448-11D0-84A3-00DD01104159}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX"
+                    AssemblyName = "Microsoft.DirectX"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX.Direct3D"
+                    AssemblyName = "Microsoft.DirectX.Direct3D"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.Direct3D.dll"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX.Direct3DX"
+                    AssemblyName = "Microsoft.DirectX.Direct3DX"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.Direct3DX.dll"
+                />
+                <Reference
+                    Name = "SharpZipLib"
+                    AssemblyName = "SharpZipLib"
+                    HintPath = "..\..\..\..\..\Program Files\ComponentSpot\SharpZipLib\Bin\SharpZipLib.dll"
+                />
+                <Reference
+                    Name = "psEngine"
+                    Project = "{1EBF6941-E9DF-47ED-9766-27F2C6BF108C}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic.Compatibility"
+                    AssemblyName = "Microsoft.VisualBasic.Compatibility"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.Compatibility.dll"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX.DirectSound"
+                    AssemblyName = "Microsoft.DirectX.DirectSound"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.DirectSound.dll"
+                    AssemblyFolderKey = "hklm\dn\manageddx"
+                />
+                <Reference
+                    Name = "Microsoft.DirectX.AudioVideoPlayback"
+                    AssemblyName = "Microsoft.DirectX.AudioVideoPlayback"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Managed DirectX\v4.09.00.0900\Microsoft.DirectX.AudioVideoPlayback.dll"
+                    AssemblyFolderKey = "hklm\dn\manageddx"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.EnterpriseServices"
+                    AssemblyName = "System.EnterpriseServices"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.EnterpriseServices.dll"
+                />
+                <Reference
+                    Name = "System.DirectoryServices"
+                    AssemblyName = "System.DirectoryServices"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.DirectoryServices.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "icon.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tile.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "x.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "y.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Editor\Compiler.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmAbout.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmAbout.resx"
+                    DependentUpon = "frmAbout.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmBackgroundMusic.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmBackgroundMusic.resx"
+                    DependentUpon = "frmBackgroundMusic.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmCompileError.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmCompileError.resx"
+                    DependentUpon = "frmCompileError.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmEditText.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmEditText.resx"
+                    DependentUpon = "frmEditText.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmGame.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmGame.resx"
+                    DependentUpon = "frmGame.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmGameProperties.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmGameProperties.resx"
+                    DependentUpon = "frmGameProperties.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmHelpCollision.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmHelpCollision.resx"
+                    DependentUpon = "frmHelpCollision.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmNewGameWizard.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmNewGameWizard.resx"
+                    DependentUpon = "frmNewGameWizard.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmOptions.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmOptions.resx"
+                    DependentUpon = "frmOptions.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmSplash.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmSplash.resx"
+                    DependentUpon = "frmSplash.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmStartAtLevel.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmStartAtLevel.resx"
+                    DependentUpon = "frmStartAtLevel.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmWait.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmWait.resx"
+                    DependentUpon = "frmWait.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\frmWindowEditor.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\frmWindowEditor.resx"
+                    DependentUpon = "frmWindowEditor.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\Main.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\modDec.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\Packager2.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmActionData.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmActionData.resx"
+                    DependentUpon = "psfrmActionData.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmActionEditor.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmActionEditor.resx"
+                    DependentUpon = "psfrmActionEditor.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmAnimationEditor.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmAnimationEditor.resx"
+                    DependentUpon = "psfrmAnimationEditor.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmEditAction.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmEditAction.resx"
+                    DependentUpon = "psfrmEditAction.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmFindReplaceTiles.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmFindReplaceTiles.resx"
+                    DependentUpon = "psfrmFindReplaceTiles.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmParamEdit.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmParamEdit.resx"
+                    DependentUpon = "psfrmParamEdit.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmTileBehavior.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmTileBehavior.resx"
+                    DependentUpon = "psfrmTileBehavior.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmTileset.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmTileset.resx"
+                    DependentUpon = "psfrmTileset.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmValue.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmValue.resx"
+                    DependentUpon = "psfrmValue.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\psfrmWindowTransition.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Editor\psfrmWindowTransition.resx"
+                    DependentUpon = "psfrmWindowTransition.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Editor\Titlebar.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

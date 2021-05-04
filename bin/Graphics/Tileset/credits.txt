@@ -1,0 +1,12 @@
+Blocks.png
+Character.png
+Clouds.png
+Grass.png
+Ladder.png
+Ledges.png
+Ramps.png (modified from Blocks.bmp)
+Tree.png
+Water & Ledge.png
+Water.png
+
+Copyright ©2002 by Neil Roy

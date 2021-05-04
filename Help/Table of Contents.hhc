@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Home">
+		<param name="Local" value="files\index.htm">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Tutorials">
+			<param name="Local" value="files\tutorials.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Getting Started">
+				<param name="Local" value="files\gettingstarted.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Walkthrough of Creating a Platform Game">
+				<param name="Local" value="files\createplatformgame.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a Checkpoint">
+				<param name="Local" value="files\howtocheckpoint.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a Secret Area">
+				<param name="Local" value="files\howtosecret.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a High Scores List">
+				<param name="Local" value="files\howtohighscores.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Creating a Shooting Enemy">
+				<param name="Local" value="files\howtoshoot.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="How to Speed Up Your Game">
+				<param name="Local" value="files\gameperf.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Scripting Documentation">
+			<param name="Local" value="files\scripting.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Scripting Scope">
+				<param name="Local" value="files\scriptingscope.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Game Object">
+				<param name="Local" value="files\scriptobjgame.htm">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Trigger Codes">
+					<param name="Local" value="files\triggercodes.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="curCounter Object">
+				<param name="Local" value="files\scriptobjcurcounter.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="curTimer Object">
+				<param name="Local" value="files\scriptobjcurtimer.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="curGroup Object">
+				<param name="Local" value="files\scriptobjcurgroup.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Windows and Editors">
+			<param name="Local" value="files\windows.htm">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Editors">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Level Editor">
+					<param name="Local" value="files\leveleditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Path Editor">
+					<param name="Local" value="files\patheditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Tileset Editor">
+					<param name="Local" value="files\tileseteditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Action Editor">
+					<param name="Local" value="files\actioneditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Window Editor">
+					<param name="Local" value="files\windoweditor.htm">
+					</OBJECT>
+			</UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Windows">
+				</OBJECT>
+			<UL>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="New Game Wizard">
+					<param name="Local" value="files\newgamewizard.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Game Properties">
+					<param name="Local" value="files\gameproperties.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Find/Replace Tiles">
+					<param name="Local" value="files\findreplace.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Resize Level">
+					<param name="Local" value="files\resizelevel.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Level Background">
+					<param name="Local" value="files\backgroundeditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Background Music">
+					<param name="Local" value="files\backgroundmusic.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Options">
+					<param name="Local" value="files\options.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Customize Behavior">
+					<param name="Local" value="files\customizebehavior.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Animation Editor">
+					<param name="Local" value="files\animationeditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Boundary Editor">
+					<param name="Local" value="files\tilebounds.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Edit Action">
+					<param name="Local" value="files\editaction.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Script Editor">
+					<param name="Local" value="files\scripteditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Edit Timers">
+					<param name="Local" value="files\edittimers.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Edit Counters">
+					<param name="Local" value="files\editcounters.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Window Background">
+					<param name="Local" value="files\backgroundeditor.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Window Music">
+					<param name="Local" value="files\backgroundmusic.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Window Transition">
+					<param name="Local" value="files\windowtransition.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Window Scheme Wizard">
+					<param name="Local" value="files\windowschemewizard.htm">
+					</OBJECT>
+				<LI> <OBJECT type="text/sitemap">
+					<param name="Name" value="Options">
+					<param name="Local" value="files\options.htm">
+					</OBJECT>
+			</UL>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

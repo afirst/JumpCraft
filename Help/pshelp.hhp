@@ -1,0 +1,19 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=..\bin\psHelp.chm
+Contents file=Table of Contents.hhc
+Default Window=Main
+Default topic=files\index.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=JumpCraft Help
+
+[WINDOWS]
+Main="JumpCraft Help","Table of Contents.hhc","Index.hhk","files\index.htm","files\index.htm",,,,,0x23520,,0x307e,[128,58,936,681],,,,,,,0
+
+
+[INFOTYPES]
+

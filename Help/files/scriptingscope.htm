@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Scripting Scope</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Scripting Scope<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="scripting.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="center"> There are two types of scripting scopes, procedure-level 
+          and class-level. These can be accessed using the Procedure View and 
+          Class View tabs, respectively, in the Scripting Editor.</p>
+        <p align="center"><strong><font color="#003300" size="3">Procedure-level 
+          Scope </font><br>
+          </strong>This is the most commonly used scope, because you can enter 
+          a different script for each action. The code you are entering is equivalent 
+          to the body of a function. For example, if you had a Tile Hit action 
+          for certain tile, the code would be as follows:</p>
+        <p align="left"><font face="Courier New, Courier, mono">Function [FunctionName]()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Procedure-level code goes here<br>
+          End Function</font></p>
+        <p align="center">Since JumpCraft automatically creates the Function...End 
+          Function code for you, you can see that the procedure-level is equivalent 
+          to the body of a sub or function.</p>
+        <p align="center">Now, let&#8217;s say you made a script in the score 
+          counter&#8217;s &#8220;Value Changed&#8221; trigger. Then, the code 
+          for your function would be,</p>
+        <p align="left"><font face="Courier New, Courier, mono">Function [FunctionName](ByVal 
+          curCounter As _<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;PlatformStudio.CurrentCounter)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&#8216;Procedure-level code goes here<br>
+          End Function</font></p>
+        <p align="center">The code you would type in this function would be the 
+          the same as the previous function, since you are only typing the body 
+          of the function. However, in this function, you can also make use of 
+          a parameter, which is curCounter. Even though you are not declaring 
+          curCounter, you can still make use of it because JumpCraft declares 
+          it for you.</p>
+        <p align="center">One final note about procedure-level: you cannot execute 
+          other triggers&#8217; functions because they are independent of each 
+          other. If you want to share code, put it in Class View.</p>
+        <p align="center"><font color="#003300" size="3"><strong>Class-level Scope</strong></font><br>
+          The other type of scope is called Class-level. In class-level, you can 
+          write global code that can be used in any procedure in your game. All 
+          of this code is located in a class (whose definition is automatically 
+          created by JumpCraft). Therefore, if you type this,</p>
+        <p align="left"><font face="Courier New, Courier, mono">Dim Game As PlatformStudio.psGame</font></p>
+        <p align="center">JumpCraft will create this (which you will not 
+          see in Class View),</p>
+        <p align="left"><font face="Courier New, Courier, mono">Class ScriptObject<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Dim Game As PlatformStudio.psGame<br>
+          End Class</font></p>
+        <p align="center">The Game object can also be used throughout your procedures 
+          in Procedure View.</p>
+        <p align="center">Another way to take advantage of class-level scripting 
+          is to create global functions. For example, if you create a function 
+          that draws the number of points earned when the user collects a coin 
+          or heart, you can access it in both the Coin.Collect trigger and the 
+          Heart.Collect trigger.</p>
+        <p align="center"><strong><font color="#003300" size="3">Putting It All 
+          Together</font></strong><br>
+          The final output JumpCraft creates is a DLL, which combines all 
+          of your scripts, actions, and global code and puts it in a single class, 
+          to be compiled to a DLL file. If there is an error compiling the DLL, 
+          you will see the source code that JumpCraft generates from your 
+          actions and code. To famiiliarize yourself with it, your DLL's code 
+          might look something like this:</p>
+        <p align="left"><font face="Courier New, Courier, mono">Imports System<br>
+          Imports System.Drawing<br>
+          Imports System.Windows.Forms<br>
+          Imports Microsoft.VisualBasic<br>
+          <br>
+          Namespace Script<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Class ScriptObject<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'This code imports the 
+          current game object<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'so it can be used through 
+          scripting.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'The Game object is 
+          set by the game player.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Public Game As PlatformStudio.IGame<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Trigger actions<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'---------------<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function cval2(ByVal 
+          curCounter As PlatformStudio.CurrentCounter)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If 
+          curCounter.Value &lt; 0 Then<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.QuitGame()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End 
+          If<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function cval3(ByVal 
+          curCounter As PlatformStudio.CurrentCounter)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If 
+          curCounter.Value &lt;= 0 Then<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.ModifyLives(-1)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.SetHealth(3)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Else<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If 
+          curCounter.Decreased Then<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.Hurt(4, 
+          &quot;Blink&quot;, 0.2)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End 
+          If<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End 
+          If<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function khol37()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.MoveCharacter(&quot;Left&quot;, 
+          4, True)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function khol39()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.MoveCharacter(&quot;Right&quot;, 
+          4, True)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function khol38()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.Jump(0.6, 
+          0.25, 1)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function krel38()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.StopJumping()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Function kpre27()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game.QuitGame()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Function<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;End Class<br>
+          End Namespace</font></p>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

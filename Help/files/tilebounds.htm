@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Tile Boundaries Editor</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Tile Boundaries Editor 
+          <font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong><a href="windows.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="left"> <font color="#003300" size="3"><strong><img src="assets/images/img66.gif" width="496" height="368"></strong></font></p>
+        <ul>
+          <li>Selected tile: The preview of the current frame of the selected 
+            tile (to change the frame, change the <em>Current frame </em>property). 
+            You may do these actions only if the Boundary type is set to OneCustom 
+            or Custom: To select a shape, click it. You can move it by dragging 
+            it, resize it by dragging the handles, or delete it by pressing the 
+            delete key. To draw with the current shape, click and drag with the 
+            mouse in an empty location.</li>
+          <li>Boundary type:</li>
+          <ul>
+            <li>Default: The only option available in previous versions of Platform 
+              Studio. This can slow down your game by magnitudes if a tile has 
+              a significant amount of empty space around it, since JumpCraft 
+              will be forced to detect in real-time where the boundaries of a 
+              tile lie. Although this is the easiest option to configure, since 
+              JumpCraft will do all the work, but it is recommended that 
+              you choose one of the other options.</li>
+            <li>Rectangular: This option is the fastest but the least accurate, 
+              except in rectangular tiles with no empty space around them. Platform 
+              Studio will detect a collision with this tile if an object touches 
+              its bounding rectangle, even if this includes empty space. This 
+              option is recommended for tiles with no empty space around them.</li>
+            <li>OneCustom: This option is roughly as fast as Rectangular, but 
+              allows greater customization. You may draw rectangles, ellipses, 
+              and triangles to specify the tile's boundaries. However, this applies 
+              to ALL frames of the tile.</li>
+            <li>Custom: This option is roughly as fast as Rectangular, and allows 
+              the most customization out of all the boundary types. You may draw 
+              shapes to specify the boundaries for each frame of the tile. However, 
+              if a tile has a lot of frames, this can be tedious. This option 
+              may not be used for animated tiles.</li>
+          </ul>
+          <li>Tool: Choose between Rectangle, Circle, Triangle 1, 2, 3, and 4 
+            (all right triangles - the hypotenuse is in the numbered quadrant 
+            of the xy-plane), and Erase. You can also click a shape and press 
+            the delete key to erase it.</li>
+          <li>Current frame: The currently active frame.</li>
+          <li>Grid spacing: The amount in pixels to snap the shape to when drawing.</li>
+          <li>Zoom: The amount to zoom in. The default value is Auto.</li>
+          <li>Cancel button: Closes the editor and discards any changes that have 
+            been made.</li>
+          <li>OK button: Closes the editor and saves the changes that have been 
+            made. </li>
+        </ul>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

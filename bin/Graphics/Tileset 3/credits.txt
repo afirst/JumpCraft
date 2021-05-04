@@ -1,0 +1,8 @@
+Blocks1.png, Block2.png, Blocks3.png, Blocks4.png, Branches.png, Clouds.png, Enemy1.png, Enemy2.png, Plants.png, Plants2.png, Signs.png, SpikeDown.png, SpikeUp.png, Vine.png
+
+created by Ari Feldman - www.flyingyogi.com and modified by First Productions, Inc.
+
+
+Character.png, Water.png
+
+Copyright ©2002 by Neil Roy

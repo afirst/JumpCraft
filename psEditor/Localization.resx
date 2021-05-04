@@ -1,0 +1,2991 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutCreditsLabel" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="aboutForumsButton" xml:space="preserve">
+    <value>&amp;Forums</value>
+  </data>
+  <data name="aboutLine1" xml:space="preserve">
+    <value>JumpCraft was developed by Andrew First.</value>
+  </data>
+  <data name="aboutLine2" xml:space="preserve">
+    <value>Some image and sound files included with JumpCraft were not created by First Productions, Inc.  Please browse in the directories containing these files to view their credits.</value>
+  </data>
+  <data name="aboutLine3" xml:space="preserve">
+    <value>Panel docking system created by Tim Dawson.</value>
+  </data>
+  <data name="aboutSupportButton" xml:space="preserve">
+    <value>&amp;Support</value>
+  </data>
+  <data name="aboutTitle" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="aboutWebsiteButton" xml:space="preserve">
+    <value>&amp;Web Site</value>
+  </data>
+  <data name="backgroundMusic_MusicFileLabel" xml:space="preserve">
+    <value>Music file:</value>
+  </data>
+  <data name="backgroundMusic_PreviewButton" xml:space="preserve">
+    <value>&amp;Preview</value>
+  </data>
+  <data name="backgroundMusic_StopButton" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="backgroundMusic_Title" xml:space="preserve">
+    <value>Background Music</value>
+  </data>
+  <data name="backgroundMusic_VolumeLabel" xml:space="preserve">
+    <value>Volume:</value>
+  </data>
+  <data name="boundaries_AnimatedTileErrorMessage" xml:space="preserve">
+    <value>Animated tiles cannot have different boundaries for each frame.</value>
+  </data>
+  <data name="boundaries_AutoZoomSetting" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="boundaries_SelectedTileLabel" xml:space="preserve">
+    <value>Selected tile:</value>
+  </data>
+  <data name="boundaries_Title" xml:space="preserve">
+    <value>Tile Boundaries</value>
+  </data>
+  <data name="cancelButton" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="compileError_ErrorsLabel" xml:space="preserve">
+    <value>Errors:</value>
+  </data>
+  <data name="compileError_LineColumnHeader" xml:space="preserve">
+    <value>Line</value>
+    <comment>Line number of code that the error was on</comment>
+  </data>
+  <data name="compileError_MessageColumnHeader" xml:space="preserve">
+    <value>Message</value>
+    <comment>The error message</comment>
+  </data>
+  <data name="compileError_Subheading" xml:space="preserve">
+    <value>One or more error(s) have occured when trying to compile your script:</value>
+  </data>
+  <data name="scriptEd_Title" xml:space="preserve">
+    <value>VB.NET Script Editor</value>
+  </data>
+  <data name="editBackgroundMusicMenu" xml:space="preserve">
+    <value>Background &amp;Music...</value>
+  </data>
+  <data name="editCopyMenu" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="editCutMenu" xml:space="preserve">
+    <value>C&amp;ut</value>
+  </data>
+  <data name="editDeleteMenu" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="editDeselectMenu" xml:space="preserve">
+    <value>&amp;Deselect</value>
+  </data>
+  <data name="editFindReplaceTilesMenu" xml:space="preserve">
+    <value>&amp;Find/Replace Tiles...</value>
+  </data>
+  <data name="editHelpText_HelpTextLabel" xml:space="preserve">
+    <value>Help text:</value>
+  </data>
+  <data name="editHelpText_Title" xml:space="preserve">
+    <value>Edit Help Text</value>
+    <comment>This is the title for the dialog that allows the user to edit the help text for their game</comment>
+  </data>
+  <data name="editLevelBackgroundMenu" xml:space="preserve">
+    <value>Level &amp;Background...</value>
+  </data>
+  <data name="editMenu" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="editPasteMenu" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="editRedoMenu" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="editResizeLevelMenu" xml:space="preserve">
+    <value>&amp;Resize Level...</value>
+  </data>
+  <data name="editSelectAllMenu" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="editUndoMenu" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="featureDisabled_ContinueButton" xml:space="preserve">
+    <value>&amp;Continue</value>
+  </data>
+  <data name="featureDisabled_Message" xml:space="preserve">
+    <value>The requested feature is locked in this edition of JumpCraft.</value>
+  </data>
+  <data name="featureDisabled_Title" xml:space="preserve">
+    <value>Feature Unavailable</value>
+    <comment>Feature Unavailable</comment>
+  </data>
+  <data name="featureDisabled_UpgradeNowLink" xml:space="preserve">
+    <value>Upgrade Now!</value>
+  </data>
+  <data name="featureDisabled_WhyShouldIUpgradeLink" xml:space="preserve">
+    <value>Why should I upgrade?</value>
+  </data>
+  <data name="fileCompileMenu" xml:space="preserve">
+    <value>&amp;Compile...</value>
+  </data>
+  <data name="fileExitMenu" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="fileGamePropertiesMenu" xml:space="preserve">
+    <value>Game &amp;Properties...</value>
+  </data>
+  <data name="fileMenu" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="fileNewMenu" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="fileNewWizardMenu" xml:space="preserve">
+    <value>New Game &amp;Wizard...</value>
+  </data>
+  <data name="fileOpenMenu" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="fileSaveAsMenu" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="fileSaveMenu" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="gameFileFilter" xml:space="preserve">
+    <value>JumpCraft Games|*.psg</value>
+  </data>
+  <data name="imageFileFilter" xml:space="preserve">
+    <value>All Images|*.bmp;*.jpg;*.gif;*.png|Bitmap Images|*.bmp|GIF Images|*.gif|JPG Images|*.jpg|PNG Images|*.png</value>
+  </data>
+  <data name="main_Title" xml:space="preserve">
+    <value>JumpCraft Version {0} [Level Editor]</value>
+  </data>
+  <data name="movieFileFilter" xml:space="preserve">
+    <value>Movie Files (*.wmv, *.mpg, *.avi)|*.wmv;*.mpg;*.avi|All Files (*.*)|*.*</value>
+  </data>
+  <data name="musicFileFilter" xml:space="preserve">
+    <value>Music Files (*.mp3, *.wma, *.mid)|*.mp3;*.wma;*.mid|Sound Files (*.wav)|*.wav|Movies (*.wmv, *.mpg, *.avi)|*.wmv;*.mpg;*.avi|All Files (*.*)|*.*</value>
+  </data>
+  <data name="nameFormatErrorMessage" xml:space="preserve">
+    <value>Names may only contain letters, numbers, and underscores, and may not start with a number.</value>
+  </data>
+  <data name="nameInUseErrorMessage" xml:space="preserve">
+    <value>Name is being used by another control.</value>
+  </data>
+  <data name="nameIsReservedWordErrorMessage" xml:space="preserve">
+    <value>Name cannot be a reserved word.</value>
+  </data>
+  <data name="okButton" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="selectAFileDialogTitle" xml:space="preserve">
+    <value>Select a File</value>
+  </data>
+  <data name="undoActionChangedProperty" xml:space="preserve">
+    <value>Changed property "{0}"</value>
+  </data>
+  <data name="undoActionSetBackgroundMusic" xml:space="preserve">
+    <value>Set Background Music</value>
+  </data>
+  <data name="viewGridMenu" xml:space="preserve">
+    <value>&amp;Grid</value>
+  </data>
+  <data name="viewLayersPanelMenu" xml:space="preserve">
+    <value>&amp;Layers Panel</value>
+  </data>
+  <data name="viewLevelsPanelMenu" xml:space="preserve">
+    <value>Le&amp;vels Panel</value>
+  </data>
+  <data name="viewMenu" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="viewPropertiesPanelMenu" xml:space="preserve">
+    <value>&amp;Properties Panel</value>
+  </data>
+  <data name="viewStatusBarMenu" xml:space="preserve">
+    <value>&amp;Status Bar</value>
+  </data>
+  <data name="viewTileSelectorMenu" xml:space="preserve">
+    <value>&amp;Tile Selector</value>
+  </data>
+  <data name="viewToolbarsMenu" xml:space="preserve">
+    <value>&amp;Toolbars</value>
+  </data>
+  <data name="windowAlreadyExistsMessage" xml:space="preserve">
+    <value>A window already exists with the specified name.</value>
+  </data>
+  <data name="runMenu" xml:space="preserve">
+    <value>&amp;Run</value>
+  </data>
+  <data name="runStartMenu" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="runStartInSeparateProcessMenu" xml:space="preserve">
+    <value>Start in Separate &amp;Process</value>
+  </data>
+  <data name="runStopMenu" xml:space="preserve">
+    <value>S&amp;top</value>
+  </data>
+  <data name="runRestartMenu" xml:space="preserve">
+    <value>&amp;Restart</value>
+  </data>
+  <data name="runDebuggingOptionsMenu" xml:space="preserve">
+    <value>&amp;Debugging Options</value>
+  </data>
+  <data name="runSkipWindowsMenu" xml:space="preserve">
+    <value>S&amp;kip Windows</value>
+  </data>
+  <data name="runMakeInvincibleMenu" xml:space="preserve">
+    <value>Make &amp;Invincible</value>
+  </data>
+  <data name="runStartAtLevelMenu" xml:space="preserve">
+    <value>Start at &amp;Level...</value>
+  </data>
+  <data name="runShowFPSMenu" xml:space="preserve">
+    <value>Show &amp;FPS</value>
+  </data>
+  <data name="toolsMenu" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="toolsTilesetEditorMenu" xml:space="preserve">
+    <value>&amp;Tileset Editor</value>
+  </data>
+  <data name="toolsActionEditorMenu" xml:space="preserve">
+    <value>&amp;Action Editor</value>
+  </data>
+  <data name="toolsWindowEditorMenu" xml:space="preserve">
+    <value>&amp;Window Editor</value>
+  </data>
+  <data name="toolsOptionsMenu" xml:space="preserve">
+    <value>&amp;Options...</value>
+  </data>
+  <data name="helpMenu" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="helpShowHelpMenu" xml:space="preserve">
+    <value>Show &amp;Help</value>
+  </data>
+  <data name="helpOnTheWebMenu" xml:space="preserve">
+    <value>On the &amp;Web</value>
+  </data>
+  <data name="helpForumsMenu" xml:space="preserve">
+    <value>&amp;Forums</value>
+  </data>
+  <data name="helpSupportMenu" xml:space="preserve">
+    <value>&amp;Support</value>
+  </data>
+  <data name="helpCheckForUpdatesMenu" xml:space="preserve">
+    <value>&amp;Check for Updates...</value>
+  </data>
+  <data name="helpAboutMenu" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="helpUpgradeMenu" xml:space="preserve">
+    <value>&amp;Upgrade...</value>
+  </data>
+  <data name="layersPanelTitle" xml:space="preserve">
+    <value>Layers</value>
+  </data>
+  <data name="levelsPanelTitle" xml:space="preserve">
+    <value>Levels</value>
+  </data>
+  <data name="propertiesPanelTitle" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="pathCopyPointMenu" xml:space="preserve">
+    <value>&amp;Copy Point</value>
+    <comment>Command to copy a point in a geometric path</comment>
+  </data>
+  <data name="pathDeletePointMenu" xml:space="preserve">
+    <value>&amp;Delete Point</value>
+    <comment>Command to delete a point in a geometric path</comment>
+  </data>
+  <data name="tilesPanelTitle" xml:space="preserve">
+    <value>Tiles</value>
+  </data>
+  <data name="newIconTooltip" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="openIconTooltip" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="saveIconTooltip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="undoIconTooltip" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="redoIconTooltip" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="cutIconTooltip" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="copyIconTooltip" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="pasteIconTooltip" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="deleteIconTooltip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="runIconTooltip" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="stopIconTooltip" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="restartIconTooltip" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="helpIconTooltip" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="onTheWebIconTooltip" xml:space="preserve">
+    <value>JumpCraft on the Web</value>
+  </data>
+  <data name="forumsIconTooltip" xml:space="preserve">
+    <value>Forums</value>
+  </data>
+  <data name="drawToolIconText" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="drawToolIconTooltip" xml:space="preserve">
+    <value>Draw tile or location</value>
+  </data>
+  <data name="eraseToolIconText" xml:space="preserve">
+    <value>Erase</value>
+  </data>
+  <data name="eraseToolIconTooltip" xml:space="preserve">
+    <value>Erase tile or location</value>
+  </data>
+  <data name="selectToolIconText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="selectToolIconTooltip" xml:space="preserve">
+    <value>Select tile or location</value>
+  </data>
+  <data name="panToolIconText" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="panToolIconTooltip" xml:space="preserve">
+    <value>Pan around the level</value>
+  </data>
+  <data name="untitledGameFilename" xml:space="preserve">
+    <value>Untitled</value>
+    <comment>Default filename for untitled game</comment>
+  </data>
+  <data name="main_64BitError" xml:space="preserve">
+    <value>Currently we don't support Windows 64 bit edition. We are planning to add support in the future though, so please check back later.</value>
+  </data>
+  <data name="main_OptionsError" xml:space="preserve">
+    <value>An error occured while loading the options file.</value>
+  </data>
+  <data name="main_LevelEditorError" xml:space="preserve">
+    <value>An error occured while showing the Level Editor.</value>
+  </data>
+  <data name="main_StartingStatus" xml:space="preserve">
+    <value>Starting up...</value>
+    <comment>Shown in the status bar at the bottom of the main window</comment>
+  </data>
+  <data name="main_CheckingForUpdatesStatus" xml:space="preserve">
+    <value>Checking for updates...</value>
+  </data>
+  <data name="main_WelcomeStatus" xml:space="preserve">
+    <value>Welcome to JumpCraft!</value>
+  </data>
+  <data name="main_InitDirectXStatus" xml:space="preserve">
+    <value>Initializing DirectX...</value>
+  </data>
+  <data name="main_FatalError" xml:space="preserve">
+    <value>JumpCraft will now terminate.\nWe apologize for any inconveniences.\n\nTo report this error, email us at jumpcraft@firstproductions.com or visit our forums.</value>
+  </data>
+  <data name="main_SaveChangesBeforeClosingMessage" xml:space="preserve">
+    <value>Save changes to the current game before closing?</value>
+    <comment>Shown when JumpCraft is closing</comment>
+  </data>
+  <data name="main_SaveChangesBeforeClosingFileMessage" xml:space="preserve">
+    <value>Save changes to the current game before closing it?</value>
+    <comment>Shown when a new game is opened</comment>
+  </data>
+  <data name="main_LoadingStatus" xml:space="preserve">
+    <value>Loading...please wait</value>
+  </data>
+  <data name="main_WaitStatus" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="main_ReadyStatus" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="main_SavingStatus" xml:space="preserve">
+    <value>Saving game...</value>
+  </data>
+  <data name="editUndoMenuLong" xml:space="preserve">
+    <value>&amp;Undo {0}</value>
+  </data>
+  <data name="editRedoMenuLong" xml:space="preserve">
+    <value>&amp;Redo {0}</value>
+  </data>
+  <data name="undoIconTooltipLong" xml:space="preserve">
+    <value>Undo {0}</value>
+  </data>
+  <data name="redoIconTooltipLong" xml:space="preserve">
+    <value>Redo {0}</value>
+  </data>
+  <data name="main_SaveChangesToPathMessage" xml:space="preserve">
+    <value>Save changes to current path first?</value>
+    <comment>Shown when the Path Editor is open and the user requests to run the game</comment>
+  </data>
+  <data name="main_RunCommand" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="main_CompilingStatus" xml:space="preserve">
+    <value>Compiling...Please Wait</value>
+  </data>
+  <data name="gameProperties_GeneralTab" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="gameProperties_OptimizeFrame" xml:space="preserve">
+    <value>Optimize</value>
+  </data>
+  <data name="gameProperties_CollisionCheck" xml:space="preserve">
+    <value>Do not perform pixel-level collision checks</value>
+  </data>
+  <data name="gameProperties_InfoFrame" xml:space="preserve">
+    <value>Game and Company Info</value>
+  </data>
+  <data name="gameProperties_ClearFileButton" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="gameProperties_IconLabel" xml:space="preserve">
+    <value>Icon:</value>
+  </data>
+  <data name="gameProperties_EmailLabel" xml:space="preserve">
+    <value>Support email:</value>
+  </data>
+  <data name="gameProperties_WebsiteLabel" xml:space="preserve">
+    <value>Website:</value>
+  </data>
+  <data name="gameProperties_CompanyLabel" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="gameProperties_CreditsLabel" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="gameProperties_VersionLabel" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="gameProperties_NameOfGameLabel" xml:space="preserve">
+    <value>Name of game:</value>
+  </data>
+  <data name="gameProperties_FilesTab" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="gameProperties_FilesFrame" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="gameProperties_RemoveFileButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="gameProperties_AddFileButton" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="gameProperties_OtherFilesLabel" xml:space="preserve">
+    <value>Other files to include:</value>
+  </data>
+  <data name="gameProperties_ReadmeLabel" xml:space="preserve">
+    <value>Readme:</value>
+  </data>
+  <data name="gameProperties_ReleaseNotesLabel" xml:space="preserve">
+    <value>Release notes:</value>
+  </data>
+  <data name="gameProperties_LicenseAgreementLabel" xml:space="preserve">
+    <value>License agreement:</value>
+  </data>
+  <data name="gameProperties_WindowTab" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="gameProperties_WindowPropertiesFrame" xml:space="preserve">
+    <value>Window Properties</value>
+  </data>
+  <data name="gameProperties_IncludeWebsiteCheckbox" xml:space="preserve">
+    <value>Include website</value>
+  </data>
+  <data name="gameProperties_IncludeAboutCheckbox" xml:space="preserve">
+    <value>Include about</value>
+  </data>
+  <data name="gameProperties_IncludeSupportCheckbox" xml:space="preserve">
+    <value>Include support</value>
+  </data>
+  <data name="gameProperties_ResolutionFrame" xml:space="preserve">
+    <value>Resolution</value>
+    <comment>used to set the screen resolution</comment>
+  </data>
+  <data name="gameProperties_WindowedOption" xml:space="preserve">
+    <value>Windowed</value>
+    <comment>used to specify windowed mode instead of fullscreen mode</comment>
+  </data>
+  <data name="gameProperties_FileInfoTab" xml:space="preserve">
+    <value>File Info</value>
+  </data>
+  <data name="gameProperties_FileInformationFrame" xml:space="preserve">
+    <value>File Information</value>
+  </data>
+  <data name="gameProperties_TotalLocationsLabel" xml:space="preserve">
+    <value>Total locations:</value>
+  </data>
+  <data name="gameProperties_TotalControlsLabel" xml:space="preserve">
+    <value>Controls:</value>
+  </data>
+  <data name="gameProperties_TotalMapTilesLabel" xml:space="preserve">
+    <value>Total map tiles:</value>
+  </data>
+  <data name="gameProperties_TotalWindowsLabel" xml:space="preserve">
+    <value>Windows:</value>
+  </data>
+  <data name="gameProperties_TotalTimersLabel" xml:space="preserve">
+    <value>Timers:</value>
+  </data>
+  <data name="gameProperties_TotalCountersLabel" xml:space="preserve">
+    <value>Counters:</value>
+  </data>
+  <data name="gameProperties_TotalActionsLabel" xml:space="preserve">
+    <value>Actions:</value>
+  </data>
+  <data name="gameProperties_TotalTilesLabel" xml:space="preserve">
+    <value>Tiles in tileset:</value>
+  </data>
+  <data name="gameProperties_TotalLevelsLabel" xml:space="preserve">
+    <value>Levels:</value>
+  </data>
+  <data name="gameProperties_Title" xml:space="preserve">
+    <value>Game Properties</value>
+  </data>
+  <data name="richTextFileFilter" xml:space="preserve">
+    <value>Rich Text Files|*.txt;*.doc|RTF Files|*.rtf|DOC Files|*.doc</value>
+  </data>
+  <data name="allFileFilter" xml:space="preserve">
+    <value>All Files|*.*</value>
+  </data>
+  <data name="iconFileFilter" xml:space="preserve">
+    <value>Icon Files (*.ico)|*.ico</value>
+  </data>
+  <data name="gameProperties_InvalidIconFileMessage" xml:space="preserve">
+    <value>Invalid icon file.</value>
+  </data>
+  <data name="gameProperties_CollisionHelpText" xml:space="preserve">
+    <value>JumpCraft will only detect collision at a tile-level, meaning that irregularly-shaped tiles will be treated the same as rectangular-shaped tiles.</value>
+  </data>
+  <data name="gameProperties_CollisionHelpTextRecommended" xml:space="preserve">
+    <value>(Recommended)</value>
+  </data>
+  <data name="gameProperties_CollisionNoPixelPerfectOption" xml:space="preserve">
+    <value>Do not perform pixel-level collision checks</value>
+  </data>
+  <data name="gameProperties_CollisionHelpTitle" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="gameProperties_CollisionHelpNoPixelPerfectDescription" xml:space="preserve">
+    <value>Therefore, enabling this option will result in higher performance, but less accuracy.</value>
+  </data>
+  <data name="gameProperties_CollisionHelpPixelPerfectDescription" xml:space="preserve">
+    <value>JumpCraft will detect collision at a pixel level, producing much better accuracy, but at a slower speed.</value>
+  </data>
+  <data name="gameProperties_CollisionPixelPerfectOption" xml:space="preserve">
+    <value>Perform pixel-level collision checks</value>
+  </data>
+  <data name="newGameWizard_NewBlankGameCheck" xml:space="preserve">
+    <value>Create a new blank game</value>
+    <comment>Checking this box will skip the wizard and create a new blank game.</comment>
+  </data>
+  <data name="newGameWizard_InstructionText" xml:space="preserve">
+    <value>Click Next to continue, or Cancel to exit the wizard.</value>
+  </data>
+  <data name="newGameWizard_WizardInfo" xml:space="preserve">
+    <value>This wizard will guide you through the process of creating a new game.  You will specify basic options and select presets for your game, and then JumpCraft will create a game for you that you can edit after.</value>
+  </data>
+  <data name="newGameWizard_WelcomeText" xml:space="preserve">
+    <value>Welcome to the JumpCraft New Game Wizard</value>
+  </data>
+  <data name="newGameWizard_NextButton" xml:space="preserve">
+    <value>&amp;Next &gt;</value>
+  </data>
+  <data name="newGameWizard_BackButton" xml:space="preserve">
+    <value>&lt; &amp;Back</value>
+  </data>
+  <data name="newGameWizard_GameInformationSubheading" xml:space="preserve">
+    <value>Please specify some basic information about your game</value>
+  </data>
+  <data name="newGameWizard_GameInformationHeading" xml:space="preserve">
+    <value>Game Information</value>
+  </data>
+  <data name="newGameWizard_GameInformationNote" xml:space="preserve">
+    <value>(Note: You can edit this information later by clicking File -&gt; Game Properties in the main editor)</value>
+  </data>
+  <data name="newGameWizard_FinishText" xml:space="preserve">
+    <value>To close this wizard and generate the new game, click Finish.</value>
+  </data>
+  <data name="newGameWizard_FinishedText" xml:space="preserve">
+    <value>You have successfully completed the JumpCraft New Game Wizard.</value>
+  </data>
+  <data name="newGameWizard_DefaultBackgroundLabel" xml:space="preserve">
+    <value>Default background:</value>
+  </data>
+  <data name="tilesUnit" xml:space="preserve">
+    <value>tiles</value>
+    <comment>displayed when asking for a value as a unit of tiles (e.g. 5 tiles)</comment>
+  </data>
+  <data name="newGameWizard_DefaultLevelSizeLabel" xml:space="preserve">
+    <value>Default level size:</value>
+  </data>
+  <data name="newGameWizard_RemoveLevelButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="newGameWizard_AddLevelButton" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="newGameWizard_SelectedLevelNameLabel" xml:space="preserve">
+    <value>Selected level name:</value>
+  </data>
+  <data name="newGameWizard_LevelNameLabel" xml:space="preserve">
+    <value>Level names:</value>
+  </data>
+  <data name="newGameWizard_ColorSchemeLabel" xml:space="preserve">
+    <value>Color scheme:</value>
+  </data>
+  <data name="newGameWizard_DefaultMenuButtonLabel" xml:space="preserve">
+    <value>Default menu button:</value>
+  </data>
+  <data name="newGameWizard_MenuLabelLabel" xml:space="preserve">
+    <value>Menu label:</value>
+  </data>
+  <data name="newGameWizard_DefaultGameButtonLabel" xml:space="preserve">
+    <value>Default game button:</value>
+  </data>
+  <data name="newGameWizard_WindowOptionsFrame" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="newGameWizard_SupportButtonCheckbox" xml:space="preserve">
+    <value>&amp;Support button</value>
+  </data>
+  <data name="newGameWizard_WebsiteButtonCheckbox" xml:space="preserve">
+    <value>&amp;Website button</value>
+  </data>
+  <data name="newGameWizard_EditHelpTextButton" xml:space="preserve">
+    <value>&amp;Edit Help Text...</value>
+  </data>
+  <data name="newGameWizard_ExternalHelpFileOption" xml:space="preserve">
+    <value>&amp;External file:</value>
+  </data>
+  <data name="newGameWizard_HelpWindowOption" xml:space="preserve">
+    <value>&amp;Window</value>
+    <comment>option to create a help window in the new game</comment>
+  </data>
+  <data name="newGameWizard_HelpStyleLabel" xml:space="preserve">
+    <value>Help style:</value>
+  </data>
+  <data name="newGameWizard_AboutWindowOption" xml:space="preserve">
+    <value>&amp;Window</value>
+    <comment>option to create an about window in the new game</comment>
+  </data>
+  <data name="newGameWizard_AboutMessageDialogOption" xml:space="preserve">
+    <value>&amp;Message dialog</value>
+  </data>
+  <data name="newGameWizard_AboutStyleLabel" xml:space="preserve">
+    <value>About style:</value>
+  </data>
+  <data name="gameProperties_WindowTitleLabel" xml:space="preserve">
+    <value>Window title:</value>
+  </data>
+  <data name="helpFileFilter" xml:space="preserve">
+    <value>All Help and Text Files (*.hlp, *.chm, *.htm, *.html, *.rtf, *.txt, *.doc)|*.hlp;*.chm;*.htm;*.html;*.rtf;*.txt;*.doc|Help Files (*.hlp, *.chm)|*.hlp;*.chm|HTML Files (*.htm, *.html)|*.htm;*.html|Text Files (*.txt, *.rtf, *.doc)|*.txt;*.rtf;*.doc|All Files|*.*</value>
+  </data>
+  <data name="newGameWizard_Title" xml:space="preserve">
+    <value>New Game Wizard</value>
+  </data>
+  <data name="gameProperties_MenusCheckbox" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="newGameWizard_Background_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="newGameWizard_Background_Night" xml:space="preserve">
+    <value>Night</value>
+  </data>
+  <data name="newGameWizard_Background_Gloomy" xml:space="preserve">
+    <value>Gloomy</value>
+  </data>
+  <data name="newGameWizard_Background_Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="newGameWizard_Background_Custom" xml:space="preserve">
+    <value>(Custom)</value>
+  </data>
+  <data name="newGameWizard_Colors_Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="newGameWizard_Colors_Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="newGameWizard_Colors_Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="newGameWizard_Colors_DarkGray" xml:space="preserve">
+    <value>Dark Gray</value>
+  </data>
+  <data name="newGameWizard_Colors_LightGray" xml:space="preserve">
+    <value>Light Gray</value>
+  </data>
+  <data name="newGameWizard_Colors_Purple" xml:space="preserve">
+    <value>Purple</value>
+  </data>
+  <data name="newGameWizard_Colors_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="newGameWizard_Colors_Earth" xml:space="preserve">
+    <value>Earth</value>
+  </data>
+  <data name="newGameWizard_Colors_Aqua" xml:space="preserve">
+    <value>Aqua</value>
+  </data>
+  <data name="newGameWizard_Colors_BlackWhite" xml:space="preserve">
+    <value>Black and White</value>
+  </data>
+  <data name="newGameWizard_Colors_BlackBlue" xml:space="preserve">
+    <value>Black and Blue</value>
+  </data>
+  <data name="newGameWizard_Colors_BlackOrange" xml:space="preserve">
+    <value>Black and Orange</value>
+  </data>
+  <data name="newGameWizard_Colors_BlackYellow" xml:space="preserve">
+    <value>Black and Yellow</value>
+  </data>
+  <data name="newGameWizard_Colors_BlackGreen" xml:space="preserve">
+    <value>Black and Green</value>
+  </data>
+  <data name="newGameWizard_Colors_WhiteBlack" xml:space="preserve">
+    <value>White and Black</value>
+  </data>
+  <data name="newGameWizard_Colors_WhiteBlue" xml:space="preserve">
+    <value>White and Blue</value>
+  </data>
+  <data name="newGameWizard_Colors_WhiteGreen" xml:space="preserve">
+    <value>White and Green</value>
+  </data>
+  <data name="newGameWizard_Colors_WhiteOrange" xml:space="preserve">
+    <value>White and Orange</value>
+  </data>
+  <data name="newGameWizard_Colors_WhiteRed" xml:space="preserve">
+    <value>White and Red</value>
+  </data>
+  <data name="newGameWizard_Colors_WhiteMagenta" xml:space="preserve">
+    <value>White and Magenta</value>
+  </data>
+  <data name="newGameWizard_MockGameButtonText" xml:space="preserve">
+    <value>Game Btn</value>
+  </data>
+  <data name="newGameWizard_MockMenuButtonText" xml:space="preserve">
+    <value>Menu Btn</value>
+  </data>
+  <data name="newGameWizard_MockMenuLabelText" xml:space="preserve">
+    <value>Menu Label</value>
+  </data>
+  <data name="newGameWizard_LevelInformationHeading" xml:space="preserve">
+    <value>Level Information</value>
+  </data>
+  <data name="newGameWizard_WindowOptionsHeading" xml:space="preserve">
+    <value>Window Options</value>
+  </data>
+  <data name="newGameWizard_UIHeading" xml:space="preserve">
+    <value>User Interface Style</value>
+  </data>
+  <data name="newGameWizard_HelpAboutHeading" xml:space="preserve">
+    <value>Help and About Behavior</value>
+    <comment>behavior of the Help and About sections of the game</comment>
+  </data>
+  <data name="newGameWizard_LevelInformationSubheading" xml:space="preserve">
+    <value>Customize your game's levels</value>
+  </data>
+  <data name="newGameWizard_WindowOptionsSubheading" xml:space="preserve">
+    <value>Customize your game's window</value>
+  </data>
+  <data name="newGameWizard_UISubheading" xml:space="preserve">
+    <value>Choose and customize your game's user interface style</value>
+  </data>
+  <data name="newGameWizard_HelpAboutSubheading" xml:space="preserve">
+    <value>Choose the behavior for the "Help" and "About" buttons.</value>
+  </data>
+  <data name="windowSchemeWizard_Welcome" xml:space="preserve">
+    <value>Welcome to the JumpCraft Window Scheme Wizard</value>
+  </data>
+  <data name="windowSchemeWizard_Description" xml:space="preserve">
+    <value>This wizard will guide you through the process of choosing and customizing a new window scheme.  You will specify basic options and select presets for your window scheme, and then JumpCraft will create a new window layout and scheme for you that you can edit after.  Any current window data will be lost in the process.</value>
+  </data>
+  <data name="windowSchemeWizard_Finished" xml:space="preserve">
+    <value>You have successfully completed the JumpCraft Window Scheme Wizard.</value>
+  </data>
+  <data name="windowSchemeWizard_Finish" xml:space="preserve">
+    <value>To close this wizard and generate the new window scheme, click Finish.</value>
+  </data>
+  <data name="windowSchemeWizard_Title" xml:space="preserve">
+    <value>Window Scheme Wizard</value>
+  </data>
+  <data name="newGameWizard_FinishButton" xml:space="preserve">
+    <value>&amp;Finish</value>
+  </data>
+  <data name="undoActionWindowSchemeWizard" xml:space="preserve">
+    <value>Window Scheme Wizard</value>
+  </data>
+  <data name="options_GeneralTab" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="options_DefaultImageEditorLabel" xml:space="preserve">
+    <value>Default image editor:</value>
+  </data>
+  <data name="options_RecentGamesLabel" xml:space="preserve">
+    <value>Number of recent games to display:</value>
+  </data>
+  <data name="options_CheckUpdatesCheckbox" xml:space="preserve">
+    <value>Check for &amp;updates at startup</value>
+  </data>
+  <data name="options_WarnDeleteActionsCheckbox" xml:space="preserve">
+    <value>Warn me when my changes will delete existing actions</value>
+  </data>
+  <data name="options_ShowWelcomeCheckbox" xml:space="preserve">
+    <value>Show welcome screen at startup</value>
+  </data>
+  <data name="options_StartMaximizedCheckbox" xml:space="preserve">
+    <value>Start maximized</value>
+  </data>
+  <data name="options_ShowSplashCheckbox" xml:space="preserve">
+    <value>Show splash screen</value>
+  </data>
+  <data name="options_OpenDefaultGameCheckbox" xml:space="preserve">
+    <value>When creating a new game, open the default game file</value>
+  </data>
+  <data name="options_MaxUndoLabel" xml:space="preserve">
+    <value>Maximum undo levels:</value>
+  </data>
+  <data name="options_LevelEditorTab" xml:space="preserve">
+    <value>Map Editor</value>
+  </data>
+  <data name="options_GridTypePointsOption" xml:space="preserve">
+    <value>&amp;Points</value>
+  </data>
+  <data name="options_GridTypeLinesOption" xml:space="preserve">
+    <value>&amp;Lines</value>
+  </data>
+  <data name="options_GridTypeLabel" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="options_ShowFramerateCheckbox" xml:space="preserve">
+    <value>Show &amp;framerate</value>
+  </data>
+  <data name="options_ShowPropertiesPanelCheckbox" xml:space="preserve">
+    <value>Show &amp;properties panel</value>
+  </data>
+  <data name="options_ShowLevelsPanelCheckbox" xml:space="preserve">
+    <value>Show le&amp;vels panel</value>
+  </data>
+  <data name="options_DrawTilePathsCheckbox" xml:space="preserve">
+    <value>Draw tile paths</value>
+  </data>
+  <data name="options_ShowLayersPanelCheckbox" xml:space="preserve">
+    <value>Show &amp;layers panel</value>
+  </data>
+  <data name="options_ShowTileSelectorCheckbox" xml:space="preserve">
+    <value>Show tile selector</value>
+  </data>
+  <data name="options_ShowStatusBarCheckbox" xml:space="preserve">
+    <value>Show status bar</value>
+  </data>
+  <data name="options_ShowToolbarsCheckbox" xml:space="preserve">
+    <value>Show toolbars</value>
+  </data>
+  <data name="options_ShowGridCheckbox" xml:space="preserve">
+    <value>Show grid</value>
+  </data>
+  <data name="options_PathEditorTab" xml:space="preserve">
+    <value>Path Editor</value>
+  </data>
+  <data name="options_PathDrawingPrecisionLabel" xml:space="preserve">
+    <value>Precision:</value>
+  </data>
+  <data name="options_TintBackgroundCheckbox" xml:space="preserve">
+    <value>Tint background</value>
+  </data>
+  <data name="options_ShowGuidePointsCheckbox" xml:space="preserve">
+    <value>Show guides</value>
+    <comment>show the path guidepoints in the path editor</comment>
+  </data>
+  <data name="options_ShowPointsCheckbox" xml:space="preserve">
+    <value>Show points</value>
+    <comment>show the path points in the path editor</comment>
+  </data>
+  <data name="options_WindowEditorTab" xml:space="preserve">
+    <value>Window Editor</value>
+  </data>
+  <data name="pixelsUnit" xml:space="preserve">
+    <value>px</value>
+    <comment>displayed when asking for a value as a unit of pixels (e.g. 5 px)</comment>
+  </data>
+  <data name="options_GridSpacingLabel" xml:space="preserve">
+    <value>Spacing:</value>
+  </data>
+  <data name="options_showWindowsPanelCheckbox" xml:space="preserve">
+    <value>Show &amp;windows panel</value>
+  </data>
+  <data name="options_ShowControlSelectorCheckbox" xml:space="preserve">
+    <value>Show control selector</value>
+  </data>
+  <data name="options_ShowToolbarCheckbox" xml:space="preserve">
+    <value>Show toolbar</value>
+  </data>
+  <data name="options_ResetOptionsButton" xml:space="preserve">
+    <value>&amp;Reset</value>
+  </data>
+  <data name="executableFileFilter" xml:space="preserve">
+    <value>Applications (*.exe)|*.exe</value>
+  </data>
+  <data name="selectAProgramDialogTitle" xml:space="preserve">
+    <value>Select a Program</value>
+  </data>
+  <data name="options_Title" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="startAtLevel_SelectLevelLabel" xml:space="preserve">
+    <value>Select a Level</value>
+  </data>
+  <data name="startAtLevel_Title" xml:space="preserve">
+    <value>Start at Level</value>
+  </data>
+  <data name="startAtLevel_DefaultLevelIndicator" xml:space="preserve">
+    <value>(Default)</value>
+  </data>
+  <data name="updates_DownloadButton" xml:space="preserve">
+    <value>&amp;Download</value>
+  </data>
+  <data name="updates_AvailableUpdatesFrame" xml:space="preserve">
+    <value>Available Updates</value>
+  </data>
+  <data name="updates_UnhideAllLink" xml:space="preserve">
+    <value>Unhide all</value>
+  </data>
+  <data name="updates_HideSelectedUpdateLink" xml:space="preserve">
+    <value>Hide selected update</value>
+  </data>
+  <data name="updates_RememberAccountCheckbox" xml:space="preserve">
+    <value>Remember username and password on this computer</value>
+  </data>
+  <data name="updates_PasswordLabel" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="updates_UsernameLabel" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="updates_PleaseLoginLabel" xml:space="preserve">
+    <value>Please login to proceed</value>
+  </data>
+  <data name="updates_DownloadStatusLabel" xml:space="preserve">
+    <value>Downloading update...Please wait</value>
+  </data>
+  <data name="updates_UnhideAllUpdatesLink" xml:space="preserve">
+    <value>Unhide all updates</value>
+  </data>
+  <data name="updates_NoUpdatesMessage" xml:space="preserve">
+    <value>No updates are available at this time.</value>
+  </data>
+  <data name="updates_PleaseWaitMessage" xml:space="preserve">
+    <value>Please wait while JumpCraft checks for updates...</value>
+  </data>
+  <data name="updates_ProceedButton" xml:space="preserve">
+    <value>&amp;Proceed</value>
+  </data>
+  <data name="updates_CheckAtStartupCheckbox" xml:space="preserve">
+    <value>Check for updates at startup</value>
+  </data>
+  <data name="updates_ShowDescriptionLink" xml:space="preserve">
+    <value>Show description</value>
+    <comment>click the link to show the description of the update</comment>
+  </data>
+  <data name="updates_Title" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="bytesUnit" xml:space="preserve">
+    <value>bytes</value>
+  </data>
+  <data name="megabytesUnit" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="kilobytesUnit" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="updates_UnknownSize" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="updates_UnknownDate" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="updates_InvalidUsernameOrPasswordErrorMessage" xml:space="preserve">
+    <value>Invalid username or password.  Please use the username and password that were supplied to you in your "Payment Received" email.</value>
+  </data>
+  <data name="updates_UnableToConnectErrorMessage" xml:space="preserve">
+    <value>Unable to connect to the server.  Would you like to connect to the internet or confirm your internet connection?</value>
+  </data>
+  <data name="updates_CannotRetrieveInfoErrorMessage" xml:space="preserve">
+    <value>Cannot retrieve update information</value>
+  </data>
+  <data name="updates_InvalidFileError" xml:space="preserve">
+    <value>Invalid file. Please contact us so we can fix this problem.</value>
+  </data>
+  <data name="updates_SecondsRemaining" xml:space="preserve">
+    <value>{0} seconds remaining</value>
+  </data>
+  <data name="updates_MinutesRemaining" xml:space="preserve">
+    <value>{0} minutes and {1} seconds remaining</value>
+  </data>
+  <data name="updates_HoursRemaining" xml:space="preserve">
+    <value>{0} hours and {1} minutes remaining</value>
+  </data>
+  <data name="updates_UnableToConnectErrorMessage2" xml:space="preserve">
+    <value>Unable to connect to the server.  Please make sure you are connected to the internet.</value>
+  </data>
+  <data name="updates_AutoUpdateMessage" xml:space="preserve">
+    <value>Would you like to enable Automatic Updates, which run every time you start up JumpCraft?</value>
+  </data>
+  <data name="updates_AutoUpdateRefusedMessage" xml:space="preserve">
+    <value>You can enable this option later by clicking Help &gt; Check for Updates or Tools &gt; Options.</value>
+  </data>
+  <data name="updates_AutoUpdateMessageTitle" xml:space="preserve">
+    <value>Automatic Updates</value>
+  </data>
+  <data name="updates_UpdateDescriptionMessageTitle" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="compilingGame_Message" xml:space="preserve">
+    <value>Compiling game.  Please Wait...</value>
+  </data>
+  <data name="compilingGame_Title" xml:space="preserve">
+    <value>Compile</value>
+  </data>
+  <data name="welcome_DidYouKnow" xml:space="preserve">
+    <value>Did you know?</value>
+  </data>
+  <data name="welcome_NextTipButton" xml:space="preserve">
+    <value>&amp;Next Tip</value>
+  </data>
+  <data name="welcome_CloseButton" xml:space="preserve">
+    <value>&amp;Close this Dialog</value>
+  </data>
+  <data name="welcome_OpenButton" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="welcome_Title" xml:space="preserve">
+    <value>Welcome to JumpCraft</value>
+  </data>
+  <data name="welcome_HideAtStartupMessage" xml:space="preserve">
+    <value>You can show this window again by clicking Tools &gt; Options.  In the General tab, check "Show welcome screen at startup."</value>
+  </data>
+  <data name="welcome_LoadTipsError" xml:space="preserve">
+    <value>Unable to load tips.</value>
+  </data>
+  <data name="locale" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="winEd_Title" xml:space="preserve">
+    <value>JumpCraft {0} [Window Editor]</value>
+  </data>
+  <data name="fileCloseMenu" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="editWindowPropertiesMenu" xml:space="preserve">
+    <value>Window &amp;Properties...</value>
+  </data>
+  <data name="editWindowBackgroundMenu" xml:space="preserve">
+    <value>Window &amp;Background...</value>
+  </data>
+  <data name="editWindowMusicMenu" xml:space="preserve">
+    <value>Window &amp;Music...</value>
+  </data>
+  <data name="editWindowTransitionMenu" xml:space="preserve">
+    <value>Window &amp;Transition...</value>
+  </data>
+  <data name="editControlPropertiesMenu" xml:space="preserve">
+    <value>Control &amp;Properties...</value>
+  </data>
+  <data name="viewToolbarMenu" xml:space="preserve">
+    <value>&amp;Toolbar</value>
+  </data>
+  <data name="viewControlSelectorMenu" xml:space="preserve">
+    <value>&amp;Control Selector</value>
+  </data>
+  <data name="viewWindowsPanelMenu" xml:space="preserve">
+    <value>&amp;Windows Panel</value>
+  </data>
+  <data name="formatMenu" xml:space="preserve">
+    <value>&amp;Format</value>
+  </data>
+  <data name="formatBringToFrontMenu" xml:space="preserve">
+    <value>Bring to &amp;Front</value>
+  </data>
+  <data name="formatSendToBackMenu" xml:space="preserve">
+    <value>Send to &amp;Back</value>
+  </data>
+  <data name="formatCenterHMenu" xml:space="preserve">
+    <value>Center &amp;Horizontally</value>
+  </data>
+  <data name="formatCenterVMenu" xml:space="preserve">
+    <value>Center &amp;Vertically</value>
+  </data>
+  <data name="formatAlignToGridMenu" xml:space="preserve">
+    <value>Align to &amp;Grid</value>
+  </data>
+  <data name="toolsWindowSchemeWizardMenu" xml:space="preserve">
+    <value>Window Scheme &amp;Wizard...</value>
+  </data>
+  <data name="toolsLevelEditorMenu" xml:space="preserve">
+    <value>&amp;Level Editor</value>
+  </data>
+  <data name="winEd_WindowsPanelTitle" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="winEd_ControlsPanelTitle" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="bringToFrontIconTooltip" xml:space="preserve">
+    <value>Bring Control to Front</value>
+  </data>
+  <data name="sendToBackIconTooltip" xml:space="preserve">
+    <value>Send Control to Back</value>
+  </data>
+  <data name="undoActionEditWindowBackground" xml:space="preserve">
+    <value>Edit Window Background</value>
+  </data>
+  <data name="toolboxPanelTitle" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="main_SaveMRUError" xml:space="preserve">
+    <value>Unable to write to file, "{0}".</value>
+  </data>
+  <data name="multilineEditor_CloseButton" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="multilineEditor_InsertVariableButton" xml:space="preserve">
+    <value>&amp;Insert variable...</value>
+  </data>
+  <data name="multilineEditor_LevelNameVariable" xml:space="preserve">
+    <value>Level Name</value>
+  </data>
+  <data name="multilineEditor_LevelNumberVariable" xml:space="preserve">
+    <value>Level Number</value>
+  </data>
+  <data name="multilineEditor_NameOfGameVariable" xml:space="preserve">
+    <value>Name of Game</value>
+  </data>
+  <data name="multilineEditor_VersionVariable" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="multilineEditor_WebsiteVariable" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="multilineEditor_SupportEmailVariable" xml:space="preserve">
+    <value>Support Email</value>
+  </data>
+  <data name="multilineEditor_CompanyVariable" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="multilineEditor_CreditsVariable" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="multilineEditor_CounterVariable" xml:space="preserve">
+    <value>"{0}" Counter Value</value>
+  </data>
+  <data name="tilesetEd_TileNameNotUniqueErrorMessage" xml:space="preserve">
+    <value>This name is not unique.</value>
+  </data>
+  <data name="tilesetEd_NoAction" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="tilesetEd_HitPointsNotApplicable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="tilesetEd_NoAnimations" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="tileBehavior_Solid" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="tileBehavior_Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="tileBehavior_Collectable" xml:space="preserve">
+    <value>Collectable</value>
+  </data>
+  <data name="tileBehavior_Ledge" xml:space="preserve">
+    <value>Ledge</value>
+  </data>
+  <data name="tileBehavior_Character" xml:space="preserve">
+    <value>Character</value>
+  </data>
+  <data name="tileBehavior_NoGravity" xml:space="preserve">
+    <value>No Gravity</value>
+  </data>
+  <data name="tileBehavior_Custom" xml:space="preserve">
+    <value>(Custom...)</value>
+  </data>
+  <data name="undoActionEditWindowTransition" xml:space="preserve">
+    <value>Edit Window Transition</value>
+  </data>
+  <data name="windowTransition_TransitionInFrame" xml:space="preserve">
+    <value>Transition In</value>
+  </data>
+  <data name="windowTransition_TransitionLabel" xml:space="preserve">
+    <value>Transition:</value>
+  </data>
+  <data name="secondsUnit" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="windowTransition_DurationLabel" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="windowTransition_AutomaticAdvanceFrame" xml:space="preserve">
+    <value>Automatic Advance</value>
+  </data>
+  <data name="windowTransition_AdvanceAfterLabel" xml:space="preserve">
+    <value>Advance after:</value>
+    <comment>amount of time to advance the window (e.g. advance after 5 seconds)</comment>
+  </data>
+  <data name="windowTransition_WindowLabel" xml:space="preserve">
+    <value>Window:</value>
+  </data>
+  <data name="windowTransition_TransitionOutFrame" xml:space="preserve">
+    <value>Transition Out</value>
+  </data>
+  <data name="windowTransition_Title" xml:space="preserve">
+    <value>Window Transition</value>
+  </data>
+  <data name="windowSelector_Message" xml:space="preserve">
+    <value>Select a window:</value>
+  </data>
+  <data name="windowSelector_Title" xml:space="preserve">
+    <value>Window Selector</value>
+  </data>
+  <data name="soundFileFilter" xml:space="preserve">
+    <value>Sound Files|*.wav</value>
+  </data>
+  <data name="editValue_FrameLabel" xml:space="preserve">
+    <value>Frame:</value>
+    <comment>label for selecting a frame of a tile</comment>
+  </data>
+  <data name="editValue_ValueTab" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="editValue_ExpressionTab" xml:space="preserve">
+    <value>Expression (Advanced)</value>
+  </data>
+  <data name="enterValue_Title" xml:space="preserve">
+    <value>Enter Value</value>
+  </data>
+  <data name="enterValue_DescriptiveTitle" xml:space="preserve">
+    <value>Value for "{0}":</value>
+  </data>
+  <data name="mixedFileFilter" xml:space="preserve">
+    <value>All Files|*.*|Programs|*.exe|HTML Files|*.htm;*.html|Text Files|*.doc;*.rtf;*.txt|Image Files|*.bmp;*.gif;*.jpg;*.png|Sound Files|*.wav|Music Files|*.mp3;*.wma;*.mid|Movie Files|*.avi;*.wmv;*.mpg</value>
+  </data>
+  <data name="timers_PropertiesFrame" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="timers_EnabledCheckbox" xml:space="preserve">
+    <value>Enabled:</value>
+  </data>
+  <data name="timers_IntervalLabel" xml:space="preserve">
+    <value>Interval:</value>
+  </data>
+  <data name="timers_TimerNameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="timers_TimersFrame" xml:space="preserve">
+    <value>Timers</value>
+  </data>
+  <data name="timers_RemoveTimerButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="timers_AddTimerButton" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="timers_Title" xml:space="preserve">
+    <value>Edit Timers</value>
+  </data>
+  <data name="deleteActionConfirmationMessage" xml:space="preserve">
+    <value>This will result in the loss of one or more action(s). Continue anyway?</value>
+  </data>
+  <data name="timers_DeleteTimer" xml:space="preserve">
+    <value>Delete Timer</value>
+  </data>
+  <data name="tileset_ImagesLabel" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="tileset_DoneButton" xml:space="preserve">
+    <value>&amp;Done</value>
+  </data>
+  <data name="tileset_AddTileButton" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="tileset_RemoveTileButton" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="tileset_SetAsDefaultButton" xml:space="preserve">
+    <value>Set as &amp;Default</value>
+  </data>
+  <data name="tileset_ClearTilesetButton" xml:space="preserve">
+    <value>&amp;Clear</value>
+  </data>
+  <data name="tileset_ExportTilesetButton" xml:space="preserve">
+    <value>&amp;Export...</value>
+  </data>
+  <data name="tileset_ImportTilesetButton" xml:space="preserve">
+    <value>&amp;Import...</value>
+  </data>
+  <data name="tilesetFileFilter" xml:space="preserve">
+    <value>Tileset Files|*.pst</value>
+  </data>
+  <data name="tileset_ReplaceTilesetButton" xml:space="preserve">
+    <value>&amp;Replace...</value>
+  </data>
+  <data name="tileset_PropertiesLabel" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="tileset_GridHeightLabel" xml:space="preserve">
+    <value>height:</value>
+  </data>
+  <data name="tileset_GridWidthLabel" xml:space="preserve">
+    <value>Grid width:</value>
+  </data>
+  <data name="tileset_AddIconText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="tileset_AddIconTooltip" xml:space="preserve">
+    <value>Add tile</value>
+  </data>
+  <data name="tileset_RemoveIconText" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="tileset_RemoveIconTooltip" xml:space="preserve">
+    <value>Remove tile</value>
+  </data>
+  <data name="tileset_ClearIconText" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="tileset_ClearIconTooltip" xml:space="preserve">
+    <value>Clear tileset</value>
+  </data>
+  <data name="tileset_EditIconText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="tileset_EditIconTooltip" xml:space="preserve">
+    <value>Edit tile image</value>
+  </data>
+  <data name="tileset_MoveUpIconTooltip" xml:space="preserve">
+    <value>Move tile up</value>
+  </data>
+  <data name="tileset_MoveDownIconTooltip" xml:space="preserve">
+    <value>Move tile down</value>
+  </data>
+  <data name="tileset_OpenIconText" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="tileset_OpenIconTooltip" xml:space="preserve">
+    <value>Delete current tileset and open a saved one</value>
+  </data>
+  <data name="tileset_ImportIconText" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="tileset_ImportIconTooltip" xml:space="preserve">
+    <value>Import tiles</value>
+  </data>
+  <data name="tileset_ExportIconText" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="tileset_ExportIconTooltip" xml:space="preserve">
+    <value>Export tileset</value>
+  </data>
+  <data name="tileset_Title" xml:space="preserve">
+    <value>Tileset Editor</value>
+  </data>
+  <data name="tileset_LoadImageErrorMessage" xml:space="preserve">
+    <value>An error occured when loading the tile, "{0}".\n\nThis error might have occured because the tile was too large, was an animated GIF, or did not contain an image.</value>
+  </data>
+  <data name="tileset_DeleteWarningMessage" xml:space="preserve">
+    <value>Deleting this tile will result in the loss of {0} tiles throughout your levels. Proceed?</value>
+  </data>
+  <data name="tileset_DeleteActionsWarningMessage" xml:space="preserve">
+    <value>Deleting this tile will result in the loss of one or more action(s). Continue anyway?</value>
+  </data>
+  <data name="tileset_DeleteAllConfirmationMessage" xml:space="preserve">
+    <value>Delete all tiles from tileset? This action cannot be undone.</value>
+  </data>
+  <data name="tileset_ImportWarningMessage" xml:space="preserve">
+    <value>DANGER! This action will clear out all tiles from the levels in your game that refer to a missing tile (if the imported tileset has less tiles than the current tileset). This action cannot be undone.\n\nAre you sure you want to proceed?</value>
+  </data>
+  <data name="tileset_ImportActionsMessage" xml:space="preserve">
+    <value>Would you like to replace all actions with the saved actions?</value>
+  </data>
+  <data name="tileset_EditImageAction" xml:space="preserve">
+    <value>Edit Image</value>
+  </data>
+  <data name="tileBehaviorDialog_CategoriesLabel" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="tileBehaviorEd_CurrentValue" xml:space="preserve">
+    <value>(Current)</value>
+  </data>
+  <data name="tileBehaviorEd_NormalValue" xml:space="preserve">
+    <value>(Normal)</value>
+    <comment>specifies the default behavior for the current behavior category</comment>
+  </data>
+  <data name="gameObjects_Bullet" xml:space="preserve">
+    <value>Bullet</value>
+  </data>
+  <data name="gameObjects_Coin" xml:space="preserve">
+    <value>Coin</value>
+  </data>
+  <data name="gameObjects_ExtraLife" xml:space="preserve">
+    <value>Extra Life</value>
+  </data>
+  <data name="gameObjects_Gem" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="gameObjects_Heart" xml:space="preserve">
+    <value>Heart</value>
+    <comment>item to increase health by  one unit</comment>
+  </data>
+  <data name="gameObjects_Ladder" xml:space="preserve">
+    <value>Ladder</value>
+  </data>
+  <data name="gameObjects_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="gameObjects_Disintegrate" xml:space="preserve">
+    <value>Disintegrate</value>
+    <comment>a tile that disappears/disintegrates when stepped on</comment>
+  </data>
+  <data name="gameObjects_Enemy" xml:space="preserve">
+    <value>Enemy</value>
+  </data>
+  <data name="gameObjects_Exit" xml:space="preserve">
+    <value>Exit</value>
+    <comment>the end of the level</comment>
+  </data>
+  <data name="gameObjects_Fire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="gameObjects_Ice" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="gameObjects_SpikeDown" xml:space="preserve">
+    <value>Spike Down</value>
+    <comment>a spike hurting a character moving downwards onto it</comment>
+  </data>
+  <data name="gameObjects_SpikeLeft" xml:space="preserve">
+    <value>Spike Left</value>
+  </data>
+  <data name="gameObjects_SpikeRight" xml:space="preserve">
+    <value>Spike Right</value>
+  </data>
+  <data name="gameObjects_SpikeUp" xml:space="preserve">
+    <value>Spike Up</value>
+  </data>
+  <data name="gameObjects_Spring" xml:space="preserve">
+    <value>Spring</value>
+    <comment>a trampoline type object, makes the character shoot upwards when jumping on top of it</comment>
+  </data>
+  <data name="gameObjects_Unstable" xml:space="preserve">
+    <value>Unstable</value>
+    <comment>a tile that falls to the ground when stepped upon</comment>
+  </data>
+  <data name="tileBehaviorEd_CategoriesLabel" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="tileBehaviorEd_CustomizeLabel" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="tileBehaviorEd_SoundOnCollisionLabel" xml:space="preserve">
+    <value>Sound on collision:</value>
+  </data>
+  <data name="tileBehaviorEd_Title" xml:space="preserve">
+    <value>Customize Behavior</value>
+  </data>
+  <data name="tileBehaviorEd_SoundOnCollectLabel" xml:space="preserve">
+    <value>Sound on collect:</value>
+  </data>
+  <data name="tileBehaviorEd_IncreaseScoreByAmountLabel" xml:space="preserve">
+    <value>Increase score by:</value>
+  </data>
+  <data name="tileBehaviorEd_IncreaseCoinsByAmountLabel" xml:space="preserve">
+    <value>Increase coins by:</value>
+  </data>
+  <data name="tileBehaviorEd_CoinsToGetExtraLifeLabel" xml:space="preserve">
+    <value>Coins to get extra life:</value>
+    <comment>number of coins to collect to receive an extra life</comment>
+  </data>
+  <data name="tileBehaviorEd_IncreaseHealthByAmountLabel" xml:space="preserve">
+    <value>Increase health by:</value>
+    <comment>amount to increase character's health by when collecting a certain object</comment>
+  </data>
+  <data name="tileBehaviorEd_MaxHealthLabel" xml:space="preserve">
+    <value>Max health:</value>
+    <comment>the maximum health a character can have</comment>
+  </data>
+  <data name="tileBehaviorEd_IncreaseLivesByLabel" xml:space="preserve">
+    <value>Increase lives by:</value>
+    <comment>number of extra lives to receive when collecting this item</comment>
+  </data>
+  <data name="tileBehaviorEd_SlipSpeedLabel" xml:space="preserve">
+    <value>Slip speed (tiles/s):</value>
+    <comment>speed for character to slip when on top of ice</comment>
+  </data>
+  <data name="tileBehaviorEd_DecreaseHealthByLabel" xml:space="preserve">
+    <value>Decrease health by:</value>
+    <comment>amount to decrease player's health by</comment>
+  </data>
+  <data name="tileBehaviorEd_DecreaseScoreLabel" xml:space="preserve">
+    <value>Decrease score by:</value>
+    <comment>amount to decrease player's score by</comment>
+  </data>
+  <data name="tileBehaviorEd_JumpHeightLabel" xml:space="preserve">
+    <value>Jump height (tiles):</value>
+    <comment>how high to jump</comment>
+  </data>
+  <data name="tileBehaviorEd_JumpTime" xml:space="preserve">
+    <value>Jump time (s):</value>
+    <comment>how long does it take to jump</comment>
+  </data>
+  <data name="tileBehaviorEd_FallAfter" xml:space="preserve">
+    <value>Fall after (s):</value>
+    <comment>amount of time after the player lands on the unstable tile until it falls to the ground</comment>
+  </data>
+  <data name="tileBehaviorEd_DropScaleSpeed" xml:space="preserve">
+    <value>Drop scale speed:</value>
+    <comment>a speed scale factor at which an unstable tile falls</comment>
+  </data>
+  <data name="tileBehaviorEd_DisintegrateAfter" xml:space="preserve">
+    <value>Disintegrate after (s):</value>
+    <comment>time after landing on a disintegratable tile until it disappears</comment>
+  </data>
+  <data name="tileBehaviorEd_SoundOnKill" xml:space="preserve">
+    <value>Sound on kill:</value>
+    <comment>sound to play when an enemy is killed</comment>
+  </data>
+  <data name="tileBehaviorEd_KillBonusLabel" xml:space="preserve">
+    <value>Kill bonus:</value>
+    <comment>amount to increase score by when enemy is killed</comment>
+  </data>
+  <data name="tileBehaviorEd_JumpHeightOnKillLabel" xml:space="preserve">
+    <value>Jump height on kill:</value>
+    <comment>amount of make the character jump when it kills an enemy</comment>
+  </data>
+  <data name="soundSelector_SoundFileLabel" xml:space="preserve">
+    <value>Sound file:</value>
+  </data>
+  <data name="soundSelector_VolumeLabel" xml:space="preserve">
+    <value>Volume (0-100):</value>
+  </data>
+  <data name="soundSelector_PanLabel" xml:space="preserve">
+    <value>Pan (-100-100):</value>
+  </data>
+  <data name="kHzUnit" xml:space="preserve">
+    <value>kHz</value>
+  </data>
+  <data name="soundSelector_FrequencyLabel" xml:space="preserve">
+    <value>Frequency (11-44):</value>
+  </data>
+  <data name="soundSelector_PreviewButton" xml:space="preserve">
+    <value>Pre&amp;view</value>
+  </data>
+  <data name="soundSelector_Title" xml:space="preserve">
+    <value>Sound Selector</value>
+  </data>
+  <data name="fileImportMenu" xml:space="preserve">
+    <value>&amp;Import</value>
+  </data>
+  <data name="fileExportMenu" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="fileExportPlainTextMenu" xml:space="preserve">
+    <value>&amp;Plain Text...</value>
+  </data>
+  <data name="fileExportRichTextMenu" xml:space="preserve">
+    <value>&amp;Rich Text...</value>
+  </data>
+  <data name="fileRevertMenu" xml:space="preserve">
+    <value>&amp;Revert</value>
+  </data>
+  <data name="fileCloseSaveMenu" xml:space="preserve">
+    <value>&amp;Save Changes</value>
+  </data>
+  <data name="fileCloseDiscardMenu" xml:space="preserve">
+    <value>&amp;Discard Changes</value>
+  </data>
+  <data name="editKnownObjectsMenu" xml:space="preserve">
+    <value>Known Objects</value>
+  </data>
+  <data name="debugMenu" xml:space="preserve">
+    <value>&amp;Debug</value>
+  </data>
+  <data name="debugListErrorsMenu" xml:space="preserve">
+    <value>List &amp;Errors</value>
+  </data>
+  <data name="helpVBHelpMenu" xml:space="preserve">
+    <value>&amp;VB.NET Help</value>
+  </data>
+  <data name="scriptFileFilter" xml:space="preserve">
+    <value>All Text Files|*.txt;*.vb|Plain Text Files|*.txt|VB.NET Source Files|*.vb|All Files|*.*</value>
+  </data>
+  <data name="scriptEd_ImportTextFileDialogTitle" xml:space="preserve">
+    <value>Import Text File</value>
+  </data>
+  <data name="scriptEd_RevertProcedureButton" xml:space="preserve">
+    <value>&amp;Revert Procedure</value>
+  </data>
+  <data name="scriptEd_CheckForErrorsButton" xml:space="preserve">
+    <value>Check for Errors</value>
+  </data>
+  <data name="scriptEd_EditProcedureTab" xml:space="preserve">
+    <value>Edit Procedure</value>
+  </data>
+  <data name="scriptEd_EditClassTab" xml:space="preserve">
+    <value>Edit Class</value>
+  </data>
+  <data name="scriptEd_RevertClassButton" xml:space="preserve">
+    <value>&amp;Revert Class</value>
+  </data>
+  <data name="scriptEd_ExportPlainTextFileDialogTitle" xml:space="preserve">
+    <value>Export Plain Text File</value>
+  </data>
+  <data name="plainTextFileFilter" xml:space="preserve">
+    <value>Plain Text Files|*.txt</value>
+  </data>
+  <data name="scriptEd_ExportRichTextFileDialogTitle" xml:space="preserve">
+    <value>Export Rich Text File</value>
+  </data>
+  <data name="scriptEd_ProcedureView" xml:space="preserve">
+    <value>Procedure View</value>
+  </data>
+  <data name="scriptEd_ClassView" xml:space="preserve">
+    <value>Class View</value>
+  </data>
+  <data name="scriptEd_AndClassView" xml:space="preserve">
+    <value>and Class View</value>
+  </data>
+  <data name="scriptEd_MustFixErrorsMessage" xml:space="preserve">
+    <value>You cannot continue until you fix the errors in {0}.</value>
+  </data>
+  <data name="resizeLevelDialog_WidthLabel" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="resizeLevelDialog_HeightLabel" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="resizeLevelDialog_RevertButton" xml:space="preserve">
+    <value>&amp;Revert</value>
+  </data>
+  <data name="resizeLevelDialog_ResizeFrame" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="resizeLevelDialog_TranslateFrame" xml:space="preserve">
+    <value>Translate</value>
+  </data>
+  <data name="resizeLevelDialog_ActionWarningLabel" xml:space="preserve">
+    <value>Warning: Actions that use coordinates may need to be updated.</value>
+  </data>
+  <data name="resizeLevelDialog_VerticallyLabel" xml:space="preserve">
+    <value>Vertically:</value>
+  </data>
+  <data name="resizeLevelDialog_HorizontallyLabel" xml:space="preserve">
+    <value>Horizontally:</value>
+  </data>
+  <data name="resizeLevelDialog_Title" xml:space="preserve">
+    <value>Resize Level</value>
+  </data>
+  <data name="resizeLevelDialog_LevelTooBigErrorMessage" xml:space="preserve">
+    <value>Map size is too big. There may only be 250,000 map cells per level.</value>
+  </data>
+  <data name="undoActionResizeLevel" xml:space="preserve">
+    <value>Resize Map</value>
+  </data>
+  <data name="parameterEd_UnitsLabel" xml:space="preserve">
+    <value>Units</value>
+  </data>
+  <data name="parameterEd_DefaultValueLabel" xml:space="preserve">
+    <value>Default value</value>
+  </data>
+  <data name="parameterEd_DecimalPlacesLabel" xml:space="preserve">
+    <value>Decimal places</value>
+  </data>
+  <data name="parameterEd_MaxValueLabel" xml:space="preserve">
+    <value>Maximum value</value>
+  </data>
+  <data name="parameterEd_MinValueLabel" xml:space="preserve">
+    <value>Minimum value</value>
+  </data>
+  <data name="parameterEd_ValueTypeLabel" xml:space="preserve">
+    <value>Value type</value>
+  </data>
+  <data name="parameterEd_IconLabel" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="parameterEd_ChoicesLabel" xml:space="preserve">
+    <value>Choices</value>
+  </data>
+  <data name="parameterEd_NameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="parameterEd_Title" xml:space="preserve">
+    <value>Parameters Editor</value>
+  </data>
+  <data name="valueType_Number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="valueType_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="valueType_Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="valueType_DirectionWithCurrentDir" xml:space="preserve">
+    <value>Dir. w/Cur.Dir.</value>
+  </data>
+  <data name="valueType_Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="valueType_TileGroup" xml:space="preserve">
+    <value>Tile Group</value>
+  </data>
+  <data name="valueType_YesNo" xml:space="preserve">
+    <value>Yes/No</value>
+  </data>
+  <data name="valueType_Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="valueType_Music" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="valueType_Graphic" xml:space="preserve">
+    <value>Graphic</value>
+  </data>
+  <data name="valueType_Counter" xml:space="preserve">
+    <value>Counter</value>
+  </data>
+  <data name="valueType_Timer" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="valueType_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="valueType_Choices" xml:space="preserve">
+    <value>Choices</value>
+  </data>
+  <data name="valueType_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="valueType_Movie" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="valueType_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="msgBoxEd_TitleLabel" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="msgBoxEd_MessageLabel" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="msgBoxEd_IconLabel" xml:space="preserve">
+    <value>Icon:</value>
+  </data>
+  <data name="noValueCapital" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="msgBoxEd_Icon_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="msgBoxEd_Icon_Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="msgBoxEd_Icon_Exclamation" xml:space="preserve">
+    <value>Exclamation</value>
+  </data>
+  <data name="msgBoxEd_Icon_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="msgBoxEd_PreviewButton" xml:space="preserve">
+    <value>&amp;Preview</value>
+  </data>
+  <data name="msgBoxEd_Title" xml:space="preserve">
+    <value>Message Box Editor</value>
+  </data>
+  <data name="findRepl_FindWhatLabel" xml:space="preserve">
+    <value>Find what:</value>
+  </data>
+  <data name="findRepl_ReplaceWithLabel" xml:space="preserve">
+    <value>Replace with:</value>
+  </data>
+  <data name="findRepl_FindNextButton" xml:space="preserve">
+    <value>Find &amp;Next</value>
+  </data>
+  <data name="findRepl_FindAllButton" xml:space="preserve">
+    <value>Find &amp;All</value>
+  </data>
+  <data name="findRepl_ReplaceAllButton" xml:space="preserve">
+    <value>Re&amp;place All</value>
+  </data>
+  <data name="findRepl_ReplaceNextButton" xml:space="preserve">
+    <value>&amp;Replace Next</value>
+  </data>
+  <data name="findRepl_SearchInFrame" xml:space="preserve">
+    <value>Search in</value>
+  </data>
+  <data name="findRepl_AllLevelsOption" xml:space="preserve">
+    <value>All le&amp;vels</value>
+  </data>
+  <data name="findRepl_CurrentLayerOption" xml:space="preserve">
+    <value>&amp;Current layer</value>
+  </data>
+  <data name="findRepl_CurrentLevelOption" xml:space="preserve">
+    <value>C&amp;urrent level</value>
+  </data>
+  <data name="findRepl_SearchForGroupFrame" xml:space="preserve">
+    <value>Search for &amp;Group</value>
+  </data>
+  <data name="findRepl_AnyGroup" xml:space="preserve">
+    <value>Any group</value>
+  </data>
+  <data name="findRepl_NoGroup" xml:space="preserve">
+    <value>No groups</value>
+  </data>
+  <data name="findRepl_UngroupedTiles" xml:space="preserve">
+    <value>(Ungrouped tiles)</value>
+  </data>
+  <data name="findRepl_Title" xml:space="preserve">
+    <value>Find/Replace Tiles</value>
+  </data>
+  <data name="findRepl_AllTiles" xml:space="preserve">
+    <value>(All tiles)</value>
+  </data>
+  <data name="findRepl_DoNotReplace" xml:space="preserve">
+    <value>(Do not replace)</value>
+  </data>
+  <data name="undoActionReplaceAll" xml:space="preserve">
+    <value>Replace All</value>
+  </data>
+  <data name="undoActionReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="findRepl_NoTilesFoundMessage" xml:space="preserve">
+    <value>No tiles matching your search terms were found.</value>
+  </data>
+  <data name="findRepl_TilesFoundMessage" xml:space="preserve">
+    <value>{0} tiles were found matching your search terms.</value>
+  </data>
+  <data name="findRepl_AllTilesFoundMessage" xml:space="preserve">
+    <value>All tiles matching your search terms have been found. Continue searching at the beginning?</value>
+  </data>
+  <data name="findRepl_TilesReplacedMessage" xml:space="preserve">
+    <value>{0} tiles matching your search results were replaced.</value>
+  </data>
+  <data name="actionCategory_Game" xml:space="preserve">
+    <value>Game</value>
+  </data>
+  <data name="actionCategory_Counters" xml:space="preserve">
+    <value>Counters</value>
+  </data>
+  <data name="actionCategory_Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="actionCategory_Character" xml:space="preserve">
+    <value>Character</value>
+  </data>
+  <data name="actionCategory_Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="actionCategory_Drawing" xml:space="preserve">
+    <value>Drawing</value>
+  </data>
+  <data name="actionCategory_Scripting" xml:space="preserve">
+    <value>Scripting</value>
+  </data>
+  <data name="actionCategory_Misc" xml:space="preserve">
+    <value>Misc.</value>
+  </data>
+  <data name="editAction_ParametersLabel" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="editAction_ActionTypeLabel" xml:space="preserve">
+    <value>Action type:</value>
+  </data>
+  <data name="editAction_Title" xml:space="preserve">
+    <value>Edit Action</value>
+  </data>
+  <data name="colorEd_OpacityLabel" xml:space="preserve">
+    <value>Opacity:</value>
+  </data>
+  <data name="colorEd_ColorLabel" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="colorEd_Title" xml:space="preserve">
+    <value>Enter Value</value>
+  </data>
+  <data name="colorEd_Heading" xml:space="preserve">
+    <value>Value for "{0}":</value>
+  </data>
+  <data name="animEd_AnimationsLabel" xml:space="preserve">
+    <value>Animations:</value>
+  </data>
+  <data name="animEd_PropertiesFrame" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="animEd_IntervalLabel" xml:space="preserve">
+    <value>Animation interval:</value>
+  </data>
+  <data name="anim_Fade" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="anim_Flatten" xml:space="preserve">
+    <value>Flatten</value>
+  </data>
+  <data name="anim_Fall" xml:space="preserve">
+    <value>Fall</value>
+  </data>
+  <data name="anim_Blink1" xml:space="preserve">
+    <value>Blink 1x</value>
+  </data>
+  <data name="anim_Blink2" xml:space="preserve">
+    <value>Blink 2x</value>
+  </data>
+  <data name="anim_Blink3" xml:space="preserve">
+    <value>Blink 3x</value>
+  </data>
+  <data name="animEd_EffectLabel" xml:space="preserve">
+    <value>Effect:</value>
+  </data>
+  <data name="animEd_StopFrameLabel" xml:space="preserve">
+    <value>Stop frame:</value>
+  </data>
+  <data name="animEd_StartFrameLabel" xml:space="preserve">
+    <value>Start frame:</value>
+  </data>
+  <data name="animEd_FrameIntervalLabel" xml:space="preserve">
+    <value>Frame interval:</value>
+  </data>
+  <data name="animEd_PreviewFrame" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="animEd_Title" xml:space="preserve">
+    <value>Animation Editor</value>
+  </data>
+  <data name="anim_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="anim_Disappear" xml:space="preserve">
+    <value>Disappear</value>
+  </data>
+  <data name="anim_WalkRight" xml:space="preserve">
+    <value>Walk Right</value>
+  </data>
+  <data name="anim_WalkLeft" xml:space="preserve">
+    <value>Walk Left</value>
+  </data>
+  <data name="anim_Climb" xml:space="preserve">
+    <value>Climb</value>
+  </data>
+  <data name="anim_Die" xml:space="preserve">
+    <value>Die</value>
+  </data>
+  <data name="anim_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="animEd_AnimationLengthLabel" xml:space="preserve">
+    <value>Animation length:</value>
+  </data>
+  <data name="actionDataEd_ActionsTab" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="actionDataEd_CodeLabel" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="actionDataEd_CategoryLabel" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="actionDataEd_DescriptionLabel" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="actionDataEd_TriggersReadOnly" xml:space="preserve">
+    <value>Triggers are read-only.</value>
+  </data>
+  <data name="actionDataEd_ImportDefaults" xml:space="preserve">
+    <value>&amp;Import Defaults</value>
+  </data>
+  <data name="actionDataEd_Title" xml:space="preserve">
+    <value>Action Data Editor</value>
+  </data>
+  <data name="actionDataEd_SetDefaultConfirmation" xml:space="preserve">
+    <value>Are you sure you want to set the current action data as the default?</value>
+  </data>
+  <data name="actionEd_ActionsLabel" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="actionEd_newIconTooltip" xml:space="preserve">
+    <value>Create New Action</value>
+  </data>
+  <data name="actionEd_NewActionAllMenu" xml:space="preserve">
+    <value>&amp;All</value>
+  </data>
+  <data name="actionEd_NewActionGameMenu" xml:space="preserve">
+    <value>&amp;Game</value>
+  </data>
+  <data name="actionEd_NewActionCountersMenu" xml:space="preserve">
+    <value>&amp;Counters</value>
+  </data>
+  <data name="actionEd_NewActionCameraMenu" xml:space="preserve">
+    <value>Ca&amp;mera</value>
+  </data>
+  <data name="actionEd_NewActionCharacterMenu" xml:space="preserve">
+    <value>Cha&amp;racter</value>
+  </data>
+  <data name="actionEd_NewActionMapMenu" xml:space="preserve">
+    <value>&amp;Map</value>
+  </data>
+  <data name="actionEd_NewActionDrawingMenu" xml:space="preserve">
+    <value>&amp;Drawing</value>
+  </data>
+  <data name="actionEd_NewActionScriptingMenu" xml:space="preserve">
+    <value>&amp;Scripting</value>
+  </data>
+  <data name="actionEd_NewActionMiscMenu" xml:space="preserve">
+    <value>&amp;Miscellaneous</value>
+  </data>
+  <data name="actionEd_CutIconTooltip" xml:space="preserve">
+    <value>Cut Action</value>
+  </data>
+  <data name="actionEd_CopyIconTooltip" xml:space="preserve">
+    <value>Copy Action</value>
+  </data>
+  <data name="actionEd_PasteIconTooltip" xml:space="preserve">
+    <value>Paste Action</value>
+  </data>
+  <data name="actionEd_DeleteIconTooltip" xml:space="preserve">
+    <value>Delete Action</value>
+  </data>
+  <data name="actionEd_MoveUpIconTooltip" xml:space="preserve">
+    <value>Move Action Up</value>
+  </data>
+  <data name="actionEd_MoveDownIconTooltip" xml:space="preserve">
+    <value>Move Action Down</value>
+  </data>
+  <data name="actionEd_EditTimersIconTooltip" xml:space="preserve">
+    <value>Edit Timers</value>
+  </data>
+  <data name="actionEd_EditCountersIconTooltip" xml:space="preserve">
+    <value>Edit Counters</value>
+  </data>
+  <data name="actionEd_EditGlobalScriptIconTooltip" xml:space="preserve">
+    <value>Edit Global Script</value>
+  </data>
+  <data name="actionEd_TriggersLabel" xml:space="preserve">
+    <value>Triggers</value>
+  </data>
+  <data name="actionEd_EditDataButton" xml:space="preserve">
+    <value>Edit &amp;Data...</value>
+  </data>
+  <data name="actionEd_WarningLabel" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="actionEd_NewActionMenu" xml:space="preserve">
+    <value>&amp;New Action</value>
+  </data>
+  <data name="actionEd_NewActionSubmenu" xml:space="preserve">
+    <value>&amp;New Action...</value>
+  </data>
+  <data name="actionEd_MoveUpMenu" xml:space="preserve">
+    <value>Move &amp;Up</value>
+  </data>
+  <data name="actionEd_MoveDownMenu" xml:space="preserve">
+    <value>Move &amp;Down</value>
+  </data>
+  <data name="actionEd_TimersMenu" xml:space="preserve">
+    <value>&amp;Timers...</value>
+  </data>
+  <data name="actionEd_CountersMenu" xml:space="preserve">
+    <value>&amp;Counters...</value>
+  </data>
+  <data name="actionEd_GlobalScriptMenu" xml:space="preserve">
+    <value>&amp;Global Script...</value>
+  </data>
+  <data name="actionEd_CloseSaveMenu" xml:space="preserve">
+    <value>Close and &amp;Save Changes</value>
+  </data>
+  <data name="actionEd_CloseDiscardMenu" xml:space="preserve">
+    <value>Close and &amp;Discard Changes</value>
+  </data>
+  <data name="actionEd_TriggerMenu" xml:space="preserve">
+    <value>&amp;Trigger</value>
+  </data>
+  <data name="actionEd_ExpandMenu" xml:space="preserve">
+    <value>&amp;Expand</value>
+  </data>
+  <data name="actionEd_CollapseMenu" xml:space="preserve">
+    <value>&amp;Collapse</value>
+  </data>
+  <data name="actionEd_ExpandAllMenu" xml:space="preserve">
+    <value>E&amp;xpand All</value>
+  </data>
+  <data name="actionEd_CopyChildMenu" xml:space="preserve">
+    <value>&amp;Copy Child Actions</value>
+  </data>
+  <data name="actionEd_PasteChildMenu" xml:space="preserve">
+    <value>&amp;Paste Child Actions</value>
+  </data>
+  <data name="actionEd_PasteLinkMenu" xml:space="preserve">
+    <value>Paste &amp;Link to Copied Actions</value>
+  </data>
+  <data name="actionEd_DeleteAllChildMenu" xml:space="preserve">
+    <value>&amp;Delete All Child Actions</value>
+  </data>
+  <data name="actionEd_ActionMenu" xml:space="preserve">
+    <value>&amp;Action</value>
+  </data>
+  <data name="actionEd_Title" xml:space="preserve">
+    <value>Action Editor</value>
+  </data>
+  <data name="trigger_Custom" xml:space="preserve">
+    <value>(Custom)</value>
+  </data>
+  <data name="trigger_Triggers" xml:space="preserve">
+    <value>Triggers</value>
+  </data>
+  <data name="trigger_" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="trigger_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="trigger_Always" xml:space="preserve">
+    <value>Always</value>
+  </data>
+  <data name="trigger_BeginGame" xml:space="preserve">
+    <value>Begin Game</value>
+  </data>
+  <data name="trigger_BeginLevel" xml:space="preserve">
+    <value>Begin Level</value>
+  </data>
+  <data name="trigger_Counters" xml:space="preserve">
+    <value>Counters</value>
+  </data>
+  <data name="trigger_Timers" xml:space="preserve">
+    <value>Timers</value>
+  </data>
+  <data name="trigger_Character" xml:space="preserve">
+    <value>Character</value>
+  </data>
+  <data name="trigger_Jump" xml:space="preserve">
+    <value>Jump</value>
+  </data>
+  <data name="trigger_JumpHitHead" xml:space="preserve">
+    <value>Hit Head while Jumping</value>
+  </data>
+  <data name="trigger_Groups" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="trigger_Tiles" xml:space="preserve">
+    <value>Tiles</value>
+  </data>
+  <data name="trigger_Locations" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="trigger_Keyboard" xml:space="preserve">
+    <value>Keyboard</value>
+  </data>
+  <data name="trigger_Backspace" xml:space="preserve">
+    <value>(backspace)</value>
+  </data>
+  <data name="trigger_Enter" xml:space="preserve">
+    <value>(enter)</value>
+  </data>
+  <data name="trigger_Shift" xml:space="preserve">
+    <value>(shift)</value>
+  </data>
+  <data name="trigger_Ctrl" xml:space="preserve">
+    <value>(ctrl)</value>
+  </data>
+  <data name="trigger_Alt" xml:space="preserve">
+    <value>(alt)</value>
+  </data>
+  <data name="trigger_PrintScreen" xml:space="preserve">
+    <value>(print screen)</value>
+  </data>
+  <data name="trigger_Escape" xml:space="preserve">
+    <value>(escape)</value>
+  </data>
+  <data name="trigger_Space" xml:space="preserve">
+    <value>(space)</value>
+  </data>
+  <data name="trigger_PageUp" xml:space="preserve">
+    <value>(page up)</value>
+  </data>
+  <data name="trigger_PageDown" xml:space="preserve">
+    <value>(page down)</value>
+  </data>
+  <data name="trigger_EndKey" xml:space="preserve">
+    <value>(end)</value>
+  </data>
+  <data name="trigger_HomeKey" xml:space="preserve">
+    <value>(home)</value>
+  </data>
+  <data name="trigger_LeftArrowKey" xml:space="preserve">
+    <value>(left arrow)</value>
+  </data>
+  <data name="trigger_UpArrowKey" xml:space="preserve">
+    <value>(up arrow)</value>
+  </data>
+  <data name="trigger_RightArrowKey" xml:space="preserve">
+    <value>(right arrow)</value>
+  </data>
+  <data name="trigger_DownArrowKey" xml:space="preserve">
+    <value>(down arrow)</value>
+  </data>
+  <data name="trigger_InsertKey" xml:space="preserve">
+    <value>(insert)</value>
+  </data>
+  <data name="trigger_DeleteKey" xml:space="preserve">
+    <value>(delete)</value>
+  </data>
+  <data name="trigger_Numpad" xml:space="preserve">
+    <value>numpad</value>
+    <comment>indicates a number pad key</comment>
+  </data>
+  <data name="trigger_KeyPress" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="trigger_KeyRelease" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="trigger_KeyHoldDown" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="trigger_Mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="trigger_MouseLeftButtonPress" xml:space="preserve">
+    <value>Left Button Press</value>
+  </data>
+  <data name="trigger_MouseLeftButtonRelease" xml:space="preserve">
+    <value>Left Button Release</value>
+  </data>
+  <data name="trigger_MouseLeftButtonHoldDown" xml:space="preserve">
+    <value>Left Button Hold</value>
+  </data>
+  <data name="trigger_MouseRightButtonPress" xml:space="preserve">
+    <value>Right Button Press</value>
+  </data>
+  <data name="trigger_MouseRightButtonRelease" xml:space="preserve">
+    <value>Right Button Release</value>
+  </data>
+  <data name="trigger_MouseRightButtonHoldDown" xml:space="preserve">
+    <value>Right Button Hold</value>
+  </data>
+  <data name="trigger_MouseMiddleButtonPress" xml:space="preserve">
+    <value>Middle Button Press</value>
+  </data>
+  <data name="trigger_MouseMiddleButtonRelease" xml:space="preserve">
+    <value>Middle Button Release</value>
+  </data>
+  <data name="trigger_MouseMiddleButtonHoldDown" xml:space="preserve">
+    <value>Middle Button Hold</value>
+  </data>
+  <data name="trigger_MouseMove" xml:space="preserve">
+    <value>Move Mouse</value>
+  </data>
+  <data name="trigger_Windows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="trigger_Buttons" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
+  <data name="trigger_ButtonClicked" xml:space="preserve">
+    <value>Clicked</value>
+  </data>
+  <data name="trigger_TileHit" xml:space="preserve">
+    <value>Hit</value>
+  </data>
+  <data name="trigger_TileHitLeft" xml:space="preserve">
+    <value>Hit Left</value>
+  </data>
+  <data name="trigger_TileHitRight" xml:space="preserve">
+    <value>Hit Right</value>
+  </data>
+  <data name="trigger_TileHitTop" xml:space="preserve">
+    <value>Hit Top</value>
+  </data>
+  <data name="trigger_TileHitBottom" xml:space="preserve">
+    <value>Hit Bottom</value>
+  </data>
+  <data name="trigger_TileExclOnTop" xml:space="preserve">
+    <value>Exclusively on Top</value>
+  </data>
+  <data name="trigger_TileCollect" xml:space="preserve">
+    <value>Collect</value>
+  </data>
+  <data name="trigger_TileShot" xml:space="preserve">
+    <value>Shot</value>
+  </data>
+  <data name="trigger_TileDestroyed" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="trigger_TileChangeDirection" xml:space="preserve">
+    <value>Change Directions</value>
+  </data>
+  <data name="trigger_TileChangeDirectionToForward" xml:space="preserve">
+    <value>To Forward</value>
+  </data>
+  <data name="trigger_TileChangeDirectionToBackward" xml:space="preserve">
+    <value>To Backward</value>
+  </data>
+  <data name="trigger_TileMouseHover" xml:space="preserve">
+    <value>Mouse Hover</value>
+  </data>
+  <data name="trigger_TileMouseClick" xml:space="preserve">
+    <value>Mouse Click</value>
+  </data>
+  <data name="trigger_LocationEnterInto" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="trigger_LocationsExitFrom" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="trigger_LocationsInside" xml:space="preserve">
+    <value>Inside</value>
+  </data>
+  <data name="trigger_CounterValueChanged" xml:space="preserve">
+    <value>Value Changed</value>
+  </data>
+  <data name="trigger_TimerTick" xml:space="preserve">
+    <value>Tick</value>
+  </data>
+  <data name="actionEd_NoActionTypesExist" xml:space="preserve">
+    <value>No action types exist! Create new action types using the Action Data Editor, or if you just deleted all the action types by mistake, click Cancel after you close this message.</value>
+  </data>
+  <data name="undoActionEditActions" xml:space="preserve">
+    <value>Edit Actions</value>
+  </data>
+  <data name="actionEd_CodeBlockWarning" xml:space="preserve">
+    <value>Warning: A code block has not been closed.</value>
+  </data>
+  <data name="actionEd_CodeBlockNotOpenWarning" xml:space="preserve">
+    <value>Warning: A code block has not been opened.</value>
+  </data>
+  <data name="gameTester_PoorPerformanceMenu" xml:space="preserve">
+    <value>Poor Performance?</value>
+  </data>
+  <data name="gameTester_Title" xml:space="preserve">
+    <value>JumpCraft Game Tester</value>
+  </data>
+  <data name="standardEd_Thanks" xml:space="preserve">
+    <value>Thanks for purchasing JumpCraft Standard Edtiion! You may use this program to develop and share games with your friends.</value>
+  </data>
+  <data name="standardEd_WhyUpgrade" xml:space="preserve">
+    <value>Why should I upgrade?</value>
+  </data>
+  <data name="standardEd_UpgradeToProLink" xml:space="preserve">
+    <value>JumpCraft Professional Edition Upgrade!</value>
+  </data>
+  <data name="standardEd_UpgradeLaterInfo" xml:space="preserve">
+    <value>Note: You can always upgrade later by clicking Upgrade in the Help menu.</value>
+  </data>
+  <data name="standardEd_ContinueButton" xml:space="preserve">
+    <value>&amp;Continue</value>
+  </data>
+  <data name="standardEd_Welcome" xml:space="preserve">
+    <value>Welcome to JumpCraft!</value>
+  </data>
+  <data name="proEd_CannotCompileErrorMessage" xml:space="preserve">
+    <value>Cannot compile game.</value>
+  </data>
+  <data name="proEd_NoNameErrorMessage" xml:space="preserve">
+    <value>You must name your game before compiling.</value>
+  </data>
+  <data name="proEd_Compile" xml:space="preserve">
+    <value>Compile</value>
+  </data>
+  <data name="proEd_VersionErrorMessage" xml:space="preserve">
+    <value>You must give your game a version number before compiling.</value>
+  </data>
+  <data name="proEd_CompilingActionsStatus" xml:space="preserve">
+    <value>Compiling actions</value>
+  </data>
+  <data name="proEd_RetrievingFileInfoStatus" xml:space="preserve">
+    <value>Retrieving file information</value>
+  </data>
+  <data name="proEd_CopyingFilesStatus" xml:space="preserve">
+    <value>Copying files</value>
+  </data>
+  <data name="proEd_SavingGameStatus" xml:space="preserve">
+    <value>Saving game</value>
+  </data>
+  <data name="proEd_PackingFilesStatus" xml:space="preserve">
+    <value>Packing files</value>
+  </data>
+  <data name="proEd_CompressingStatus" xml:space="preserve">
+    <value>Compressing package</value>
+  </data>
+  <data name="proEd_BuildingOutputStatus" xml:space="preserve">
+    <value>Building output</value>
+  </data>
+  <data name="proEd_CompilingEXEStatus" xml:space="preserve">
+    <value>Compiling EXE</value>
+  </data>
+  <data name="demoEd_Thanks" xml:space="preserve">
+    <value>Thanks for trying out JumpCraft! Let us know what you think...</value>
+  </data>
+  <data name="demoEd_CloseButton" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="demoEd_FeedbackLabel" xml:space="preserve">
+    <value>We Want Your Feedback!</value>
+  </data>
+  <data name="demoEd_VisitWebsiteLabel" xml:space="preserve">
+    <value>Visit our website</value>
+  </data>
+  <data name="demoEd_UnableToShowSurveyLabel" xml:space="preserve">
+    <value>We are unable to show the survey here at this time.</value>
+  </data>
+  <data name="demoEd_ThanksForUsing" xml:space="preserve">
+    <value>Thanks for Using!</value>
+  </data>
+  <data name="demoEd_Intro" xml:space="preserve">
+    <value>You are about to use a program that will let you unleash your creative potential and dabble into an art that few people get the opportunity to do.</value>
+  </data>
+  <data name="demoEd_ContinueButton" xml:space="preserve">
+    <value>&amp;Continue</value>
+  </data>
+  <data name="demoEd_Welcome" xml:space="preserve">
+    <value>Welcome to JumpCraft!</value>
+  </data>
+  <data name="fpsUnit" xml:space="preserve">
+    <value>FPS</value>
+    <comment>frames per second</comment>
+  </data>
+  <data name="main_XLabel" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="main_YLabel" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="main_LocationLabel" xml:space="preserve">
+    <value>Loc:</value>
+  </data>
+  <data name="main_TileLabel" xml:space="preserve">
+    <value>Tile:</value>
+  </data>
+  <data name="undoActionDraw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="undoActionErase" xml:space="preserve">
+    <value>Erase</value>
+  </data>
+  <data name="undoActionTransformSelection" xml:space="preserve">
+    <value>Transform Selection</value>
+  </data>
+  <data name="undoActionDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="main_SaveChangesToPathMessage0" xml:space="preserve">
+    <value>Save changes to current path?</value>
+  </data>
+  <data name="layer_Backdrop" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="layer_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="layer" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="layer_Parallax" xml:space="preserve">
+    <value>Parallax</value>
+  </data>
+  <data name="layer_Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="layer_Foreground" xml:space="preserve">
+    <value>Foreground</value>
+  </data>
+  <data name="layer_Front" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="undoActionEditBackground" xml:space="preserve">
+    <value>Edit Background</value>
+  </data>
+  <data name="newLevelIconTooltip" xml:space="preserve">
+    <value>New Level</value>
+  </data>
+  <data name="renameLevelIconTooltip" xml:space="preserve">
+    <value>Rename Level</value>
+  </data>
+  <data name="deleteLevelIconTooltip" xml:space="preserve">
+    <value>Delete Level</value>
+  </data>
+  <data name="moveLevelUpIconTooltip" xml:space="preserve">
+    <value>Move Level Up</value>
+  </data>
+  <data name="moveLevelDownIconTooltip" xml:space="preserve">
+    <value>Move Level Down</value>
+  </data>
+  <data name="renameLevelDialogMessage" xml:space="preserve">
+    <value>Enter a new name for this level.</value>
+  </data>
+  <data name="props_FrameLabel" xml:space="preserve">
+    <value>Frame:</value>
+  </data>
+  <data name="props_PathEditButton" xml:space="preserve">
+    <value>&amp;Edit...</value>
+  </data>
+  <data name="props_PathLabel" xml:space="preserve">
+    <value>Path:</value>
+  </data>
+  <data name="props_TileLabel" xml:space="preserve">
+    <value>Tile:</value>
+  </data>
+  <data name="props_SizeLabel" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="props_LocationLabel" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="props_GroupLabel" xml:space="preserve">
+    <value>Group:</value>
+  </data>
+  <data name="props_CheckpointLabel" xml:space="preserve">
+    <value>Checkpoint:</value>
+  </data>
+  <data name="props_NameLabel" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="props_ViewFrame" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="props_PrecisionLabel" xml:space="preserve">
+    <value>Precision:</value>
+  </data>
+  <data name="props_ShowPointsCheckbox" xml:space="preserve">
+    <value>Show &amp;Points</value>
+  </data>
+  <data name="props_ShowGuidesCheckbox" xml:space="preserve">
+    <value>Show &amp;Guides</value>
+  </data>
+  <data name="props_PreviewFrame" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="props_ProgressLabel" xml:space="preserve">
+    <value>Progress:</value>
+  </data>
+  <data name="props_LoopCheckbox" xml:space="preserve">
+    <value>&amp;Loop</value>
+  </data>
+  <data name="props_PreviewButton" xml:space="preserve">
+    <value>&amp;Preview</value>
+  </data>
+  <data name="props_PathOptionsFrame" xml:space="preserve">
+    <value>Path Options</value>
+  </data>
+  <data name="props_SpeedLabel" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="undoActionChangeLocationName" xml:space="preserve">
+    <value>Change Location Name</value>
+  </data>
+  <data name="undoActionChangeTileIndex" xml:space="preserve">
+    <value>Change Tile Index</value>
+  </data>
+  <data name="undoActionChangeTileGroup" xml:space="preserve">
+    <value>Change Tile Group</value>
+  </data>
+  <data name="undoActionSetCheckpoint" xml:space="preserve">
+    <value>Set Checkpoint on "{0}"</value>
+  </data>
+  <data name="undoActionChangeTileFrame" xml:space="preserve">
+    <value>Change Tile Frame</value>
+  </data>
+  <data name="tileSelector_RandomTooltip" xml:space="preserve">
+    <value>Use a random subtile from the selected subtiles.</value>
+  </data>
+  <data name="tileSelector_Path_EditPoints" xml:space="preserve">
+    <value>Edit Points</value>
+  </data>
+  <data name="tileSelector_Path_Rectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="tileSelector_Path_RoundedRectangle" xml:space="preserve">
+    <value>Rounded Rectangle</value>
+  </data>
+  <data name="tileSelector_Path_Ellipse" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="tileSelector_Path_Figure8" xml:space="preserve">
+    <value>Figure 8</value>
+  </data>
+  <data name="tileSelector_Path_Cloverleaf" xml:space="preserve">
+    <value>Cloverleaf</value>
+  </data>
+  <data name="tileSelector_Path_Erase" xml:space="preserve">
+    <value>Erase</value>
+  </data>
+  <data name="tileSelector_Controls_Pointer" xml:space="preserve">
+    <value>Pointer</value>
+  </data>
+  <data name="tileSelector_Controls_Button" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="tileSelector_Controls_Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="tileSelector_Controls_Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="tileSelector_Controls_GameArea" xml:space="preserve">
+    <value>Game Area</value>
+  </data>
+  <data name="tileSelector_Controls_TextCounter" xml:space="preserve">
+    <value>Text Counter</value>
+  </data>
+  <data name="tileSelector_Controls_ImageTextCounter" xml:space="preserve">
+    <value>Image &amp; Text Counter</value>
+  </data>
+  <data name="tileSelector_Controls_ImageCounter" xml:space="preserve">
+    <value>Image Counter</value>
+  </data>
+  <data name="tileSelector_Controls_HighScoresArea" xml:space="preserve">
+    <value>High Scores Area</value>
+  </data>
+  <data name="tileSelector_Controls_Movie" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="undoActionPaste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="winEd_Game" xml:space="preserve">
+    <value>game</value>
+  </data>
+  <data name="winEd_HighScore" xml:space="preserve">
+    <value>high score</value>
+  </data>
+  <data name="winEd_ControlLimitMessage" xml:space="preserve">
+    <value>You have reached the limit of {0| controls on a window at a time.\n\nOne or more control(s) will not be pasted.</value>
+  </data>
+  <data name="winEd_ControlLimitMessage2" xml:space="preserve">
+    <value>You have reached the limit of {0} controls on a window at a time.\n\nIf you want to add another control, you must delete an existing control.</value>
+  </data>
+  <data name="undoActionAddControl" xml:space="preserve">
+    <value>Add Control</value>
+  </data>
+  <data name="defaultControlText" xml:space="preserve">
+    <value>Control {0}</value>
+  </data>
+  <data name="winEd_AreaAlreadyExists" xml:space="preserve">
+    <value>You already have a {0} area in window "{1}". Would you like to delete it?</value>
+  </data>
+  <data name="undoActionCenterH" xml:space="preserve">
+    <value>Center Control Horizontally</value>
+  </data>
+  <data name="undoActionCenterV" xml:space="preserve">
+    <value>Center Control Vertically</value>
+  </data>
+  <data name="undoActionAlignToGrid" xml:space="preserve">
+    <value>Align Control to Grid</value>
+  </data>
+  <data name="undoActionBringToFront" xml:space="preserve">
+    <value>Bring to Front</value>
+  </data>
+  <data name="undoActionSendToBack" xml:space="preserve">
+    <value>Send to Back</value>
+  </data>
+  <data name="newWindowIconTooltip" xml:space="preserve">
+    <value>New Window</value>
+  </data>
+  <data name="copyWindowIconTooltip" xml:space="preserve">
+    <value>Copy Window</value>
+  </data>
+  <data name="renameWindowIconTooltip" xml:space="preserve">
+    <value>Rename Window</value>
+  </data>
+  <data name="deleteWindowIconTooltip" xml:space="preserve">
+    <value>Delete Window</value>
+  </data>
+  <data name="moveWindowUpIconTooltip" xml:space="preserve">
+    <value>Move Window Up</value>
+  </data>
+  <data name="moveWindowDownIconTooltip" xml:space="preserve">
+    <value>Move Window Down</value>
+  </data>
+  <data name="backgroundEd_BackStyle" xml:space="preserve">
+    <value>Background Style</value>
+  </data>
+  <data name="backgroundEd_PictureOption" xml:space="preserve">
+    <value>&amp;Picture</value>
+  </data>
+  <data name="backgroundEd_GradientOption" xml:space="preserve">
+    <value>&amp;Gradient</value>
+  </data>
+  <data name="backgroundEd_SolidOption" xml:space="preserve">
+    <value>&amp;Solid</value>
+  </data>
+  <data name="backgroundEd_FileLabel" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="backgroundEd_VerticalOption" xml:space="preserve">
+    <value>&amp;Vertical</value>
+  </data>
+  <data name="backgroundEd_HorizontalOption" xml:space="preserve">
+    <value>&amp;Horizontal</value>
+  </data>
+  <data name="backgroundEd_StyleLabel" xml:space="preserve">
+    <value>Style:</value>
+  </data>
+  <data name="backgroundEd_Color2Label" xml:space="preserve">
+    <value>Color 2:</value>
+  </data>
+  <data name="backgroundEd_Color1Label" xml:space="preserve">
+    <value>Color 1:</value>
+  </data>
+  <data name="backgroundEd_Title" xml:space="preserve">
+    <value>Background Editor</value>
+  </data>
+  <data name="counters_StartAtLabel" xml:space="preserve">
+    <value>Start at:</value>
+  </data>
+  <data name="timers_CountersFrame" xml:space="preserve">
+    <value>Counters</value>
+  </data>
+  <data name="counters_Title" xml:space="preserve">
+    <value>Edit Counters</value>
+  </data>
+  <data name="newLevel_LevelNameLabel" xml:space="preserve">
+    <value>Level name:</value>
+  </data>
+  <data name="newLevel_Title" xml:space="preserve">
+    <value>New Level</value>
+  </data>
+  <data name="newWindow_WindowNameLabel" xml:space="preserve">
+    <value>Window name:</value>
+  </data>
+  <data name="newWindow_WindowLabel" xml:space="preserve">
+    <value>Window1</value>
+  </data>
+  <data name="newWindow_Title" xml:space="preserve">
+    <value>New Window</value>
+  </data>
+  <data name="compileError_Title" xml:space="preserve">
+    <value>Compile Error</value>
+  </data>
+  <data name="pathEd_AddPointStatus" xml:space="preserve">
+    <value>Click to add point. Hold shift and drag to move path.</value>
+  </data>
+  <data name="pathEd_DrawPresetStatus" xml:space="preserve">
+    <value>Click and drag to draw the preset</value>
+  </data>
+  <data name="pathEd_MoveGuideStatus" xml:space="preserve">
+    <value>Drag the guide to adjust the curve</value>
+  </data>
+  <data name="pathEd_MovePathStatus" xml:space="preserve">
+    <value>Click and drag mouse to move path.</value>
+  </data>
+  <data name="pathEd_MovePointStatus" xml:space="preserve">
+    <value>Drag the point to move it. Right click for more options.</value>
+  </data>
+  <data name="pathEd_Pixels" xml:space="preserve">
+    <value>{0} Pixels</value>
+  </data>
+  <data name="pathEd_PointsPlural" xml:space="preserve">
+    <value>{0} Points</value>
+  </data>
+  <data name="pathEd_PointsSingular" xml:space="preserve">
+    <value>1 Point</value>
+  </data>
+  <data name="pathEd_PreviewButton" xml:space="preserve">
+    <value>&amp;Preivew</value>
+  </data>
+  <data name="pathEd_ReadyStatus" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="pathEd_StopButton" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="undoActionClearPath" xml:space="preserve">
+    <value>Clear Path</value>
+  </data>
+  <data name="undoActionCopyPoint" xml:space="preserve">
+    <value>Copy Point</value>
+  </data>
+  <data name="undoActionDeletePoint" xml:space="preserve">
+    <value>Delete Point</value>
+  </data>
+  <data name="undoActionEditPath" xml:space="preserve">
+    <value>Edit Path</value>
+  </data>
+  <data name="undoActionPathCloverLeaf" xml:space="preserve">
+    <value>Clover Leaf</value>
+  </data>
+  <data name="undoActionPathDragPoint" xml:space="preserve">
+    <value>Drag Point</value>
+  </data>
+  <data name="undoActionPathEllipse" xml:space="preserve">
+    <value>Ellipse</value>
+  </data>
+  <data name="undoActionPathFigure8" xml:space="preserve">
+    <value>Figure 8</value>
+  </data>
+  <data name="undoActionPathNewPoint" xml:space="preserve">
+    <value>New Point</value>
+  </data>
+  <data name="undoActionPathRectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="undoActionPathRoundedRectangle" xml:space="preserve">
+    <value>Rounded Rectangle</value>
+  </data>
+  <data name="proEd_CompileChooseFolderDesc" xml:space="preserve">
+    <value>Choose where to place your compiled game:</value>
+  </data>
+</root>

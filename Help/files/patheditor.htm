@@ -1,0 +1,192 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Path Editor</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Path Editor<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="windows.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="center">Click an area of the Path Editor to learn more about 
+          it.<br>
+          <img src="assets/images/img33.gif" width="772" height="621" border="0" usemap="#Map"> 
+          <map name="Map">
+            <area shape="rect" coords="3,30,797,49" href="#menubar">
+            <area shape="rect" coords="2,49,797,76" href="#toolbar">
+            <area shape="rect" coords="3,76,172,601" href="#toolbox">
+            <area shape="rect" coords="9,601,770,621" href="#status">
+            <area shape="rect" coords="605,74,771,405" href="#properties">
+            <area shape="rect" coords="172,75,607,601" href="#editor">
+          </map>
+        </p>
+        <p align="left"><a name="menubar"></a><font color="#003300" size="3"><strong>Menu 
+          Bar</strong></font><br>
+          This contains functions for handling files, performing edits, changing 
+          views, debugging, accessing tools, and getting help. Here is the list 
+          of menus:</p>
+        <p align="left"> File | Edit | View | Run | Tools | Help</p>
+        <p align="left"><strong><font color="#003300"><a name="context"></a>Context 
+          Menu</font></strong><br>
+          The context menu (which pops up when you right-click the edit area) 
+          contains 4 items. They are:</p>
+        <p align="left"> 
+          <ul>
+            <li>Undo: Undoes the last action.</li>
+            <li>Redo: Redoes the last undid action.</li>
+            <li>Copy Point: Allows you to copy a point that was right-clicked. 
+              This is useful if you want to insert a point between two other points.</li>
+            <li>Delete Point: Allows you to delete a point that was right-clicked.</li>
+          </ul>
+        </p>
+        <p align="left"><a name="toolbar"></a><font color="#003300" size="3"><strong>Toolbar</strong></font><br>
+          This contains commonly-used functions, such as saving and undoing. Here 
+          are the buttons in order from left to right (the grayed items are disabled 
+          in the Path Editor):</p>
+        <p align="left"> 
+          <ul>
+            <li>New: Creates a new game.</li>
+            <li>Open: Opens an existing game.</li>
+            <li>Save: Saves the current game. If this is the first time saving, 
+              it will prompt you for a filename.</li>
+            <li>Undo: Undoes the last action.</li>
+            <li>Redo: Redoes the last undid action.</li>
+            <li><font color="385454"><em>Cut</em></font></li>
+            <li><em><font color="385454">Copy</font></em></li>
+            <li><em><font color="385454">Paste</font></em></li>
+            <li><em><font color="385454">Delete</font></em></li>
+            <li>Run: Runs the game in debug mode.</li>
+            <li>Stop: Closes the debugger.</li>
+            <li>Restart: Closes the debugger, and then runs the game again.</li>
+            <li>Help: Shows the JumpCraft Help.</li>
+            <li>Website: Opens the JumpCraft website in a new internet browser.</li>
+            <li>Forums: Opens the JumpCraft forums in a new internet browser.</li>
+            <li><font color="385454"><em>Draw</em></font></li>
+            <li><em><font color="385454">Erase</font></em></li>
+            <li><em><font color="385454">Select</font></em></li>
+            <li><em><font color="385454">Pan</font></em></li>
+          </ul>
+          <p><a name="toolbox" id="toolbox"></a><font color="#003300" size="3"><strong>Toolbox<br>
+            </strong><font color="#000000" size="2">This allows you to draw a 
+            preset path, clear the current path, or draw points with the mouse. 
+            Here are the different options:</font></font></p>
+          <p>
+            <ul>
+              <li><font color="#000000">Edit Points: Allows you draw and edit 
+                points with the mouse. To draw a point, click where you want the 
+                point to be with the mouse. If you want that point to be curved, 
+                you can drag the mouse while you click it to change the curve. 
+                If you do not drag the mouse, a straight point will be added instead. 
+                To modify a point, right-click it. You can click and drag a point 
+                to move it, or click and drag a guide to adjust the curve after 
+                the point is drawn. Points are yellow, and guides are green. You 
+                can hold down Shift and drag with the mouse to move the whole 
+                path. </font></li>
+              <li><font color="#000000">Rectangle: Click and drag in the edit 
+                area to create a rectangle. The center of the rectangle will be 
+                drawn where you first click the mouse. Also, note that whenever 
+                you create a preset shape, the current path will be cleared. If 
+                you make a mistake you can always undo it.</font></li>
+              <li><font color="#000000">Rounded Rectangle: Creates a rounded rectangle.</font></li>
+              <li><font color="#000000">Ellipse: Creates an ellipse.</font></li>
+              <li>Figure 8: Creates a figure 8.</li>
+              <li>Clover Leaf: Creates a clover leaf.</li>
+              <li>Clear: Clears the current path.</li>
+            </ul>
+          </p>
+          <p><a name="editor" id="editor"></a><strong><font color="#003300" size="3">Edit 
+            Area</font><br>
+            </strong>This area is where you can edit the current path. For more 
+            information on how to create a path, see <a href="#toolbox"><em>Toolbox</em></a>. 
+            If you right-click, a context menu pops up. To learn more about the 
+            context menu, click <a href="#context">here</a>.</p>
+          <p><a name="properties" id="properties"></a><strong><font color="#003300" size="3">Properties 
+            Panel</font><br>
+            </strong>This is the &quot;control panel&quot; for the Path Editor. 
+            It contains view options, path options, preview options, and buttons 
+            to accept or discard your changes.</p>
+          <p> 
+            <p> 
+              <p> 
+                <ul>
+                  <li>Show Guides: Choose whether you want to view the guides 
+                    (blue guide lines that connect a point guide (adjusts the 
+                    curve for a point), to its point.</li>
+                  <li>Show Points: Choose whether you want to view the points 
+                    (yellow points and green point guides).</li>
+                  <li>Precision: Choose how much detail you want to draw. The 
+                    higher the detail, the slower it will draw.</li>
+                  <li>Enclosed: Choose whether you want JumpCraft to enclose 
+                    your path (draw 3 sides of a square with 4 points, and Platform 
+                    Studio, will connect the first and the last points together 
+                    to make the last side). If this is unchecked, then when the 
+                    tile reaches the end of the path, it will reverse direction 
+                    and go back to the beginning of the path.</li>
+                  <li>Speed: Choose how many seconds you want the tile to take 
+                    to complete one cycle of the path.</li>
+                  <li>Preview button: Click it to preview the tile moving along 
+                    your path. Click it again to stop the preview.</li>
+                  <li>Loop: Choose whether you want to the preview to keep moving 
+                    through the path infinitely, or just complete one cycle and 
+                    then stop.</li>
+                  <li>Progress: Displays how much of the path the tile has gone 
+                    through.</li>
+                  <li>OK button: Accepts your changes to the path and closes the 
+                    path editor.</li>
+                  <li>Cancel button: Discards your changes to the path and closes 
+                    the path editor.</li>
+                </ul>
+                <p>
+                  <p><strong><font color="#003300" size="3"><a name="status"></a>Status 
+                    Bar</font></strong><br>
+                    Displays context information to help you draw your path, and 
+                    also displays how many points are in your path, and how many 
+                    pixels your path covers.</p>
+                </p>
+              </p>
+            </p>
+          </p>
+        </p>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

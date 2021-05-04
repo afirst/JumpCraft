@@ -1,0 +1,896 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Trigger Codes</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Trigger Codes<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="scriptobjgame.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <center>
+          <p align="center"> <font color="#003300" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+            List of Trigger Codes</strong></font></p>
+          <p align="center"><strong><font color="#000000">Explanation: </font></strong><font color="#000000">A 
+            trigger code is an abbreviated form of a trigger's name and its parameters. 
+            Naming triggers always follow the rule:</font></p>
+          <p align="center"><font color="#000000" size="2" face="Courier New, Courier, mono">category 
+            code (1 character) + trigger name code (3 characters) + trigger parameters 
+            (any combination of letters and numbers)</font></p>
+          <p align="center">Here is a table that will help you create a trigger 
+            code:</p>
+          <table width="550" border="1" cellspacing="0" cellpadding="0">
+            <tr> 
+              <th width="250"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Trigger 
+                  Name</font></div></th>
+              <th width="50"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Code</font></div></th>
+              <th width="250"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Parameters</font></div></th>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">General 
+                  &gt; Always</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">aalw*</font></div></td>
+              <td width="250"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">General 
+                &gt; Begin Game</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">nbgm</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">General 
+                &gt; Begin Level <font size="1">(for any level)</font></font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">nblv</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">General 
+                  &gt; Begin Level <font size="1">(for a specific level)</font></font></div></td>
+              <td> <div align="center"><font size="2" face="Courier New, Courier, mono">nblv</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + _</font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Counters 
+                  &gt; Value Changed</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">cval</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Counter 
+                  index (number)</font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Timers 
+                  &gt; Tick</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">itic</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Timer 
+                  index (number)</font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Character 
+                &gt; Jump</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">hjum</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Character 
+                &gt; Hit Head while Jumping</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">hstj&sup1;</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Character 
+                &gt; Fall</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">hfal</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Character 
+                &gt; Land</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">hlan</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">(none)</font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                  &gt; Hit</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">ghit</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + Group name</font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                  &gt; Hit Left Edge</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">glef</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group name</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                  &gt; Hit Right Edge</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">grig</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group name</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                  &gt; Hit Top Edge</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">gtop</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group name</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                  &gt; Hit Bottom Edge</font></div></td>
+              <td width="50"> <div align="center"><font size="2" face="Courier New, Courier, mono">gbot</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group name</font></font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Exclusively on Top</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gexc</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group name</font></font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Collect</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gcol</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group name</font></font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Shot</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gsho</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Destroyed</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gdes</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Change Directions</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gcha</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Ch. Dir. &gt; To Forward</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gctf</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Ch. Dir. &gt; To Backward</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gctb</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Hover</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">ghov</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Groups 
+                &gt; Click</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">gcli</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Group nane</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                  &gt; Hit</font></div></td>
+              <td> <div align="center"><font size="2" face="Courier New, Courier, mono">thit</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                  &gt; Hit Left Edge</font></div></td>
+              <td> <div align="center"><font size="2" face="Courier New, Courier, mono">tlef</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                  &gt; Hit Right Edge</font></div></td>
+              <td> <div align="center"><font size="2" face="Courier New, Courier, mono">trig</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                  &gt; Hit Top Edge</font></div></td>
+              <td> <div align="center"><font size="2" face="Courier New, Courier, mono">ttop</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"> <div align="left"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                  &gt; Hit Bottom Edge</font></div></td>
+              <td> <div align="center"><font size="2" face="Courier New, Courier, mono">tbot</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Exclusively on Top</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">texc</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Collect</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tcol</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Shot</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tsho</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Destroyed</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tdes</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Change Directions</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tcha</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Ch. Dir. &gt; To Forward</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tctf</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Ch. Dir. &gt; To Backward</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tctb</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Hover</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">thov</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Tiles 
+                &gt; Click</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">tcli</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Tile 
+                  index </font></font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Locations 
+                &gt; Enter</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">lent</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Location name</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Locations 
+                &gt; Exit</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">lexi</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Location name</font></font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Locations 
+                &gt; Inside</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">lins</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">Level 
+                  (5 digits) + </font></font><font size="2">Location name</font></font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Keyboard 
+                &gt; Press Key</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">kpre</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2"><a href="#keycode">Key 
+                  index</a> (number)</font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Keyboard 
+                &gt; Release Key</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">krel</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2"><a href="#keycode">Key 
+                  index</a> (number)</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Keyboard 
+                &gt; Hold Key</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">khol</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2"><a href="#keycode">Key 
+                  index</a> (number)</font></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Left Button Press</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mlpr</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Left Button Release</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mlre</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Left Button Hold</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mlho</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Right Button Press</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mrpr</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Right Button Release</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mrre</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Right Button Hold</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mrho</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Middle Button Press</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mmpr</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Middle Button Release</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mmre</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Middle Button Hold</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mmho</font></div></td>
+              <td> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+            <tr> 
+              <td width="250"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Mouse 
+                &gt; Move Mouse</font></td>
+              <td><div align="center"><font size="2" face="Courier New, Courier, mono">mmov</font></div></td>
+              <td width="250"> <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font size="2">(none)</font></font><font size="2"></font></font></div></td>
+            </tr>
+          </table>
+          <blockquote> 
+            <blockquote> 
+                
+              <p><strong><font size="1">Notes</font><br>
+                  </strong><font size="1">*The &quot;a&quot; prefix on the <font face="Courier New, Courier, mono">Always<font face="Verdana, Arial, Helvetica, sans-serif"> 
+                  </font></font><font face="Verdana, Arial, Helvetica, sans-serif">action 
+                  code remains for compatibility purposes only.</font></font><br>
+                  <font size="1">&sup1;<font face="Courier New, Courier, mono">stj</font> 
+                  stands for <strong>st</strong>op <strong>j</strong>umping.</font></p>
+                
+            </blockquote>
+          </blockquote>
+          <p>Here are some examples:</p>
+          <table width="400" border="1" cellspacing="0" cellpadding="0">
+            <tr> 
+              <th width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Code</font></div></th>
+              <th width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Description</font></div></th>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">aalw</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Always</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">cval1</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Score 
+                  counter changed</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">itic3</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Timer 
+                  (3) tick</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">ghit00001Button</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Hit 
+                  &quot;Button&quot; group on level 1</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">thit5</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Hit 
+                  tile index 5</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">lent00012Chkpt1</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Enter 
+                  the &quot;Chkpt1&quot; location on level 12</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">krel38</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Release 
+                  the up arrow key</font></div></td>
+            </tr>
+            <tr> 
+              <td width="130"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">mmov</font></div></td>
+              <td width="270"> <div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Move 
+                  the mouse</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">nblv00007_</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Level 
+                  7 began</font></div></td>
+            </tr>
+          </table>
+          <p><a name="keycode"></a>For more information on key codes:</p>
+          <table width="300" border="1" cellspacing="0" cellpadding="0">
+            <tr> 
+              <th><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Key 
+                  Code</font></div></th>
+              <th><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Key 
+                  Name</font></div></th>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">8</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Backspace</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">13</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Enter</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">16</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Shift</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">17</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Ctrl</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">18</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Alt</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">19</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Print 
+                  Screen</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">27</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Escape</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">32</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Space</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">33</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Page 
+                  Up</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">34</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Page 
+                  Down</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">35</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">End</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">36</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Home</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">37</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Left 
+                  Arrow</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">38</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Up 
+                  Arrow</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">39</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Right 
+                  Arrow</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">40</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Down 
+                  Arrow</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">45</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Insert</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">46</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Delete</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">48</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">0</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">49</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">1</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">50</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">2</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">51</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">3</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">52</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">4</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">53</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">5</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">54</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">6</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">55</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">7</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">56</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">8</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">57</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">9</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">65</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">A</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">66</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">B</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">67</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">C</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">68</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">D</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">69</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">E</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">70</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">71</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">G</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">72</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">H</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">73</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">I</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">74</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">J</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">75</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">K</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">76</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">L</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">77</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">M</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">78</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">N</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">79</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">O</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">80</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">P</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">81</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Q</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">82</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">R</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">83</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">S</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">84</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">T</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">85</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">U</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">86</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">V</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">87</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">W</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">88</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">X</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">89</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Y</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">90</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Z</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">96</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  0</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">97</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  1</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">98</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  2</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">99</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  3</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">100</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  4</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">101</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  5</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">102</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  6</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">103</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  7</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">104</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  8</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">105</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  9</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">106</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  *</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">107</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  +</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">109</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  -</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">110</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  .</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">111</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Numpad 
+                  /</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">112</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F1</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">113</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F2</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">114</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F3</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">115</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F4</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">116</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F5</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">117</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F6</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">118</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F7</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">119</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F8</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">120</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F9</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">121</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F10</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">122</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F11</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">123</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">F12</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">186</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">;</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">187</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">=</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">188</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">,</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">189</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">-</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">190</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">.</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">191</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">/</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">192</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">`</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">219</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">[</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">220</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">\</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">221</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">]</font></div></td>
+            </tr>
+            <tr> 
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">222</font></div></td>
+              <td><div align="center"><font size="2" face="Verdana, Arial, Helvetica, sans-serif">'</font></div></td>
+            </tr>
+          </table>
+        </center>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

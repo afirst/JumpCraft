@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<META NAME="Generator" CONTENT="NetObjects Fusion MX for Windows">
+<TITLE>Scripting Scope</TITLE>
+</HEAD>
+<BODY NOF="(MB=(DefaultMasterBorder, 85, 20, 0, 0), L=(ScriptingScopeLayout, 484, 2195))" BGCOLOR="#A8CACA" TEXT="#000000" LINK="#0033CC" VLINK="#990099" ALINK="#FF0000" STYLE="tab-interval:.5in" LANG="EN-US" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+    <CENTER>
+    <!--
+<table>
+<tr>
+<td>
+<img src="./assets/images/logo.gif" width="740" height="75">
+</td>
+</tr>
+<tr>
+<td>
+-->
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=484 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD HEIGHT=5></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD HEIGHT=75 ALIGN=CENTER VALIGN=MIDDLE WIDTH=484><A HREF="../index.html"><IMG ID="Picture1" HEIGHT=75 WIDTH=484 SRC="../assets/images/logo1.jpg" BORDER=0></A></TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=23 HEIGHT=5><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=23 HEIGHT=1 BORDER=0></TD>
+            <TD></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD></TD>
+            <TD WIDTH=439>
+                <TABLE ID="Table5" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+                    <TR>
+                        <TD COLSPAN=3 BACKGROUND="../assets/images/bigtab.gif" HEIGHT=32>
+                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH=439 NOF=TI>
+                                <TR>
+                                    <TD>
+                                        <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#FFFFFF" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Scripting Scope </B></FONT><A HREF="../html/scripting_documentation.html"><FONT COLOR="#FFFFFF" SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Up</FONT></A></P>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD WIDTH=6 BACKGROUND="../assets/images/line_l.gif" HEIGHT=1061>
+                            <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                        </TD>
+                        <TD VALIGN=TOP ALIGN=RIGHT WIDTH=423 BACKGROUND="../assets/images/bigback1.gif">
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>&nbsp;<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">There are two types of scripting scopes, procedure-level and class-level.  These can be accessed using the Procedure View and Class View tabs, respectively, in the Scripting Editor.</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Procedure-level Scope<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">This will is the most commonly used scope, because you can enter a different script for each action.&nbsp; The code you are entering is equivalent to the body of a function.&nbsp; For example, if you had a Tile Hit action for certain tile, the code would be as follows:</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="-1" FACE="Courier New,Courier,monospace">Function [FunctionName]()<BR>‘Procedure-level code goes here<BR>End Function</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Since JumpCraft automatically creates the Function...End Function code for you, you can see that the procedure-level is equivalent to the body of a sub or function.</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now, let’s say you made a script in the score counter’s “Value Changed” trigger.&nbsp; Then, the code for your function would be,</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="-1" FACE="Courier New,Courier,monospace">Function [FunctionName](ByVal curCounter As _<BR>PlatformStudio.CurrentCounter)<BR>‘Procedure-level code goes here<BR>End Function</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The code you would type in this function would be the the same as the previous function, since you are only typing the body of the function.&nbsp; However, in this function, you can also make use of a parameter, which is <I>curCounter</I>.&nbsp; Even though you are not declaring <I>curCounter</I>, you can still make use of it because JumpCraft declares it for you.</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">One final note about procedure-level: you cannot execute other triggers’ functions because they are independent of each other.  If you want to share code, put it in Class View.</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Class-level Scope<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The other type of scope is called Class-level.  In class-level, you can write global code that can be used in any procedure in your game.  All of this code is located in a class (whose definition is automatically created by JumpCraft).  Therefore, if you type this,</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Courier New,Courier,monospace">Dim Game As PlatformStudio.psGame</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">JumpCraft will create this (which you will not see in Class View),</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Courier New,Courier,monospace">Class ScriptObject<BR>Dim Game As PlatformStudio.psGame<BR>End Class</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The <I>Game</I> object can also be used throughout your procedures in Procedure View.</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Another way to take advantage of class-level scripting is to create global functions.  For example, if you create a function that draws the number of points earned when the user collects a coin or heart, you can access it in both the Coin.Collect trigger and the Heart.Collect trigger.</FONT></P>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>Putting It All Together<BR></B></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The final output JumpCraft creates is a DLL, which combines all of your scripts, actions, and global code and puts it in a single class, to be compiled to a DLL file.&nbsp; If there is an error compiling the DLL, you will see the source code that JumpCraft generates from your actions and code.&nbsp; To famiiliarize yourself with it, your DLL might look something like this:</FONT></P>
+                            <P ALIGN=LEFT><FONT SIZE="-1" FACE="Courier New,Courier,monospace">Imports System<BR>Imports System.Drawing<BR>Imports System.Windows.Forms<BR>Imports Microsoft.VisualBasic<BR><BR>Namespace Script<BR>&nbsp;&nbsp;  Class ScriptObject<BR>&nbsp;&nbsp; &nbsp; &nbsp;  'This code imports the current game object<BR>&nbsp;&nbsp; &nbsp; &nbsp;  'so it can be used through scripting.<BR>&nbsp;&nbsp; &nbsp; &nbsp;  'The Game object is set by the game player.<BR>&nbsp;&nbsp; &nbsp; &nbsp;  Public Game As PlatformStudio.psGame<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  'Trigger actions<BR>&nbsp;&nbsp; &nbsp; &nbsp;  '---------------<BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function cval2(ByVal curCounter As &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  PlatformStudio.CurrentCounter)<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  If curCounter.Value &lt; 0 Then<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.QuitGame()<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  End If<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function cval3(ByVal curCounter As &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  PlatformStudio.CurrentCounter)<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  If curCounter.Value &lt;= 0 Then<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.ModifyLives(-1)<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.SetHealth(3)<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Else<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  If curCounter.Decreased Then<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.Hurt(4, _<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;Blink&quot;, 0.2)<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  End If<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  End If<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function khol37()<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.MoveCharacter( _<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;Left&quot;, 4, True)<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function khol39()<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.MoveCharacter( _<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &quot;Right&quot;, 4, True)<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function khol38()<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.Jump(0.6, 0.25, 1)<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function krel38()<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.StopJumping()<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp; &nbsp; &nbsp;  Function kpre27()<BR>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Game.PresetActions.QuitGame()<BR>&nbsp;&nbsp; &nbsp; &nbsp;  End Function<BR><BR>&nbsp;&nbsp;  End Class<BR>End Namespace</FONT></P>
+                        </TD>
+                        <TD WIDTH=10 BACKGROUND="../assets/images/line_r.gif">
+                            <P ALIGN=RIGHT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD COLSPAN=3 BACKGROUND="../assets/images/biglineb.gif" HEIGHT=20>
+                            <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">&nbsp;</FONT></P>
+                        </TD>
+                    </TR>
+                </TABLE>
+                ST</TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=484 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=484 HEIGHT=3><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=484 HEIGHT=1 BORDER=0></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=484>
+                <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Copyright 2004, First Productions, Inc.</FONT></P>
+            </TD>
+        </TR>
+    </TABLE>
+    </CENTER>
+</BODY>
+N
+</HTML>
+N

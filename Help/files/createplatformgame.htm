@@ -1,0 +1,378 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Walkthrough of Creating a Platform Game</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Walkthrough of Creating 
+          a Platform Game <a href="tutorials.htm"><font color="#CCCCCC" size="1">Up</font></a><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">This 
+          tutorial will guide you through the process of making a simple platform 
+          game using JumpCraft.&nbsp; Follow the instructions in order below:</FONT></P>
+        <P ALIGN=LEFT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>I. 
+          Creating a new game</B></FONT><B></B></P>
+        <OL>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>File</B>, and select <B>New Game Wizard</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Next</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Under 
+            <B>Name of game</B>, type <B>Platform Game Tutorial</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Under 
+            <B>Credits</B> where it says “Created by...,” replace MyName with 
+            your name. You are allowed to delete the &quot;Powered by Platform 
+            Studio&quot; if you want.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Under 
+            <B>Company</B>, type in the name of your company or leave it blank.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Under 
+            <B>Website</B>, type in the name of your website, including the “http://”.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Under 
+            <B>Support email</B>, type in your support email address, or your 
+            personal email address.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Next</B>, and then click <B>Next </B>again.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Make 
+            sure the <B>Windowed</B> option is <B>checked</B>, and make sure the 
+            window size is set to <B>450x300</B>.&nbsp; Under <B>Window title</B>, 
+            type <B>Platform Game Tutorial</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Next</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Choose 
+            a color scheme (optional), and click <B>Next</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Next</B>, and then click <B>Finish</B>.<br>
+            <br>
+            </FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Platform 
+            Studio should look something like this:<BR>
+            <IMG ID="Picture3" HEIGHT=293 WIDTH=390 SRC="assets/images/img2.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT> 
+          </LI>
+        </OL>
+        <P ALIGN=LEFT><FONT COLOR="#003300" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B><a name="Tileset"></a>II. 
+          Setting up a tileset</B></FONT><B></B></P>
+        <OL>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            the <B>Tools</B> menu, and select <B>Tileset Editor</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Clear</B>.&nbsp; When it asks if you are sure, click <B>Yes</B>.</FONT></LI>
+          <LI><font size="-1" face="Verdana,Tahoma,Arial,Helvetica,sans-serif">We 
+            want our grid to be 32x32 pixels, so make sure the <strong>Grid with</strong> 
+            and <strong>height</strong> both contain values of <strong>32</strong> 
+            (located at the bottom of the dialog).</font></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now 
+            we are going to add the tiles to the tileset.&nbsp; Click <B>Add</B>.&nbsp; 
+            Navigate to the installation folder (normally C:\Program Files\Platform 
+            Studio). Browse to the Graphics folder, and then the Tileset folder.&nbsp; 
+            In this tutorial, we are just going to set up the first two tiles 
+            manually so you can see how it's done. Select <strong>blocks.png</strong> 
+            and <strong>bullet.png</strong> (hold down Ctrl and click each file). 
+            Click <B>Open</B>. If Bullet comes before Blocks in the list of tiles, 
+            select the Blocks tile and click the Up arrow to move it upwards, 
+            or drag it to the top of the list.</FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><BR>
+            <img id="Picture4" height=216 width=248 src="assets/images/img3.gif" vspace=0 hspace=0 align="TOP" border=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now, 
+            we must configure the tiles in the tileset (their sizes, animations, 
+            behavior, etc.) First we are going to configure the transparent color. 
+            Since both tiles have magenta backgrounds, you can select both tiles 
+            at the same time to change both of their transparent colors. Click 
+            <strong>Blocks</strong> and then hold down <strong>Ctrl </strong>and 
+            click <strong>Bullet</strong>. Click the <strong>Transparent color</strong> 
+            property, the <strong>down arrow</strong>, and then select <strong>Magenta</strong> 
+            (the color in the third row on the far right).</FONT></LI>
+          <LI><font size="-1" face="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now, 
+            we need to configure the boundaries for the Blocks tile. This step 
+            is optional but it is highly recommended as it will lead to much greater 
+            performance in game. Click <strong>Blocks</strong>, and under <strong>Boundaries</strong>, 
+            click <strong>(...)</strong>. Change the <strong>Boundary type</strong> 
+            to <strong>Custom</strong>. Now, by clicking with the mouse and dragging 
+            on the tile preview, draw a box that fills the solid areas of the 
+            tile. If you make a mistake, click what you have drawn and press Delete. 
+            You should now have something that looks like this:<br>
+            <img id="Picture4" height=184 width=248 src="assets/images/img68.gif" vspace=0 hspace=0 align="TOP" border=0> 
+            </font><br>
+            Now, go to the next frame by double-clicking <strong>Current frame</strong>. 
+            Do the same thing, and repeat for each frame. For example, frame 7 
+            should look like this:<br>
+            <img id="Picture4" height=184 width=248 src="assets/images/img69.gif" vspace=0 hspace=0 align="TOP" border=0><br>
+            and frame 13 should look like this (yes, you can draw multiple shapes 
+            on the same frame):<br>
+            <img id="Picture4" height=184 width=248 src="assets/images/img70.gif" vspace=0 hspace=0 align="TOP" border=0><br>
+            Now click <strong>OK</strong>.</LI>
+          <LI><font size="-1" face="Verdana,Tahoma,Arial,Helvetica,sans-serif">Since 
+            the Blocks tile does not need any more configuring, select the <strong>Bullet 
+            </strong>tile. Notice the strange preview next for this tile. That 
+            is because the section size is not properly configured. So, under 
+            <strong>Section width</strong>, type (or select). The preview shuold 
+            look much better now.</font></LI>
+          <LI>Now we are going to add an animation to the Bullet tile. Under <strong>Animations</strong>, 
+            click <strong>(...)</strong>. Under <strong>Animation</strong>, select 
+            <strong>Disappear</strong>. Under <strong>Start frame</strong>, type 
+            <strong>2</strong>, and under <strong>Stop frame</strong>, type <strong>4</strong>. 
+            Under <strong>Frame interval</strong>, type <strong>0.04</strong>. 
+            Click <strong>OK</strong>. Notice how the &quot;Animations&quot;<strong> 
+            </strong>property now has a value of &quot;Disappear&quot;, since 
+            we have added a disappear animation.</LI>
+          <LI>Since this tile is so small, we can just give it a Rectangular boundary. 
+            So, under <strong>Boundaries</strong>, click <strong>(...)</strong>. 
+            Under <strong>Boundary type</strong>, select <strong>Rectangular</strong>. 
+            Or, if you wanted, you could try a circular boundary. Instead of selecting 
+            Rectangular, select <strong>OneCustom</strong>. Under <strong>Tool</strong>, 
+            select <strong>Circle</strong>, and under <strong>Grid spacing</strong>, 
+            type <strong>8</strong>. Now click and drag from the top-left corner 
+            to the bottom-right corner. Click <strong>OK</strong>.</LI>
+          <LI>The last thing we need to do for this tile is set up a different 
+            behavior. Under <strong>Behavior</strong>, click the <strong>down 
+            arrow</strong> and select <strong>(Custom...)</strong>. In the &quot;Customize 
+            Behavior&quot; dialog, scroll up and select <strong>Bullet</strong>. 
+            The default values are fine so click <strong>OK</strong>.</LI>
+          <LI>Now that you've seen how to edit properties in the Tileset Editor, 
+            lets add the rest of the tiles that we need quickly. Click <strong>Import</strong> 
+            (on the toolbar) and double-click <strong>Tileset.pst</strong>. Now 
+            an &quot;Import Tileset&quot; dialog should appear. We already have 
+            &quot;Blocks&quot; and &quot;Bullet&quot; so select all of the tiles 
+            from &quot;Button&quot; to &quot;Water&quot; by clicking <strong>Button 
+            </strong>and dragging the mouse downward until the rest of the tiles 
+            have been selected. Now click <strong>OK</strong>. The Tileset Editor 
+            should now look something like this:<br>
+            <img id="Picture4" height=216 width=248 src="assets/images/img67.gif" vspace=0 hspace=0 align="TOP" border=0></LI>
+          <LI><font size="-1" face="Verdana,Tahoma,Arial,Helvetica,sans-serif">Finally, 
+            we have finished editing the tileset. Click the <strong>X</strong> 
+            button in the upper-right corner of the dialog. Your changes will 
+            be saved automatically.</font></LI>
+        </OL>
+        <P ALIGN=LEFT><FONT COLOR="#003300" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>III. 
+          Action Editor</B></FONT></P>
+        <OL>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Tools</B> and select <B>Action Editor</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">We 
+            are going to make a new timer for the shooting enemy. Click the <B>Timers</B> 
+            button on the toolbar (the button that looks like a clock). Click 
+            <B>Add</B>.&nbsp; Under <B>Name</B>, type <B>Shoot Timer</B>.&nbsp; 
+            Under <B>Interval</B>, type <B>1</B>.<BR>
+            <IMG ID="Picture5" HEIGHT=176 WIDTH=88 SRC="../assets/images/img4.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            Click <B>OK</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now 
+            we are going to make a new action for the Shoot Timer. Under the <B>Triggers</B> 
+            portion of the Action Editor, double-click <B>Timers</B>, double-click 
+            <B>Shoot Timer</B>, and click <B>Tick</B>.&nbsp; On the Actions list 
+            to the right, right-click, select <strong>New Action</strong>, select 
+            <strong>Map</strong>, and then click <strong>Shoot</strong>. The Edit 
+            Action dialog should appear. Now look under <B>Parameters</B>.&nbsp; 
+            Double-click the first item (Bullet generator) and select <B>Enemy 
+            Shooter</B> in the dropdown box.&nbsp; Click <B>OK</B>.&nbsp; Double-click 
+            the next item (Bullet tile).&nbsp; Select <B>Bullet</B> and click 
+            <B>OK </B>(you can leave Frame blank). <BR>
+            <IMG ID="Picture6" HEIGHT=196 WIDTH=220 SRC="assets/images/img5.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            The other default values are fine so click <B>OK</B>.<BR>
+            <IMG ID="Picture7" HEIGHT=227 WIDTH=280 SRC="assets/images/img6.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Our 
+            next action will be to add the decrease health sound effect.&nbsp; 
+            Under the <B>Triggers</B> portion of the Action Editor, double-click 
+            <B>Counters</B>, double-click <B>Health</B>, and click <B>Value Changed</B>.&nbsp; 
+            On the actions list, select the <B>If Current Counter Decreased</B> 
+            action.<BR>
+            <IMG ID="Picture8" HEIGHT=227 WIDTH=280 SRC="assets/images/img7.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            Right-click the selected action.&nbsp; Select <strong>New Action</strong>, 
+            <strong>Miscellaneous</strong>, and click <strong>Play Sound</strong>. 
+            The Edit Action dialog should appear. Under <B>Parameters</B>, double-click 
+            <B>Sound</B> and click <B>(...)</B>.&nbsp; Navigate to the Sounds 
+            folder from the installation folder (default path is C:\Program Files\Platform 
+            Studio\Sounds), and double-click <B>Lose Health.wav</B>.&nbsp; Click 
+            <B>OK</B>, and click <B>OK </B>again.<BR>
+            <IMG ID="Picture9" HEIGHT=227 WIDTH=280 SRC="assets/images/img8.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">We 
+            are done with the Action Editor, so click <B>OK</B>.</FONT></LI>
+        </OL>
+        <P ALIGN=LEFT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>IV. 
+          Window Editor</B></FONT><B></B></P>
+        <OL>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Tools</B> and select <B>Window Editor</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">We 
+            are going to create some different types of counters in the game window. 
+            In the <B>Windows </B>panel on the right side of the Window Editor, 
+            select <B>Game</B>.<BR>
+            <IMG ID="Picture11" HEIGHT=288 WIDTH=384 SRC="assets/images/img9.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><br>
+            Delete the health counter (3</FONT><FONT SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><SUP>rd</SUP></FONT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"> 
+            control from the top).&nbsp; To delete a control, select it by clicking 
+            it with the mouse and press the delete key on your keyboard. In the 
+            <B>Controls</B> panel on the left side of the Window Editor, select 
+            <B>Image &amp; Text Counter</B>.&nbsp; Where the health counter used 
+            to be, drag a new Image &amp; Text Counter in its place.&nbsp; Select 
+            the new control. In the Properties panel, find the <strong>Counter</strong> 
+            property, and select <strong>Coins</strong>. Under <strong>Shadow</strong>, 
+            select <strong>True</strong>. Check <B>Shadow</B>.&nbsp; Under <B>File</B>, 
+            click the <B>(...)</B> button. Navigate to the installation folder 
+            (default is C:\Program Files\JumpCraft), browse to the Graphics 
+            folder, then Counter Icons folder, and double-click <B>coins.bmp</B>.&nbsp; 
+            Under <B>Transparent Color</B>, click the <strong>down arrow</strong> 
+            and select <B>Magenta</B> (third row on the far right). Under <B>Image 
+            size</B>, enter <B>24, 24</B>.<BR>
+            <IMG ID="Picture13" HEIGHT=288 WIDTH=384 SRC="assets/images/img11.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            Now we are going to create the health counter. Select the <B>Image 
+            Counter</B> control, and place a new one under the coin counter.&nbsp; 
+            Look at the Properties panel. Under <B>Counter</B>, select <B>Health</B>.&nbsp; 
+            Under <B>File</B>, click <B>(...)</B>, and browse to the installation 
+            folder, then go to Graphics, and then Counter Icons.&nbsp; Double-click 
+            <B>hearts.bmp</B>.&nbsp; Under <B>Transparent color</B>, click the 
+            <strong>down arrow</strong> and select <strong>White </strong>(the 
+            top-left box).&nbsp; Under <B>Padding</B>, enter <B>0</B>.<BR>
+            <IMG ID="Picture15" HEIGHT=288 WIDTH=384 SRC="assets/images/img13.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The 
+            last thing we are going to do in the window editor is to create a 
+            High Score window.&nbsp; In the <B>Windows</B> panel on the right 
+            side of the Window Editor, select the <B>Help</B> window so we can 
+            use it as a template.&nbsp; On the toolbar below the list of windows, 
+            click the <B>Copy Window</B> button (second button from the left). 
+            Then click the <B>Rename Window</B> button (third button from the 
+            left). Under <B>Window Name</B>, click the dropdown arrow and select 
+            <B>High Scores</B>.<BR>
+            <IMG ID="Picture16" HEIGHT=104 WIDTH=232 SRC="../assets/images/img14.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            Click <B>OK</B>.<BR>
+            Click the <B>Help</B> label and change the text property to <B>High 
+            Scores</B>.&nbsp; Delete the second label (in the middle of the window).&nbsp; 
+            In its place, add a <B>High Scores Area</B> control.&nbsp; Move the 
+            top label upwards, move the OK button downwards, and resize the High 
+            Scores Area control so that there is more room to display high scores.<BR>
+            <IMG ID="Picture17" HEIGHT=288 WIDTH=384 SRC="assets/images/img15.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><font size="-1" face="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now 
+            we need to tell the OK button to bring us back to the main menu. Select 
+            the <strong>OK </strong>button, under the <strong>Action</strong> 
+            property, click <strong>(...)</strong>. Right-click the action list, 
+            select <strong>New Action</strong>, select <strong>Miscellaneous</strong>, 
+            and click the <strong>Show Window</strong> near the top of the list. 
+            In the Edit Action dialog double-click <strong>Window name</strong> 
+            and select <strong>Main</strong>. Then click <strong>OK</strong>, 
+            and then <strong>OK </strong>again.</font></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">We 
+            are done with the window editor, so close it by clicking the <B>X</B> 
+            button on the top-right corner. Your changes will be saved automatically. 
+            (Note that this is only true for the Window Editor and the Tileset 
+            Editor).</FONT></LI>
+        </OL>
+        <P ALIGN=LEFT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B><a name="Level" id="Level"></a>V. 
+          Level Editor</B></FONT><B></B></P>
+        <OL>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">We 
+            should be in the level editor, which is always the top-level window. 
+            Your screen should look something like this:<BR>
+            <IMG ID="Picture22" HEIGHT=293 WIDTH=390 SRC="assets/images/img2.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Notice 
+            that we are currently working in the Foreground layer by looking in 
+            the <B>Layers</B> panel on the right side of the Level Editor. To 
+            draw on a different layer, select the “Active” checkbox for the layer 
+            you want to draw on. You can change the state of the “Visible” checkboxes 
+            to show or hide layers. For now, leave the <B>Foreground</B> layer 
+            active.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">To 
+            use the Tiles panel on the left side of the Level Editor, select the 
+            tile you want to draw with, and, if a subtile selector is shown below 
+            the selected tile, click the subtile you want to draw with. When you 
+            select a tile, you switch to Draw mode (shown at the toolbar on the 
+            top of the Level Editor). Right now, select the <B>Blocks</B> tile 
+            and the top-left subtile.&nbsp; This is shown in the screenshot in 
+            step 1.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now, 
+            begin drawing with the selected tile. Make it look like the screen 
+            shown below (Note: if you make a mistake, you can hit Ctrl+Z to undo 
+            it):<BR>
+            <IMG ID="Picture23" HEIGHT=293 WIDTH=390 SRC="assets/images/img17.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Select 
+            and draw with the top-right subtile, and afterwards the subtile in 
+            the second column and second row, to make your level look like this:<BR>
+            <IMG ID="Picture25" HEIGHT=293 WIDTH=390 SRC="assets/images/img18.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Now, 
+            draw with some other tiles to make your level look like this:<BR>
+            <IMG ID="Picture26" HEIGHT=293 WIDTH=390 SRC="assets/images/img19.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">For 
+            this level, we want the block above the spikes to move back and forth 
+            from one end of the spikes to the other. To do this, we need to set 
+            a path for it.&nbsp; On the toolbar at the top, click <B>Select</B>.&nbsp; 
+            Then click the block tile.&nbsp; Notice that the Properties panel 
+            on the right side of the editor is enabled, so you can modify the 
+            tile.&nbsp; Under <B>Path</B>, click <B>Edit</B>.<BR>
+            <IMG ID="Picture27" HEIGHT=293 WIDTH=390 SRC="assets/images/img20.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            Notice how the interface changes.&nbsp; The Tiles panel is replaced 
+            with the Toolbox, the Layers and Levels panels are now gone, and the 
+            Properties panel is changed to show information about the current 
+            path. Also, the background is dimmed and the grid is moved to the 
+            centers of the tiles instead of their borders. Create a new point 
+            for the path by clicking in the center of the selected tile. Then, 
+            make another point by clicking in the spot a tile under the rightmost 
+            coin tile. Your screen should look like this:<BR>
+            <IMG ID="Picture28" HEIGHT=293 WIDTH=390 SRC="assets/images/img21.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0><BR>
+            For this path, we do not need to modify the speed; the 3-second speed 
+            will work just fine.&nbsp; Click <B>Preview</B> to preview how your 
+            tile will move before you aceept the changes. Then click <B>OK</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">The 
+            last thing we need to do with this test level is to resize it. To 
+            do this, hover your mouse over the bottom-right tile that you drew, 
+            and look at the coordinates on the status bar (at the bottom of the 
+            editor). The X coordinates should be 12 and the Y coordinate should 
+            be 14. Click <B>Edit</B> and select <B>Resize Level</B>.&nbsp; Under 
+            <B>Width</B>, type <B>12</B>, and under <B>Height</B>, type <B>14</B>. 
+            Click <strong>OK</strong>.<BR>
+            <IMG ID="Picture29" HEIGHT=293 WIDTH=390 SRC="assets/images/img22.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+        </OL>
+        <P ALIGN=LEFT><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT COLOR="#003300" SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><B>VI. 
+          Testing</B></FONT><B></B></P>
+        <OL>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">First, 
+            save your project if you wish to. Click <B>File</B>, and choose <B>Save 
+            As</B>.&nbsp; Type in a name for your file and click <B>Save</B>.</FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">To 
+            test your game, click <B>Run</B> and choose <B>Start</B>, or, click 
+            the green “play”-shaped button on the toolbar.&nbsp; It may take several 
+            seconds to compile. When it’s done, a window like this should open:<BR>
+            <IMG ID="Picture31" HEIGHT=176 WIDTH=228 SRC="assets/images/img23.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Click 
+            <B>Play</B>.<BR>
+            <IMG ID="Picture32" HEIGHT=176 WIDTH=228 SRC="assets/images/img24.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0></FONT></LI>
+          <LI><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Congratulations, 
+            you have just created a platform game!</FONT> 
+        </OL>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

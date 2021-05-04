@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Action Editor</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Action Editor<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="windows.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="center">Click an area of the Action Editor to learn more about 
+          it.<br>
+          <img src="assets/images/img35.gif" width="560" height="453" border="0" usemap="#Map"> 
+          <map name="Map">
+            <area shape="rect" coords="4,50,556,75" href="#toolbar">
+            <area shape="rect" coords="3,29,557,50" href="#menus">
+            <area shape="rect" coords="12,102,251,408" href="#triggers">
+            <area shape="rect" coords="261,102,548,407" href="#actions">
+            <area shape="rect" coords="317,418,387,440" href="#editdata">
+            <area shape="rect" coords="396,418,467,440" href="#cancel">
+            <area shape="rect" coords="476,418,548,439" href="#ok">
+          </map>
+        </p>
+        <p align="left"><a name="triggers" id="triggers"></a><font color="#003300" size="3"><strong>Triggers</strong></font><br>
+          Contains the list of triggers. Select a trigger to add an action (Note: 
+          Keep in mind that not everything in the list is a trigger. Counters 
+          &gt; Score is not a trigger, but Counters &gt; Score &gt; Value Changed 
+          is). Anything in <font color="#3300FF">blue <font color="#000000">either 
+          contains actions, or a trigger inside it contains actions. Anything 
+          in black contains no actions, and none of the triggers inside it contains 
+          actions. </font></font></p>
+        <p align="left"><a name="actions" id="actions"></a><font color="#003300" size="3"><strong>Actions</strong></font><br>
+          This is the list of actions for the selected trigger. Double-click an 
+          action to <a href="editaction.htm">edit</a> it. To easily move an action 
+          through the list, click it and then drag it to where you want it to 
+          be located.</p>
+        <p align="left"><a name="menus" id="menus"></a><strong><font color="#003300" size="3">Menus</font></strong><br>
+        
+        <ul>
+          <li>File</li>
+          <ul>
+            <li>Close and save changes: <em>see <a href="#ok">OK Button</a></em></li>
+            <li>Close and discard changes: <em>see <a href="#cancel">Cancel Button</a></em></li>
+          </ul>
+          <li>Edit</li>
+          <ul>
+            <li>Timers: Shows the <a href="edittimers.htm">Edit Timers</a> dialog, 
+              allowing you to edit the timers.</li>
+            <li>Counters: Shows the <a href="editcounters.htm">Edit Counters</a> 
+              dialog, allowing you to edit the counters.</li>
+            <li>Global script: Shows the <a href="/scripteditor.htm">Script Editor</a> 
+              dialog, allowing you to edit the global script for your game.</li>
+          </ul>
+          <li>Trigger</li>
+          <ul>
+            <li>Expand: Expands the currently selected trigger category to show 
+              the related triggers or categories.</li>
+            <li>Collapse: Collapses the currently selected trigger category to 
+              hide the related triggers or categories.</li>
+            <li>Expand All: Expands the currently selected trigger category as 
+              well as all of its subcategories.</li>
+            <li>Copy Child Actions: Copies all actions for the selected trigger. 
+              If a category is selected, then all actions for all triggers of 
+              the selected category will be copied.</li>
+            <li>Paste Child Actions: Pastes all copied actions into the selected 
+              trigger or triggers of a selected category. This action can only 
+              be done if the hierarchy of the copied triggers or category matches 
+              the hierarchy of the selected triggers or category.</li>
+            <li>Paste Link to Child Actions: Does the same thing as Paste Child 
+              Actions, but in place of the actual actions, it creates an &quot;Execute 
+              Script&quot; action which then links to the copied trigger. Thus, 
+              if you then change the original action that was copied, the triggers 
+              that are linked to it will automatically reflect this change.</li>
+            <li>Delete Child Actions: Clicking this will delete all actions for 
+              the selected trigger. If a category is selected, then all actions 
+              of all triggers in this category will be deleted.</li>
+          </ul>
+          <li>Action</li>
+          <ul>
+            <li>New Action</li>
+            <ul>
+              <li>New Action: This will prompt you with the <em>Edit Action</em> 
+                dialog to specify an action to create, as well as its parameters.</li>
+              <li>(Action categories and related actions): An action of the selected 
+                type will be created. If parameters are required, the <em>Edit 
+                Action</em> dialog will appear, asking you to specify values for 
+                these parameters.</li>
+              <li>Execute Script: This will create a new <em>Execute Script</em> 
+                action under the selected action. The <em>Script Editor</em> will 
+                then open, allowing you to edit the script.</li>
+            </ul>
+            <li> Cut: Copies the selected action to the clipboard and then deletes 
+              it. </li>
+            <li>Copy: Copies the selected action to the clipboard.</li>
+            <li>Paste: Adds the copied action to the list of actions, below the 
+              selected item.</li>
+            <li>Delete: Deletes the selected action.</li>
+            <li>Move Up: Moves the selected action upwards, so it is executed 
+              before the action that precedes it.</li>
+            <li>Move Down: Moves the selected action downwards, so it is executed 
+              after the action that is after it.</li>
+          </ul>
+        </ul></p>
+        <p align="left"><a name="toolbar" id="toolbar"></a><strong><font color="#003300" size="3">Toolbar</font></strong><br>
+          The toolbar contains buttons for adding and modifying actions, as well 
+          as buttons for editing timers and counters. Here is a list of its buttons 
+          in order from left to right:</p>
+        <p align="left"> 
+        <ul>
+          <li>New Action: Creates a new action below the selected item. If nothing 
+            is selected, it creates it at the end of the list of actions.</li>
+          <li>Cut: Copies the selected action and then deletes it.</li>
+          <li>Copy: Copies the selected action.</li>
+          <li>Paste: Adds the copied action to the list of actions, below the 
+            selected item.</li>
+          <li>Delete: Deletes the selected action.</li>
+          <li>Move Action Up: Moves the selected action upwards, so it is executed 
+            before the action that precedes it.</li>
+          <li>Move Action Down: Moves the selected action downwards, so it is 
+            executed after the action that is after it.</li>
+          <li>Edit Timers: Shows the <a href="edittimers.htm">Edit Timers</a> 
+            dialog, allowing you to edit the timers.</li>
+          <li>Edit Counters: Shows the <a href="editcounters.htm">Edit Counters</a> 
+            dialog, allowing you to edit the counters.</li>
+          <li>Edit Global Script: Shows the <a href="/scripteditor.htm">Script 
+            Editor</a> dialog, allowing you to edit the global script for your 
+            game.</li>
+        </ul></p>
+        <p align="left"><a name="editdata" id="editdata"></a><strong><font color="#003300" size="3">Edit 
+          Data Button</font></strong><br>
+          Edits the action data. You can create new action presets or modify them.</p>
+        <p align="left"><a name="cancel" id="cancel"></a><font color="#003300" size="3"><strong>Cancel 
+          Button </strong></font><br>
+          Discards all of your changes in the Action Editor, and then closes it.</p>
+        <p align="left"><a name="ok" id="ok"></a><strong><font color="#003300" size="3">OK 
+          Button </font></strong><br>
+          Saves all of your changes in the Action Editor, and then closes it.</p>
+        <p align="left">&nbsp;</p>
+        <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>

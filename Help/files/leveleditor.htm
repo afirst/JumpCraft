@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Level Editor</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body bgcolor="#A8CACA" text="#000000" link="#000099" vlink="#000099" alink="#0000CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+  <p><img src="assets/images/logo1.jpg" width="484" height="75"></p>
+  <table width="85%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="16" height="32" background="assets/images/top_left.gif">&nbsp;</td>
+      <td height="32" background="assets/images/top_center.gif"> <div align="center"><font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <!-- InstanceBeginEditable name="Heading" --> Level Editor<font color="#FFFFFF" size="3" face="Verdana, Arial, Helvetica, sans-serif"><strong> 
+          <a href="windows.htm"><font color="#CCCCCC" size="1">Up</font></a></strong></font><!-- InstanceEndEditable --> 
+          </strong></font></div></td>
+      <td width="16" height="32" background="assets/images/top_right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td bgcolor="70A9A9"><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <!-- InstanceBeginEditable name="Body" --> 
+        <p align="center">Click an area of the Level Editor to learn more about 
+          it.<br>
+          <img src="assets/images/img30.gif" width="758" height="584" border="0" usemap="#Map"> 
+          <map name="Map">
+            <area shape="rect" coords="3,29,763,51" href="#menubar">
+            <area shape="rect" coords="3,51,763,76" href="#toolbar">
+            <area shape="rect" coords="592,74,762,273" href="#layers">
+            <area shape="rect" coords="592,272,756,372" href="#levels">
+            <area shape="rect" coords="592,370,756,565" href="#properties">
+            <area shape="rect" coords="2,565,764,583" href="#status">
+            <area shape="rect" coords="-1,75,172,564" href="#tiles">
+            <area shape="rect" coords="171,75,593,565" href="#editor">
+          </map>
+        </p>
+        <p align="left"><a name="menubar"></a><font color="#003300" size="3"><strong>Menu 
+          Bar</strong></font><br>
+          This contains functions for handling files, performing edits, changing 
+          views, debugging, accessing tools, and getting help. Here is the list 
+          of menus:</p>
+        <ul>
+          <li>File 
+            <ul>
+              <li>New: Creates a new game.</li>
+              <li>New Game Wizard: Creates a new game using the <a href="newgamewizard.htm">Platform 
+                Studio New Game Wizard</a>.</li>
+              <li>Open: Opens an existing game.</li>
+              <li>Save: Saves the current game. If this is the first time saving, 
+                JumpCraft will prompt you for a filename.</li>
+              <li>Save As: Saves the current game after prompting you for a new 
+                filename.</li>
+              <li>Game Properties: Shows the <a href="gameproperties.htm">Game 
+                Properties</a> dialog.</li>
+              <li>Compile: Compiles your game so it can be distributed.</li>
+              <li>[Recent Games]: Contains a list of recently used games. Clicking 
+                one will open it.</li>
+              <li>Exit: Exits JumpCraft.</li>
+            </ul>
+          </li>
+          <li>Edit 
+            <ul>
+              <li>Undo: Undoes the last action.</li>
+              <li>Redo: Redoes the last undid action.</li>
+              <li>Cut: Copies the selected controls, and then deletes them.</li>
+              <li>Copy: Copies the selected controls.</li>
+              <li>Paste: Copies the contents of the clipboard to the editor.</li>
+              <li>Delete: Deletes the selected controls.</li>
+              <li>Select All: Selects all the controls in the current window.</li>
+              <li>Deselect: Deselects all the selected controls.</li>
+              <li>Find/Replace Tiles: Shows the <a href="findreplace.htm">Find/Replace 
+                Tiles dialog</a>, allowing you to find or replace tiles throughout 
+                your game.</li>
+              <li>Resize Level: Shows the <a href="resizelevel.htm">Resize Level 
+                dialog</a>, allowing you to resize the current level.</li>
+              <li>Level Background: Shows the <a href="backgroundeditor.htm">Background 
+                Editor dialog</a>, allowing you to edit the background image of 
+                the current level.</li>
+              <li>Background Music: Shows the <a href="backgroundmusic.htm">Background 
+                Music dialog</a>, allowing you to change or clear the background 
+                music for the current level.</li>
+            </ul>
+          </li>
+          <li>View 
+            <ul>
+              <li>Grid: Shows/hides the grid.</li>
+              <li>Toolbar: Shows/hides the <a href="#toolbar">toolbar</a>.</li>
+              <li>Status Bar: Shows/hides the <a href="#status">status bar</a>.</li>
+              <li>Tile Selector: Shows/hides the <a href="#tiles">tile selector</a>.</li>
+              <li>Layers Panel: Shows/hides the <a href="#layers">Layers panel</a>.</li>
+              <li>Levels Panel: Shows/hides the <a href="#levels">Levels panel</a>.</li>
+              <li>Properties Panel: Shows/hides the <a href="#properties">Properties 
+                panel</a>.</li>
+            </ul>
+          </li>
+          <li>Run 
+            <ul>
+              <li>Start: Runs the game in debug mode.</li>
+              <li>Start in Separate Process: Runs the game in debug mode as a 
+                separate process (using psTest.exe). This is significantly slower 
+                than <em>Start </em>and should only be used when a serious error 
+                is anticipated (such as in a script, an endless loop or an error 
+                that would otherwise crash JumpCraft or render it unusable 
+                until restarted). If you are not using scripts or advanced actions, 
+                such as Begin Loop and End Loop, ignore this command.</li>
+              <li>Stop: Closes the debugger.</li>
+              <li>Restart: Closes the debugger, and then runs the game again.</li>
+              <li>Debug Options 
+                <ul>
+                  <li>Skip Windows: When this is checked, the debugger will begin 
+                    at the window containing the game area.</li>
+                  <li>Make Invincible: When this is checked, you will not be able 
+                    to lose health or lives.</li>
+                  <li>Start at Level: When this is checked, the debugger will 
+                    start at a specified level.</li>
+                  <li>Show FPS: When this is checked, the debugger will show the 
+                    framerate of your game.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Tools 
+            <ul>
+              <li>Tileset Editor: Opens the <a href="tileseteditor.htm">Tileset 
+                Editor</a>.</li>
+              <li>Action Editor: Opens the <a href="actioneditor.htm">Action Editor</a>.</li>
+              <li>Window Editor: Opens the <a href="windoweditor.htm">Window Editor</a>.</li>
+              <li>Options: Shows the <a href="options.htm">Options dialog</a>.</li>
+            </ul>
+          </li>
+          <li>Help 
+            <ul>
+              <li>Show Help: Shows JumpCraft Help.</li>
+              <li>On the Web: Opens the JumpCraft website in a new internet 
+                browser.</li>
+              <li>Forums: Opens the JumpCraft forums in a new internet browser.</li>
+              <li>Support: Opens your email program and creates a new email message 
+                addressed to our support email address (<a href="mailto:jumpcraft@firstproductions.com">jumpcraft@firstproductions.com</a>).</li>
+              <li>Check for Updates: Checks for a new version of JumpCraft 
+                or any addons that might be available. In the Professional Edition, 
+                this dialog will prompt you for your username and password to 
+                access restricted files.</li>
+              <li>About: Shows the About dialog.</li>
+            </ul>
+          </li>
+        </ul>
+        <p align="left"><a name="toolbar"></a><font color="#003300" size="3"><strong>Toolbar</strong></font><br>
+          This contains commonly-used functions, such as saving, undoing, and 
+          changing the current edit mode. Here are the buttons in order from left 
+          to right:</p>
+        <p align="left"> 
+        <ul>
+          <li>New: Creates a new game.</li>
+          <li>Open: Opens an existing game.</li>
+          <li>Save: Saves the current game. If this is the first time saving, 
+            it will prompt you for a filename.</li>
+          <li>Undo: Undoes the last action.</li>
+          <li>Redo: Redoes the last undid action.</li>
+          <li>Cut: Copies the selected items to the clipboard, and then deletes 
+            them.</li>
+          <li>Copy: Copies the selected items to the clipboard.</li>
+          <li>Paste: Copies the contents of the clipboard to the editor.</li>
+          <li>Delete: Deletes the selected items.</li>
+          <li>Run: Runs the game in debug mode.</li>
+          <li>Stop: Closes the debugger.</li>
+          <li>Restart: Closes the debugger, and then runs the game again.</li>
+          <li>Help: Shows the JumpCraft Help.</li>
+          <li>Website: Opens the JumpCraft website in a new internet browser.</li>
+          <li>Forums: Opens the JumpCraft forums in a new internet browser.</li>
+          <li>Draw: Changes the current mode to draw. This allows you to draw 
+            tiles on the map, or draw locations (on the location layer), by clicking 
+            and dragging with the mouse.</li>
+          <li>Erase: Changes the current mode to erase. This allows you to erase 
+            tiles or locations by clicking them with the mouse.</li>
+          <li>Select: Changes the current mode to select. This allows you to select 
+            tiles or locations by clicking them with the mouse. You can select 
+            multiple tiles or locations by dragging a box through them, or holding 
+            down Shift and individually clicking them. You can deselect individual 
+            tiles or locations by holding down Shift and clicking a selected tile 
+            or location. To deselect everything that is selected, click outside 
+            of any tiles or locations.</li>
+          <li>Pan: Changes the current mode to pan. This allows you to quickly 
+            browse through the level by clicking and dragging the mouse.</li>
+        </ul>
+        <p><a name="tiles"></a><font color="#003300" size="3"><strong>Tiles Panel 
+          <br>
+          </strong><font color="#000000" size="2">This allows you to select a 
+          tile and/or subtile to draw with it on the map. In the list of tiles, 
+          click a tile to select it and switch to the Draw mode.</font></font> 
+          Below the selected tile might be an area where you can select a subtile 
+          (section) of the selected tile. For example, if you loaded a Blocks 
+          image that has 4 sections across, and 4 sections down (set in the Tileset 
+          Editor), you can select an individual section to draw with (if it is 
+          not animated). You can also select multiple subtiles at once by clicking 
+          and dragging with the mouse in the subtile selector. The &quot;Die&quot; 
+          icon next to the selected tile, when selected, tells JumpCraft 
+          to choose a random subtile that is selected to draw with, rather than 
+          all of them at the same time (so multiple subtiles should be selected 
+          under this option).</p>
+        <p><a name="editor" id="editor"></a><strong><font color="#003300" size="3">Edit 
+          Area</font><br>
+          </strong>This area is where you can Draw, Erase, Select, or Pan. If 
+          you right-click, a context menu pops up, which contains the same items 
+          as in the Edit menu.</p>
+        <p><a name="layers" id="layers"></a><strong><font color="#003300" size="3">Layers 
+          Panel</font><br>
+          </strong>Here you can change the active layer (by clicking a checkbox 
+          under Active), or hide and show layers (by clicking a checkbox under 
+          Visible). Here is a description of the different layers:</p>
+        <p> 
+        <ul>
+          <li>Back: Changes the level background.</li>
+          <li>Parallax: This layer acts like a normal layer, but it scrolls at 
+            50% of the normal scroll speed. Tiles in this layer are treated as 
+            background, and cannot interact with the character.</li>
+          <li>Background: This is a normal layer for drawing tiles. All tiles 
+            in this layer except collectable tiles are treated as background, 
+            and cannot interact with the character.</li>
+          <li>Foreground: This is a normal layer for drawing tiles. All tiles 
+            in this layer can interact with the character.</li>
+          <li>Front: This layer acts the same as the Background layer, except 
+            that it is drawn on top of the Foreground layer, instead of behind 
+            it.</li>
+          <li>Location: This layer is used for drawing and editing locations, 
+            which are invisible areas that can perform actions when the player 
+            enters, exits, or is inside them. Locations can also be used to house 
+            checkpoints. For more information on creating checkpoints, click <a href="howtocheckpoint.htm">here</a>.</li>
+        </ul>
+        <p>Note: all layers are drawn in the order that they were listed (i.e. 
+          Back is drawn first, and Location is drawn last).</p>
+        <p><a name="levels" id="levels"></a><strong><font color="#003300" size="3">Levels 
+          Panel</font><br>
+          </strong>Here you can manipulate your game's levels, as well as change 
+          the active level. To change the active level, click a level in the list 
+          of levels. The toolbar below the list of levels is used for manipulating 
+          the levels. Here are the buttons in order from left to right:</p>
+        <p> 
+        <ul>
+          <li>New Level: Creates a new level. JumpCraft will prompt you 
+            for a name, and a size (in tiles), that you want your new level to 
+            be.</li>
+          <li>Rename Level: Allows you to rename the active level.</li>
+          <li>Delete Level: Deletes the active level.</li>
+          <li>Move Level Up: Moves the active level up (so that it will be played 
+            before the level before it).</li>
+          <li>Move Level Down: Moves the active level down (so that it will be 
+            played after the level after it).</li>
+        </ul>
+        <p><a name="properties" id="properties"></a><strong><font color="#003300" size="3">Properties 
+          Panel</font><br>
+          </strong>Displays and lets you edit the properties for the selected 
+          tile or location. This panel will be enabled only if there is exactly 
+          one tile or location selected, and will change depending on if it is 
+          a tile or location.</p>
+        <p><strong><font color="#003300">Tile Properties</font></strong>
+        <ul>
+          <li>Location: Displays the location of the selected tile (x, y), in 
+            tiles.</li>
+          <li>Size: Displays the size of the selected tile (width, height), in 
+            tiles.</li>
+          <li>Tile: Displays and lets you change the tile index of the selected 
+            tile.</li>
+          <li>Frame: If the tile is not animated, allows you to change the subtile 
+            of the selected tile. This is displayed as a number, so 1 would be 
+            the top-left, 2 would be the next one to the right, and so on. If 
+            there are, for example, 4 columns and 4 rows, then subtile 5 would 
+            be at row 2, column 1, and 16 would be the bottom-right subtile.</li>
+          <li>Group: Displays and lets you change the group of the selected tile. 
+            The dropdown arrow allows you to view the existing groups.</li>
+          <li>Path: Allows you to edit the path of the selected tile.</li>
+        </ul>
+        <p><strong><font color="#003300">Location Properties</font></strong></p>
+        <ul>
+          <li>Displays the location of the selected location (x, y), in pixels.</li>
+          <li>Size: Displays the size of the selected location (width, height), 
+            in tiles.</li>
+          <li>Name: Displays and lets you change the name of the selected location.</li>
+          <li>Checkpoint: Displays and lets you change the location of the checkpoint 
+            in the selected location. Choose (None) to clear the checkpoint.</li>
+        </ul>
+        <p><strong><font color="#003300" size="3"><a name="status"></a>Status 
+          Bar</font></strong><br>
+          Displays information about what your mouse is hovering over, as well 
+          as the status of JumpCraft. In the first panel, it also displays 
+          if JumpCraft is ready for your input, or if it is currently performing 
+          an operation that requires you to wait. The second and third panels 
+          display the X and Y coordinates, respectively, of your mouse (in tiles). 
+          The fourth panel displays the name of the tile or location your mouse 
+          is hovering over.</p></p>
+        </p> </p> </p> </p> <!-- InstanceEndEditable --></font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="5" background="assets/images/left.gif">&nbsp;</td>
+      <td align="center" bgcolor="70A9A9"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; 
+        </font></td>
+      <td width="10" background="assets/images/right.gif">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="16" background="assets/images/btm_left.gif">&nbsp;</td>
+      <td><img src="assets/images/btm_center.gif" width="100%" height="20"></td>
+      <td width="16" background="assets/images/btm_right.gif">&nbsp;</td>
+    </tr>
+  </table>
+  <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif">Copyright 2005, 
+    First Productions, Inc.</font></p>
+</center>
+</body>
+<!-- InstanceEnd --></html>
